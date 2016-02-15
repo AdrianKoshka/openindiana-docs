@@ -29,9 +29,9 @@ As a highly capable general purpose Unix operating system, the OpenIndiana distr
 | Zones | **[[https://en.wikipedia.org/wiki/Solaris_Containers | OS Level Virtualized Application Containers]]**
 | Time-Slider | **[[http://www.serverwatch.com/tutorials/article.php/3831881/Say-Cheese-OpenSolaris-Time-Slider.htm | Automated ZFS Snapshots and Rollbacks]]**
 | RBAC | **[[http://www.c0t0d0s0.org/archives/4073-Less-known-Solaris-features-RBAC-and-Privileges-Part-1-Introduction.html | Role-Based Access Control]]**
-| IPMP | **[[http://www.c0t0d0s0.org/archives/6292-Less-known-Solaris-features-IP-Multipathing-Part-1-Introduction.html | IP network multipathing]]**
+| IPMP | **[[http://www.c0t0d0s0.org/archives/6292-Less-known-Solaris-features-IP-Multipathing-Part-1-Introduction.html | IP Network Multipathing]]**
 | DLMP | **[[http://www.c0t0d0s0.org/archives/7553-Less-known-Solaris-Features-Data-Link-Multipathing.html | Data Link Multipathing]]**
-| Device Driver Utility | GUI Utility for determining hardware compatibility and driver availability
+| Device Driver Utility | GUI utility for determining hardware compatibility and driver availability
 
 \\
 
