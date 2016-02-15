@@ -77,9 +77,9 @@ The OpenIndiana distribution provides a basic set of packages, along with some e
 The following IPS repositories are available:
 
 |= Repository Name |= Repository URL |= Description
-| hipster-2015 | **http://pkg.openindiana.org/hipster-2015** | OpenIndiana Hipster primary package repository
-| hipster-encumbered | **http://pkg.openindiana.org/hipster-encumbered** | OpenIndiana Hipster encumbered license packages
-| localhostoih | **http://sfe.opencsw.org/localhostoih** | 3rd party **[[http://sfe.opencsw.org | Spec Files Extra (SFE)]]** packages
+| hipster-2015 | ** http://pkg.openindiana.org/hipster-2015 ** | OpenIndiana Hipster primary package repository
+| hipster-encumbered | ** http://pkg.openindiana.org/hipster-encumbered ** | OpenIndiana Hipster encumbered license packages
+| localhostoih | ** http://sfe.opencsw.org/localhostoih ** | 3rd party **[[http://sfe.opencsw.org | Spec Files Extra (SFE)]]** packages
 
 To add a repository, use the following command: **pkg set-publisher -O <URL> <Repository Name>**
 
@@ -125,7 +125,7 @@ Notes:
 There is a newer version of the original OpenSolaris docs (the 2009.06 drop) which the OpenIndiana documentation team is currently reviewing and updating. As each book is completed, it will be hosted on OpenIndiana.org. The documentation team is also working to produce an updated OpenIndiana handbook. If you would like to help with either of these efforts, please indicate your interest in one or more of the following ways:
 
 * **[[http://openindiana.org/mailman | OpenIndiana discussion mailing list]]** 
-* **[[irc://irc.freenode.net/oi-documentation | #oi-documentation on irc.freenode.net]]**
+* ** [[irc://irc.freenode.net/oi-documentation | #oi-documentation on irc.freenode.net]] **
 
 \\
 
@@ -136,12 +136,12 @@ As a solely community supported open source software project, the success and fu
 Below is a list of resources you may find helpful:
 
 |=Resource |= URL
-| User Support IRC channel | **[[irc://irc.freenode.net/openindiana | #openindiana on irc.freenode.net]]**
-| Development IRC channel | **[[irc://irc.freenode.net/oi-dev |#oi-dev on irc.freenode.net]]**
-| Documentation IRC channel | **[[irc://irc.freenode.net/oi-documentation |#oi-documentation on irc.freenode.net]]**
-| OpenIndiana Mailing Lists | **http://openindiana.org/mailman**
-| OpenIndiana Wiki | **http://wiki.openindiana.org**
-| OpenIndiana Bug Tracker | **http://www.illumos.org/projects/openindiana/issues**
+| User Support IRC channel | ** [[irc://irc.freenode.net/openindiana | #openindiana on irc.freenode.net]] **
+| Development IRC channel | ** [[irc://irc.freenode.net/oi-dev |#oi-dev on irc.freenode.net]] **
+| Documentation IRC channel | ** [[irc://irc.freenode.net/oi-documentation |#oi-documentation on irc.freenode.net]] **
+| OpenIndiana Mailing Lists | ** http://openindiana.org/mailman **
+| OpenIndiana Wiki | ** http://wiki.openindiana.org **
+| OpenIndiana Bug Tracker | ** http://www.illumos.org/projects/openindiana/issues **
 
 \\
 
@@ -158,7 +158,7 @@ If you would like to join in on all the fun, here are just some of the many ways
 * Artwork
 
 
-For additional details, please see: **http://www.openindiana.org/community/getting-involved**
+For additional details, please see: ** http://www.openindiana.org/community/getting-involved **
 
 \\
 
