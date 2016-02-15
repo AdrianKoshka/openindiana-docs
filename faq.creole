@@ -4,19 +4,19 @@
 
 == What is OpenIndiana?
 
-The OpenIndiana project is the open source community which develops, maintains, and supports the **[[https://en.wikipedia.org/wiki/OpenIndiana | OpenIndiana]]** distribution, an **[[https://en.wikipedia.org/wiki/Illumos | illumos]]** based unix operating system derived from OpenSolaris. The OpenIndiana project is also a continuation of the collaborative effort and community spirit of the **[[https://en.wikipedia.org/wiki/OpenSolaris | OpenSolaris project]]**. 
+The OpenIndiana project is the open source community which develops, maintains, and supports the **[[https://en.wikipedia.org/wiki/OpenIndiana | OpenIndiana]]** distribution, an **[[https://en.wikipedia.org/wiki/Illumos | illumos]]** based Unix operating system derived from OpenSolaris. The OpenIndiana project is also a continuation of the collaborative effort and community spirit of the **[[https://en.wikipedia.org/wiki/OpenSolaris | OpenSolaris project]]**. 
 
 \\
 
 == Why is it called OpenIndiana?
 
-OpenIndiana derives its name from Project Indiana, an open source effort by Sun Microsystems (now Oracle Corporation) to produce OpenSolaris, a more modern and user friendly binary unix distribution based on Sun Solaris. Some notable features of OpenSolaris were the introduction of the all familiar GNOME desktop, GNU userland tools, and a new network based package manager (IPS). To lead Project Indiana, Sun hired Ian Murdock, founder of the Debian Linux Distribution. 
+OpenIndiana derives its name from Project Indiana, an open source effort by Sun Microsystems (now Oracle Corporation) to produce OpenSolaris, a more modern and user friendly binary Unix distribution based on Sun Solaris. Some notable features of OpenSolaris were the introduction of the all familiar GNOME desktop, GNU userland tools, and a new network based package manager (IPS). To lead Project Indiana, Sun hired Ian Murdock, founder of the Debian Linux Distribution. 
 
 \\
 
 == Is OpenIndiana a desktop or a server operating system?
 
-As a highly capable general purpose UNIX operating system, the OpenIndiana distribution is suitable for both workstations and servers. Simply pick the installer which best suits your needs (GUI or Text). OpenIndiana contains the following enterprise class features and more:
+As a highly capable general purpose Unix operating system, the OpenIndiana distribution is suitable for both workstations and servers. Simply pick the installer which best suits your needs (GUI or Text). OpenIndiana contains the following enterprise class features and more:
 
 |=Feature |=Description
 | ZFS | **[[https://en.wikipedia.org/wiki/ZFS | ZFS File System and Volume Manager]]**
@@ -164,7 +164,7 @@ For additional details, please see: **http://www.openindiana.org/community/getti
 
 == Is OpenIndiana a “fork” of OpenSolaris?
 
-The goal of the OpenIndiana Project is to ensure the continued availability of an openly developed binary UNIX distribution derived from OpenSolaris. 
+The goal of the OpenIndiana Project is to ensure the continued availability of an openly developed binary Unix distribution derived from OpenSolaris. 
 
 As such, the OpenIndiana distribution is built from an assortment of source code. Some of this code was originally derived from OpenSolaris. OpenIndiana also includes code provided by the GNU project, as well as code which the Oracle Corporation continues to openly develop under the **[[https://opensource.org/licenses/CDDL-1.0 | CDDL open-source license]]**.  
 
@@ -201,7 +201,7 @@ If you would like to see SPARC become an OpenIndiana supported platform, please 
 
 == How does OpenIndiana compare to BSD or Linux?
 
-All of these operating systems follow the UNIX paradigm and contain tools and commands which bear a similar resemblance, although specific feature sets and command usage may be dissimilar. If you are coming to OpenIndiana from either BSD or Linux, you will quickly learn the differences. In no time at all, you'll feel right at home working with OpenIndiana's tools and commands.
+All of these operating systems follow the Unix paradigm and contain tools and commands which bear a similar resemblance, although specific feature sets and command usage may be dissimilar. If you are coming to OpenIndiana from either BSD or Linux, you will quickly learn the differences. In no time at all, you'll feel right at home working with OpenIndiana's tools and commands.
 
 \\
 
