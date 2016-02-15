@@ -50,7 +50,7 @@ Approximately every six months, the OpenIndiana project releases a snapshot of t
 
 \\
 
-To access our download site, please see: **http://openindiana.org/download**.\\
+To access our download site, please see: **http://openindiana.org/download**. \\
 For additional mirrors, please see: **http://wiki.openindiana.org/oi/Mirrors**.
 
 NOTES:
