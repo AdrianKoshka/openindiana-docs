@@ -143,12 +143,11 @@ To add a repository, use the following command: `pkg set-publisher -O <URL> <Rep
 |===
 
 
-Notes:
-
+[NOTE]
+====
 * For each Terabyte of ZFS disk storage, it is recommended to add an additional 1GB of memory.
-* If you intend to operate OpenIndiana with minimal RAM, please keep in mind the default size of the OpenIndiana swapfile is 50% of installed memory. 
-** For this reason, you are strongly encouraged to increase the size of the system swap to 4 GB or more. 
-
+* If you intend to operate OpenIndiana with minimal memory resources, please bear in mind the default size of the OpenIndiana swapfile is 50% of installed memory. For this reason, you are strongly encouraged to increase the size of the system swap to 4 GB or more. 
+====
 
 == Are there any books or documentation to help with learning OpenIndiana?
 
@@ -167,12 +166,13 @@ Yes. There are several resources which will assist you with OpenIndiana. While s
 ** The illumos bookshelf consists of several original OpenSolaris advanced administration and development titles, which have been updated for illumos.
 
 
-Notes:
-
+[NOTE]
+====
 There is a newer version of the original OpenSolaris docs (the 2009.06 drop) which the OpenIndiana documentation team is currently reviewing and updating. As each book is completed, it will be hosted on OpenIndiana.org. The documentation team is also working to produce an updated OpenIndiana handbook. If you would like to help with either of these efforts, please indicate your interest in one or more of the following ways:
 
 * **http://openindiana.org/mailman[OpenIndiana discussion mailing list]** 
 * **irc://irc.freenode.net/oi-documentation[#oi-documentation on irc.freenode.net] **
+====
 
 == How do I get involved with the OpenIndiana Project?
 
