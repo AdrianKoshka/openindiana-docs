@@ -1,0 +1,154 @@
+= Basic outline
+* Intro
+
+* Get it
+* Install it
+* Use it
+* Discuss it
+* Extend it
+
+* FAQ's
+* Tips and Tricks
+
+\\
+
+== OI Handbook Structure (or questions a basic handbook should be able to answer)
+
+\\
+
+**Helpful resources for writing some of these sections:**
+
+* [[https://web.archive.org/web/20090611234850/http://dlc.sun.com/osol/docs/downloads/minibook/en/820-7102-10-Eng-doc.pdf | Getting Started with OpenSolaris 2008.11]]
+* https://web.archive.org/web/20091229232632/http://www.opensolaris.com/learn/
+* https://web.archive.org/web/20100105080516/http://dlc.sun.com/osol/docs/content/2009.06/
+* https://web.archive.org/web/20100401024945/http://www.opensolaris.com/use/OpenSolaris200906Booklet.pdf
+
+\\
+
+**The New OpenIndiana Handbook needs to answer at least the following:**
+
+\\
+
+=== What questions would people new to Openindiana have?
+* Where did it come from?
+
+* Why should people consider it?
+
+* What makes it different than say BSD or Linux?
+
+* What makes it more interesting than something else?
+
+\\
+
+=== What would people really need to know to "get started".
+* Where can the software be obtained?
+** Official OI download mirrors
+** **[[https://www.osdisc.com/products/solaris/openindiana | OSDISC.COM]]**
+
+* How can it be burned to a DVD or onto a USB drive?
+
+* What is the process for installing it?
+
+* What are the pre-installation caveats and considerations?
+** System partitioning, Gparted, etc.
+** Device Driver utility - (also how to manually install missing drivers - and where to find them if they are available)
+*** Network install drivers: **{{{pkgrecv -s http://pkg.openindiana.org/hipster-2015 -d bash.p5a -a bash && sudo pkg install -nv  -g bash.p5a bash}}}**
+*** Local install drivers: **{{{pkg install -g name.p5a fmri}}}**
+** How to disable drivers at boot time (this might help fix the kernel panic we see when trying to boot OI inside KVM)
+** Physical or virtual?
+** 1 GB of memory for each TB of ZFS storage.
+
+* What are the post-installation caveats and considerations?
+
+* Where to find support and help
+** Talk about IRC, mailing list, how to use MAN pages, mlocate, apropos, etc.
+
+\\
+
+=== What kinds of things can be done with a system once installed?
+* How can the desktop be modified?
+** Gnome walkthrough
+** Compiz
+
+* How does one keep the system updated?
+** IPS and BEADMIN walkthroughs
+
+
+
+
+* How does one find and add more software?
+** PKG walkthrough
+*** When they say IPS is network centric, they're not kidding; Packages cannot be installed locally like RPM, have to setup local network repository.
+*** See: http://serverfault.com/questions/348139/how-to-manually-download-individual-files-from-the-openindiana-or-solaris-pkg
+** How to additional repos, etc.
+** How to compile your own software. I think there is an existing wiki page for this. Given the limited number of IPS packages currently available, this is a pretty important subject to write about.
+*** Also could look here (might be outdated): http://www.inetdaemon.com/tutorials/computers/software/operating_systems/unix/Solaris/compiling_software.shtml
+** How to install flash player
+
+
+* How does one perform system backups?
+** Time Machine, ZFS exports, etc.
+
+* How does one add additional users?
+** Basic system administration
+** Basic UNIX commands
+
+* How does one mount or import additional disks?
+** talk about the ZFS import command.
+** Need a walkthrough of mounting options for other filesystems...NTFS, FAT, UFS, etc.
+
+\\
+
+=== What other things should someone learn to best utilize OI?
+
+*Getting OI to play Multimedia
+** How to get OI to play a DVD
+** How to get flash player installed and working.
+** How to get VLC installed and working.
+** Codecs, etc. 
+** How to use the hidden **gstreamer-properties** configuration utility.
+
+
+* How do you use OI as a NAS?
+** See: https://web.archive.org/web/20091008234550/http://developers.sun.com/openstorage/articles/opensolaris_nas.html
+** Running OI as a VMware EXSI guest
+*** Local storage hardware is passed through to the OI guest and then shared via ISCSI, CIFS, NFS, etc.
+
+
+* Media server, HTPC, etc.
+** http://forum.kodi.tv/showthread.php?tid=44315&page=2
+** http://lightsandshapes.com/plex-on-smartos.html
+
+* Graphics workstation
+
+* Desktop Publishing system, Etc.
+
+* Virtualization Storage Server
+** Poor man's standalone ISCSI SAN linked to a 2nd machine running VMware ESXI (2 computers required)
+**** A variation of this would be to run OI as an ESXI guest with local storage hardware "passed through" to OI and then subsequently share ZFS volumes via  ISCSI with the ESXI host itself. In this configuration, OI effectively becomes a SAN (1 computer required)
+
+* Virtualization Server
+** Qemu-KVM walkthrough (Does hipster even have this package?)
+*** Yes, KVM is the package name
+** Using VIRSH, Virt-manager, etc. (Does hipster [or any illumos distro for that matter] even have virsh or Virt-manager)
+*** If not, what tools are used to manage the Joyant KVM port (VMADM perhaps?)
+** Virtualbox walkthrough - ditto...is there a package available?
+
+\\
+
+* Zones - running web stuff in zone, development, etc.
+** Need to mention some of the changes to zone management...eg. sys-unconfig gone. Also sysding replaced syscfg, so you now have to have DNS, root password, etc. all configured inside the zone before being able to logon using zlogin -C <zonename>, otherwise have to do zlogin <zonename>. So a fair amount of stuff has changed there. 
+
+\\
+
+=== Development related topics
+
+Note: The book titled "Introduction to Operating Systems: A Hands-On Approach Using the OpenSolaris Project" may be a good resource for helping to complete this part of the handbook.
+
+* How can OI be used as a development platform?
+
+* What programming tools, languages, etc., are available?
+
+* How can OI be used to further the development of OI itself?
+
+\\
