@@ -94,7 +94,7 @@
 
 === What other things should someone learn to best utilize OI?
 
-*Getting OI to play Multimedia
+* Getting OI to play Multimedia
 ** How to get OI to play a DVD
 ** How to get flash player installed and working.
 ** How to get VLC installed and working.
