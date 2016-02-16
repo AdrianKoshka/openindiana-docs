@@ -1,37 +1,42 @@
-= Considerations and ideas for further improving the OI WordPress website.
+== Considerations and ideas for further improving the OI WordPress website.
 
-\\
-
-== Just some general thoughts.....
+=== Just some general thoughts.....
 
 * The current OI website is a marked improvement over what previously existed. But anything that is already good can be further improved.
 * Wondering if we can expand on the Hipster name, perhaps by theming the website in a similar manor.
 ** Hipster denotes something trendy, or in fashion, etc., the website theme should exploit this in some way.
 *** Could try something some like big fashionable buttons as follows:
 
-|= Button label |= URL points to
-| Get it | Hipster Downloads
-| Install it | Installation Guidance/Tutorials/Instructions
-| Use It | Hipster Handbook
-| Extend It | Developer Handbook
-| Discuss it | OI Mailing lists/IRC, etc.
+|===
+| Button label | URL points to
+
+| Get it 
+| Hipster Downloads
+
+| Install it 
+| Installation Guidance/Tutorials/Instructions
+
+| Use It 
+| Hipster Handbook
+
+| Extend It 
+| Developer Handbook
+
+| Discuss it 
+| OI Mailing lists/IRC, etc.
+|===
 
 
-\\
+=== Favicon
+* Can we add the OI favicon to Wordpress like we see on the wiki?
 
-== Favicon
-* Can we add the OI favicon like the wiki?
 
-\\
-
-== Mobile Devices
+=== Mobile Devices
 * Maybe we should put something on the front page mentioning the mobile menu which is available in the upper left hand corner.
 ** Due to the dark blue color scheme, this menu is hard to see and easily missed.
 ** Can the color of the 3 bars be changed to white or something?
 
-\\
-
-
+=== Other Thoughts
 * Add some links to the Community > Getting Involved page.
 ** #oi-dev IRC chat archives - http://echelog.com/logs/browse/oi-dev/
 ** #openindiana IRC chat archives - http://echelog.com/logs/browse/openindiana/
@@ -90,4 +95,4 @@
 
 * Add list of mirrors, torrents, etc., to download page on website.
 ** Need to find more places to mirror, preferably some in north america too.
-** [[https://web.archive.org/web/20091223051956/http://www.opensolaris.com/get/index.jsp | Original list of mirrors]]
+** https://web.archive.org/web/20091223051956/http://www.opensolaris.com/get/index.jsp[Original list of mirrors]
