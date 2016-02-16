@@ -30,6 +30,7 @@ As a highly capable general purpose Unix operating system, the OpenIndiana distr
 | DLMP | **http://www.c0t0d0s0.org/archives/7553-Less-known-Solaris-Features-Data-Link-Multipathing.html[Data Link Multipathing]**
 | Device Driver Utility | GUI utility for determining hardware compatibility and driver availability
 
+
 == Does OpenIndiana support additional keyboard layouts and languages?
 
 Yes, when installing OpenIndiana, you may choose from 47 different keyboard layouts and 22 different languages. 
@@ -148,44 +149,40 @@ For additional details, please see: **http://www.openindiana.org/community/getti
 
 The goal of the OpenIndiana Project is to ensure the continued availability of an openly developed binary Unix distribution derived from OpenSolaris. 
 
-As such, the OpenIndiana distribution is built from an assortment of source code. Some of this code was originally derived from OpenSolaris. OpenIndiana also includes code provided by the GNU project, as well as code which the Oracle Corporation continues to openly develop under the **[[https://opensource.org/licenses/CDDL-1.0 | CDDL open-source license]]**.  
+As such, the OpenIndiana distribution is built from an assortment of source code. Some of this code was originally derived from OpenSolaris. OpenIndiana also includes code provided by the GNU project, as well as code which the Oracle Corporation continues to openly develop under the **https://opensource.org/licenses/CDDL-1.0[CDDL open-source license]**.  
 
 Some of the differences between OpenIndiana and OpenSolaris can be characterized as follows:
 
-* Sun/Oracle's proprietary OS/NET consolidation has been replaced with **[[https://github.com/OpenIndiana/illumos-gate | illumos-gate]]**.
-* Many of the original OpenSolaris software consolidations have been reorganized into a single **[[https://github.com/OpenIndiana/oi-userland | oi-userland]]** consolidation.
+* Sun/Oracle's proprietary OS/NET consolidation has been replaced with **https://github.com/OpenIndiana/illumos-gate[illumos-gate]**.
+* Many of the original OpenSolaris software consolidations have been reorganized into a single **https://github.com/OpenIndiana/oi-userland[oi-userland]** consolidation.
 * Oracle's Sun Studio has been replaced with the open source GNU GCC compiler - thus breaking ABI (binary) compatibility with Oracle Solaris and OpenSolaris. Please note: This change only affects applications written in C++. Applications coded in C should continue to work normally. 
 * XVM (XEN) has been replaced with the illumos-kvm port.
 
-\\
 
 == What is the relationship between OpenIndiana and illumos?
 
-The **[[https://illumos.org | illumos project]]** develops and maintains **[[https://github.com/illumos/illumos-gate | illumos-gate]]**, the core software consolidation used in OpenIndiana. As illumos is not itself a distribution, OpenIndiana combines illumos-gate with oi-userland, and other additional free and open-source software. This melding of many different open-source software projects is somewhat analogous to how Linux distributions use the Linux kernel along with software from the GNU and various other open source projects. 
+The **https://illumos.org[illumos project]** develops and maintains **https://github.com/illumos/illumos-gate[illumos-gate]**, the core software consolidation used in OpenIndiana. As illumos is not itself a distribution, OpenIndiana combines illumos-gate with oi-userland, and other additional free and open-source software. This melding of many different open-source software projects is somewhat analogous to how Linux distributions use the Linux kernel along with software from the GNU and various other open source projects. 
 
-\\
 
 == Does OpenIndiana provide a SPARC release?
 
-Hipster is not currently available for the SPARC platform, although there has been discussion on the **[[http://openindiana.org/mailman/listinfo | OpenIndiana mailing lists]]** regarding the creation of a Hipster SPARC port. As for available ISO's, several years ago the OpenSolaris project released an **[[http://dlc.openindiana.org/isos/opensolaris | OpenSolaris text install ISO]]**. And much more recently, there was work done by Adam Glassgall who produced an **[[http://neutron-star.mit.edu/OpenIndiana_Text_SPARC.iso | unofficial SPARC text install ISO]]** based on oi-dev-151-a8. 
+Hipster is not currently available for the SPARC platform, although there has been discussion on the **http://openindiana.org/mailman/listinfo[OpenIndiana mailing lists]** regarding the creation of a Hipster SPARC port. As for available ISO's, several years ago the OpenSolaris project released an **http://dlc.openindiana.org/isos/opensolaris[OpenSolaris text install ISO]**. And much more recently, there was work done by Adam Glassgall who produced an **http://neutron-star.mit.edu/OpenIndiana_Text_SPARC.iso[unofficial SPARC text install ISO]** based on oi-dev-151-a8. 
 
 The following illumos based distributions are known to support the SPARC platform:
 
-* **[[http://www.dilos.org/download | Dilos]]**
-* **[[http://opensxce.org | OpenSCXE]]**
-* **[[http://www.tribblix.org/download.html | Tribblix]]**
+* **http://www.dilos.org/download[Dilos]**
+* **http://opensxce.org[OpenSCXE]**
+* **http://www.tribblix.org/download.html[Tribblix]**
 
-For production use on modern SPARC hardware, there is also commercial **[[https://www.oracle.com/solaris/solaris11/index.html | Oracle Solaris]]**.
+For production use on modern SPARC hardware, there is also commercial **https://www.oracle.com/solaris/solaris11/index.html[Oracle Solaris]**.
 
-If you would like to see SPARC become an OpenIndiana supported platform, please help us by joining the **[[http://www.openindiana.org/community/getting-involved | OpenIndiana community]]**.
+If you would like to see SPARC become an OpenIndiana supported platform, please help us by joining the **http://www.openindiana.org/community/getting-involved[OpenIndiana community]**.
 
-\\
 
 == How does OpenIndiana compare to BSD or Linux?
 
 All of these operating systems follow the Unix paradigm and contain tools and commands which bear a similar resemblance, although specific feature sets and command usage may be dissimilar. If you are coming to OpenIndiana from either BSD or Linux, you will quickly learn the differences. In no time at all, you'll feel right at home working with OpenIndiana's tools and commands.
 
-\\
 
 == What are the licensing terms for OpenIndiana?
 
@@ -193,10 +190,10 @@ OpenIndiana is composed of software from multiple different sources, each with i
 
 For more details see:
 
-* **[[https://opensource.org/licenses/CDDL-1.0 | Common Development and Distribution License (CDDL-1.0)]]**
-* **[[http://illumos.org/license/PDL | PUBLIC DOCUMENTATION LICENSE (PDL), Version 1.01]]**
-* **[[https://opensource.org/licenses/MIT | The MIT License (MIT)]]**
-* **[[https://opensource.org/licenses/BSD-2-Clause | The BSD 2-Clause License]]**
-* **[[http://www.gnu.org/licenses/licenses.en.html | GNU licenses]]**
+* **https://opensource.org/licenses/CDDL-1.0[Common Development and Distribution License (CDDL-1.0)]**
+* **http://illumos.org/license/PDL[PUBLIC DOCUMENTATION LICENSE (PDL), Version 1.01]**
+* **https://opensource.org/licenses/MIT[The MIT License (MIT)]**
+* **https://opensource.org/licenses/BSD-2-Clause[The BSD 2-Clause License]**
+* **http://www.gnu.org/licenses/licenses.en.html[GNU licenses]**
 
 \\
