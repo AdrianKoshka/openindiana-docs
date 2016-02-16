@@ -1,29 +1,27 @@
 = Considerations and ideas for improving the wiki
 
-\\
+=== Just some thoughts.....
 
-== Need to give some consideration to how the wiki renders on mobile devices
+=== Need to give some consideration to how the wiki renders on mobile devices
 
 * Finding the left hand navigation menu is completely absent when browsing the OI wiki from my android tablet. - [makruger]
 ** This is a pretty serious issue that we should look into as soon as possible. 
 
-\\
 
-== Need to create an OI wiki style guide
+=== Need to create an OI wiki style guide
 
 * This would be very helpful for providing some consistency between different pages.
 ** Use horizontal lines (top and bottom) to separate code blocks from the text body.
 *** Makes it easier to tell what is or isn't code. Also provides for a more efficient use of space (don't have to use so many line breaks).
 ** Need to come up with standards for displaying certain types of information...e.g. code blocks, commands, tips, warnings, info, etc. 
 
-\\
 
 * Look at other Illumos wikis for ideas and inspiration
 ** https://wiki.smartos.org/display/DOC/Doc+Team+Notes
 ** http://omnios.omniti.com/wiki.php/WikiStart
 ** http://wiki.illumos.org/display/illumos/illumos+Home
 
-\\
+
 
 ===(Some notes for updating wiki pages)
 
