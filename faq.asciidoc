@@ -68,10 +68,16 @@ Yes, when installing OpenIndiana, you may choose from 47 different keyboard layo
 
 Approximately every six months, the OpenIndiana project releases a snapshot of the Hipster rapid development branch in the following formats:
 
-|= Live DVD/USB - (Best for Desktops) |= Text Install DVD/USB  - (Best for Servers)
-| Gnome desktop | Text based console
 
-To access our download site, please see: **http://openindiana.org/download**. \\
+|===
+| Live DVD/USB - (Best for Desktops) | Text Install DVD/USB  - (Best for Servers)
+
+| Gnome desktop 
+| Text based console
+|===
+
+
+To access our download site, please see: **http://openindiana.org/download**.
 For additional mirrors, please see: **http://wiki.openindiana.org/oi/Mirrors**.
 
 NOTES:
@@ -95,20 +101,44 @@ The OpenIndiana distribution provides a basic set of packages, along with some e
 
 The following IPS repositories are available:
 
-|= Repository Name |= Repository URL |= Description
-| hipster-2015 | **http://pkg.openindiana.org/hipster-2015** | OpenIndiana Hipster primary package repository
-| hipster-encumbered | **http://pkg.openindiana.org/hipster-encumbered** | OpenIndiana Hipster encumbered license packages
-| localhostoih | **http://sfe.opencsw.org/localhostoih** | 3rd party **http://sfe.opencsw.org[Spec Files Extra (SFE)]** packages
+
+|===
+| Repository Name | Repository URL | Description
+
+| hipster-2015 
+| **http://pkg.openindiana.org/hipster-2015** 
+| OpenIndiana Hipster primary package repository
+
+| hipster-encumbered 
+| **http://pkg.openindiana.org/hipster-encumbered** 
+| OpenIndiana Hipster encumbered license packages
+
+| localhostoih 
+| **http://sfe.opencsw.org/localhostoih** 
+| 3rd party **http://sfe.opencsw.org[Spec Files Extra (SFE)]** packages
+|===
+
 
 To add a repository, use the following command: `pkg set-publisher -O <URL> <Repository Name>`
 
 
 == What are the system hardware requirements?
 
-|= |= Minimum |= Recommended
-| **CPU** | 64 Bit | 64 Bit
-| **Disk Space** | 20 GB | 40 GB +      
-| **Memory (RAM)** | 2 GB | 4 GB +
+|===
+| | Minimum | Recommended
+
+| **CPU** 
+| 64 Bit 
+| 64 Bit
+
+| **Disk Space** 
+| 20 GB 
+| 40 GB +      
+
+| **Memory (RAM)** 
+| 2 GB 
+| 4 GB +
+|===
 
 
 Notes:
@@ -149,13 +179,29 @@ As a solely community supported open source software project, the success and fu
 
 Below is a list of resources you may find helpful:
 
-|=Resource |= URL
-| User Support IRC channel | **irc://irc.freenode.net/openindiana[#openindiana on irc.freenode.net]**
-| Development IRC channel | **irc://irc.freenode.net/oi-dev[#oi-dev on irc.freenode.net]**
-| Documentation IRC channel | **irc://irc.freenode.net/oi-documentation[#oi-documentation on irc.freenode.net]**
-| OpenIndiana Mailing Lists | **http://openindiana.org/mailman**
-| OpenIndiana Wiki | **http://wiki.openindiana.org**
-| OpenIndiana Bug Tracker | **http://www.illumos.org/projects/openindiana/issues**
+
+|===
+| Resource | URL
+
+| User Support IRC channel 
+| **irc://irc.freenode.net/openindiana[#openindiana on irc.freenode.net]**
+
+| Development IRC channel 
+| **irc://irc.freenode.net/oi-dev[#oi-dev on irc.freenode.net]**
+
+| Documentation IRC channel 
+| **irc://irc.freenode.net/oi-documentation[#oi-documentation on irc.freenode.net]**
+
+| OpenIndiana Mailing Lists 
+| **http://openindiana.org/mailman**
+
+| OpenIndiana Wiki 
+| **http://wiki.openindiana.org**
+
+| OpenIndiana Bug Tracker 
+| **http://www.illumos.org/projects/openindiana/issues**
+|===
+
 
 If you would like to join in on all the fun, here are just some of the many ways you may contribute:
 
@@ -223,5 +269,3 @@ For more details see:
 * **https://opensource.org/licenses/MIT[The MIT License (MIT)]**
 * **https://opensource.org/licenses/BSD-2-Clause[The BSD 2-Clause License]**
 * **http://www.gnu.org/licenses/licenses.en.html[GNU licenses]**
-
-\\
