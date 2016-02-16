@@ -23,7 +23,7 @@
 
 
 
-===(Some notes for updating wiki pages)
+=== Some notes for updating wiki pages
 
 * Root of wiki says "dashboard". Can this be relabeled as “OpenIndiana”?
 
