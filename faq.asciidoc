@@ -15,20 +15,47 @@ OpenIndiana derives its name from Project Indiana, an open source effort by Sun 
 
 As a highly capable general purpose Unix operating system, the OpenIndiana distribution is suitable for both workstations and servers. Simply pick the installer which best suits your needs (GUI or Text). OpenIndiana contains the following enterprise class features and more:
 
-|=Feature |=Description
-| ZFS | **https://en.wikipedia.org/wiki/ZFS[ZFS File System and Volume Manager]**
-| DTrace | **https://en.wikipedia.org/wiki/DTrace[Dynamic Tracing Framework - (System Introspection)]**
-| Crossbow | **https://en.wikipedia.org/wiki/OpenSolaris_Network_Virtualization_and_Resource_Control[Network Virtualization and Resource Control]**
-| SMF | **http://illumos.org/man/5/smf[Service Management Facility]**
-| FMA | **http://illumos.org/man/1M/fmd[Fault Management Architecture]**
-| COMSTAR | **http://illumos.org/man/1m/itadm[Common Multiprotocol SCSI TARget - (ISCSI Target Framework)]**
-| KVM | **https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine[Kernel Virtual Machine - (Operating System Virtualization)]**
-| Zones | **https://en.wikipedia.org/wiki/Solaris_Containers[OS Level Virtualized Application Containers]**
-| Time-Slider | **http://www.serverwatch.com/tutorials/article.php/3831881/Say-Cheese-OpenSolaris-Time-Slider.htm[Automated ZFS Snapshots and Rollbacks]**
-| RBAC | **http://www.c0t0d0s0.org/archives/4073-Less-known-Solaris-features-RBAC-and-Privileges-Part-1-Introduction.html[Role-Based Access Control]**
-| IPMP | **http://www.c0t0d0s0.org/archives/6292-Less-known-Solaris-features-IP-Multipathing-Part-1-Introduction.html[IP Network Multipathing]**
-| DLMP | **http://www.c0t0d0s0.org/archives/7553-Less-known-Solaris-Features-Data-Link-Multipathing.html[Data Link Multipathing]**
-| Device Driver Utility | GUI utility for determining hardware compatibility and driver availability
+|===
+|Feature |Description
+
+| ZFS 
+| **https://en.wikipedia.org/wiki/ZFS[ZFS File System and Volume Manager]**
+
+| DTrace 
+| **https://en.wikipedia.org/wiki/DTrace[Dynamic Tracing Framework - (System Introspection)]**
+
+| Crossbow 
+| **https://en.wikipedia.org/wiki/OpenSolaris_Network_Virtualization_and_Resource_Control[Network Virtualization and Resource Control]**
+
+| SMF 
+| **http://illumos.org/man/5/smf[Service Management Facility]**
+
+| FMA 
+| **http://illumos.org/man/1M/fmd[Fault Management Architecture]**
+
+| COMSTAR 
+| **http://illumos.org/man/1m/itadm[Common Multiprotocol SCSI TARget - (ISCSI Target Framework)]**
+
+| KVM 
+| **https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine[Kernel Virtual Machine - (Operating System Virtualization)]**
+
+| Zones 
+| **https://en.wikipedia.org/wiki/Solaris_Containers[OS Level Virtualized Application Containers]**
+
+| Time-Slider 
+| **http://www.serverwatch.com/tutorials/article.php/3831881/Say-Cheese-OpenSolaris-Time-Slider.htm[Automated ZFS Snapshots and Rollbacks]**
+
+| RBAC 
+| **http://www.c0t0d0s0.org/archives/4073-Less-known-Solaris-features-RBAC-and-Privileges-Part-1-Introduction.html[Role-Based Access Control]**
+
+| IPMP 
+| **http://www.c0t0d0s0.org/archives/6292-Less-known-Solaris-features-IP-Multipathing-Part-1-Introduction.html[IP Network Multipathing]**
+
+| DLMP 
+| **http://www.c0t0d0s0.org/archives/7553-Less-known-Solaris-Features-Data-Link-Multipathing.html[Data Link Multipathing]**
+
+| Device Driver Utility 
+| GUI utility for determining hardware compatibility and driver availability
 
 
 == Does OpenIndiana support additional keyboard layouts and languages?
