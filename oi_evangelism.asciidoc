@@ -1,0 +1,42 @@
+= This page is a bucket list of ideas and suggestions for promoting the OpenIndiana distro
+
+\\
+
+== OI evangelism
+
+* Updated distro info on Distrowatch (currently showing hipster 2105.03 as most current). Also remove references to dead /dev branch.
+** //I contacted Distrowatch to update to info to 2015.10 and provided and updated list of package versions.// - [alarcher]
+** //Verified Distrowatch has updated their package info, etc.// - [makruger]
+** //Some version numbers are still incorrect, for the next round I provided a mapping from DistroWatch to Hipster names [[http://hub.openindiana.ninja/?q=content/distrowatch-openindiana-hipster-packages|here]]// - [alarcher]
+* other distro related websites:
+** http://opensolaris.linuxfreedom.com/ - didn't see OpenIndiana here anywhere (still showing OpenSolaris)
+* Feed periodic updates to Slashdot, phoronix, UnixMen, etc.
+** //Even if the pertinence of such benchmarks is questionable, we should add the Phoronix Test Suite to oi-userland as indicator.// - [alarcher]
+
+== Hipster news
+* Current events with OI Hipster distro
+* OI/illumos news stories
+* Featured new packages
+* Tips and Tricks
+
+\\
+
+== OI Selling points
+* The desktop is really what makes OI unique among all the different illumos distributions. I'd say the project should really capitalize on that. 
+* 47 keyboard layouts, 22 languages.
+
+\\
+
+== Software wish list to make the desktop more usable
+
+\\
+
+=== Desktop publishing
+* Scribus or inkscape
+
+=== Photography
+* Darktable
+
+\\
+
+
