@@ -19,7 +19,7 @@ I've deciced to go with an ASCIIDOC based tool chain, but retaining this informa
 * FWIW....I'd like to see the wiki go away completely and for it to be replaced with an OpenIndiana user forum where doc discussions can take place and where tutorials can be stickied, etc. Perhaps if confluence could be replaced with something like mediawiki, then it might look better. But even so, wiki's require editor moderation and strict adherence to a style guide to prevent them from turning into junk yards. 
 
 
-== Tool chain installation (Works on OI, but OI lacks latex, which is required for doc conversion to PDF)
+=== Tool chain installation (Works on OI, but OI lacks latex, which is required for doc conversion to PDF)
 
 * Signup for a github account
 
@@ -77,7 +77,7 @@ I've deciced to go with an ASCIIDOC based tool chain, but retaining this informa
 * When doc team is satisfied with state of GIT hub repository, a member of the doc team would clone the repository and generate the final HTML for display on the OI website.
 
 
-== References:
+=== References:
 * http://www.sphinx-doc.org/en/stable/tutorial.html
 * https://github.com/VundleVim/Vundle.vim
 * https://github.com/Rykka/riv.vim
