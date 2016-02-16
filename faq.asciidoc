@@ -86,8 +86,7 @@ NOTES:
 ** For those desiring to upgrade their legacy installations, Hipster IPS repositories are available.
 ** While upgrading from legacy releases is possible, the cleanest and most trouble free method is to perform a clean install.
 
-WARNING:
-Hipster is a rapid development branch where software versions are frequently updated. While every package is tested to ensure its stability, caution is nevertheless warranted for those intending to deploy Hipster into mission critical production environments.
+WARNING: Hipster is a rapid development branch where software versions are frequently updated. While every package is tested to ensure its stability, caution is nevertheless warranted for those intending to deploy Hipster into mission critical production environments.
 
 
 == Does OpenIndiana provide security and bug fixes? 
