@@ -1,0 +1,120 @@
+= This page is for thoughts and considerations for improving OpenIndiana Documentation
+
+\\
+
+====Inspirational user comment posted to OI wiki in 2011:
+* "Documentation such as a manual is essential in not just learning from, it tells everyone where the product is in the scheme of things. Referring to Oracle for documentation relating to OI just makes one have less confidence with OI itself. Look at the FreeBSD site documentation levels are really good and gives people confidence to try FreeBSD and its derivatives."
+
+\\
+
+===="Food for thought" - Comment snip from FreeBSD Forum in 2013
+* "FreeBSD has been around almost as long as Unix itself existed (not entirely true, but you get the idea) and same can be said for Solaris as it was. Yet the OpenSolaris group basically still has to prove themselves. For all I know (from a commercial point of view) they could be gone next month. That makes it a liability, especially in comparison to Sun being out of the picture and the love/hate relationship with Oracle."
+
+\\
+
+== Things to think about
+
+
+As a general thought....seems like it would be a good idea for the OI project to begin distancing itself from both Oracle and it's OpenSolaris roots. 
+
+What I mean is it's almost kind of pointless to keep talking about OI being a fork of now deceased OpenSolaris, and continually rehashing all the events that resulted in the birth of OI. At some point OpenIndiana needs to stand on it's own merits, not that of it's legacy. Maybe it would be best to simply say OI is an Illumos based distribution and say no more.  Perhaps another way to say this would be to suggest OI needs to look only forward now and not back at what was or could have been. [makruger]
+
+//[The reason is that the website's content has not been update aside from the few pages I modified during the update - alarcher ]//
+
+\\
+
+== Useful references
+* [[https://web.archive.org/web/20081207155129/http://opensolaris.org/os/community/documentation/files/OSOLDOCSG.pdf | OpenSolaris Documentation Style Guide -(from wayback machine)]]
+* [[https://web.archive.org/web/20090823064740/http://www.opensolaris.org/os/community/documentation/ | Old OpenSolaris Docs website - (from wayback machine)]]
+* link to illumos graphics files: https://www.illumos.org/projects/site/files
+* [[https://web.archive.org/web/20110904232819/http://dlc.sun.com/osol/docs/downloads/minibook/en/820-7102-10-Eng-doc.pdf | Getting StartedWith
+OpenSolaris 2008.11 - (PDF minibook - from wayback machine)]]
+* [[https://www.freebsd.org/doc/en_US.ISO8859-1/books/fdp-primer/ | FreeBSD Documentation Project Primer for New Contributors]]
+
+\\
+
+== IPS Stuff
+
+* [[http://www.oracle.com/technetwork/articles/servers-storage-admin/o11-083-ips-basics-523756.html | Basics of Image Packaging System (IPS) - Oracle]]
+* [[http://www.oracle.com/technetwork/server-storage/solaris11/documentation/ips-one-liners-032011-337775.pdf | IPS cheat sheet PDF - Oracle]]
+* **{{{pkg update -nv}}}** for change list
+* **{{{pkg update}}}** for actual update
+
+\\
+
+===Relevant OpenSolaris IPS doc titles
+* Image Packaging System Guide
+*Application Packaging Developer's Guide
+* OpenSolaris 2008.11 Image Packaging System Guide
+
+\\
+
+===(notes for writing the IPS page)
+* Clean up and consolidate information from website and wiki about where to find additional software. 
+** Need to answer the questions - Where and how can I install more software?
+** Discuss the various package managers (PKGIN, IPS (PKG), etc.)
+** Discuss the various repos (opencsw, sfe, pkgsrc.joyent, etc.), what's available in them, and which might break compatibility, etc.
+** What is SFE? How does it differ from other repos?
+** Add a page for popular available software with descriptions, etc.
+
+\\
+
+= Subjects to write about (Tutorials, etc.)
+
+* Illumos HLC: https://www.illumos.org/hcl/
+
+\\
+
+=== 3rd party Systems Automation
+** Puppet - Hipster repo has package - version 3.6.2
+
+\\
+
+===3rd party remote systems monitoring tools
+* Nagios (outdated - but might be a starting point) - https://www.opencsw.org/package/nagios/
+
+\\
+
+=== Nvidia driver support
+* Talk about the expected behavior when booting the live CD from a system with an NVIDIA card.
+* Discuss procedure for adding an NVIDIA card to a system that was using VESA or some other non-3d video driver.
+* Troubleshooting - what logs to look at.
+* Walk through NVIDIA utility screens.
+
+\\
+
+=== Enabling and using Compiz, configuring font anti-aliasing, etc. 
+Walk through using the apearance applet and the various settings.
+
+\\
+
+=== Write about ABI support and how the change from Sun Studio to GCC has broken ABI from previous Solaris releases/OpenSolaris, etc.
+For more details, see: http://openindiana.org/pipermail/oi-dev/2014-December/003496.html
+
+We might also want to talk about what other effects (if any) have/will result from the move to OI-Userland  
+
+\\
+
+===Write about installing OI onto ISCSI exposed SCSI target
+[14:50:02] <alp> does someone have some links on "installing OI on ISCSI" ?\\
+[14:57:40] <tsoome> alp get to illumos wiki, open projects loader -> ideas, from there you get link for jeffpc iscsi experiment\\
+[14:57:46] <tsoome> I did use it to play with ipxe+iscsi+loader
+
+Also can look at Oracle docs for reference: https://docs.oracle.com/cd/E26502_01/html/E29008/iscsi-1.html
+
+\\
+
+=== Does OI use an /etc/release file like most linux distributions?
+If not, how can someone tell what release they are on?
+//[I can answer that: the package delivering this file has not been updated. As long as migration of all packages to oi-userland is not done then no cake - alarcher]//
+
+\\
+
+=== Links to source code
+
+https://hg.openindiana.org/sustaining/\\
+https://hg.openindiana.org/upstream/
+
+\\
+
+
