@@ -97,6 +97,6 @@ If not, how can someone tell what release they are on?
 
 === Links to source code
 
-https://hg.openindiana.org/sustaining/\\
-https://hg.openindiana.org/upstream/
+* https://hg.openindiana.org/sustaining/
+* https://hg.openindiana.org/upstream/
 
