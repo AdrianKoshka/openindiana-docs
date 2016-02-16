@@ -1,10 +1,8 @@
 ** Editor's note:** For comparison's sake, the current FreeBSD FAQ is 78 pages (including references, etc.), written in docbook 5, stored in subversion, and is currently at revision 47, 989. See: https://www.freebsd.org/doc/en_US.ISO8859-1/books/faq/book.html
 
-\\
-
 == What is OpenIndiana?
 
-The OpenIndiana project is the open source community which develops, maintains, and supports the **[[https://en.wikipedia.org/wiki/OpenIndiana | OpenIndiana]]** distribution, an **[[https://en.wikipedia.org/wiki/Illumos | illumos]]** based Unix operating system derived from OpenSolaris. The OpenIndiana project is also a continuation of the collaborative effort and community spirit of the **[[https://en.wikipedia.org/wiki/OpenSolaris | OpenSolaris project]]**. 
+The OpenIndiana project is the open source community which develops, maintains, and supports the **https://en.wikipedia.org/wiki/OpenIndiana [OpenIndiana]** distribution, an **[[https://en.wikipedia.org/wiki/Illumos | illumos]]** based Unix operating system derived from OpenSolaris. The OpenIndiana project is also a continuation of the collaborative effort and community spirit of the **[[https://en.wikipedia.org/wiki/OpenSolaris | OpenSolaris project]]**. 
 
 \\
 
