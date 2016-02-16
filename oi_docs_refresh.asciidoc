@@ -13,9 +13,6 @@
 * Whatever documentation build system we end up using....it should be natively supported on OI (and ideally cross platform as well).
 
 
-
-\\
-
 == OpenSolaris Doc Refresh Challenges
 
 * The books all reference each other using the original SUN URL's.
@@ -27,8 +24,6 @@
 * We're missing the source code for the 2008.11 books.
 * In regard to the factual correctness of the documentation, do we ourselves know what still works, doesn't work, has been deprecated, replaced, etc.?
 
-
-\\
 
 == 2009.6 drop
 
@@ -77,41 +72,38 @@ I believe we have the XML source for these books.
 * Writing Device Drivers
 * ZFS Administration Guide
 
-\\
 
-== 2008.11 drop
+
+=== 2008.11 drop
 
 We **do not** have the source for these books. All that looks to be available is HTML. Presumably these books are also open source, but I am not sure they were released under PDL like the books from the 2009.06 drop.
 
-* [[https://web.archive.org/web/20110812020753/http://dlc.sun.com/osol/docs/content/2008.11/ | 2008.11 OpenSolaris Docs]]
+* https://web.archive.org/web/20110812020753/http://dlc.sun.com/osol/docs/content/2008.11/[2008.11 OpenSolaris Docs]
 * Another link to the same 2008 books: http://www.linuxtopia.org/online_books/opensolaris_2008/
 
-\\
 
 === A full list of the 2008.11 books with separate links to each directory:
 
-* [[https://web.archive.org/web/20090711142146/http://dlc.sun.com/osol/docs/content/2008.11/AIinstall/docinfo.html | OpenSolaris 2008.11 Automated Installer Guide]]
+* https://web.archive.org/web/20090711142146/http://dlc.sun.com/osol/docs/content/2008.11/AIinstall/docinfo.html[OpenSolaris 2008.11 Automated Installer Guide]
 
-* [[https://web.archive.org/web/20090207062303/http://dlc.sun.com/osol/docs/content/2008.11/COMSTARADMIN/docinfo.html | OpenSolaris 2008.11 COMSTAR Administration Guide]]
+* https://web.archive.org/web/20090207062303/http://dlc.sun.com/osol/docs/content/2008.11/COMSTARADMIN/docinfo.html[OpenSolaris 2008.11 COMSTAR Administration Guide]
 
-* [[https://web.archive.org/web/20101103075914/http://dlc.sun.com/osol/docs/content/2008.11/DistroConst/ | OpenSolaris 2008.11 Distribution Constructor Guide]]
+* https://web.archive.org/web/20101103075914/http://dlc.sun.com/osol/docs/content/2008.11/DistroConst/[OpenSolaris 2008.11 Distribution Constructor Guide]
 
-* [[https://web.archive.org/web/20090530123921/http://dlc.sun.com/osol/docs/content/2008.11/IMGPACKAGESYS/docinfo.html | OpenSolaris 2008.11 Image Packaging System Guide]]
+* https://web.archive.org/web/20090530123921/http://dlc.sun.com/osol/docs/content/2008.11/IMGPACKAGESYS/docinfo.html[OpenSolaris 2008.11 Image Packaging System Guide]
 
-* [[https://web.archive.org/web/20110814192736/http://dlc.sun.com/osol/docs/content/2008.11/MEDIACAG/ | OpenSolaris 2008.11 Media Management System Administration Guide]]
+* https://web.archive.org/web/20110814192736/http://dlc.sun.com/osol/docs/content/2008.11/MEDIACAG/[OpenSolaris 2008.11 Media Management System Administration Guide]
 
-* [[https://web.archive.org/web/20090215194657/http://dlc.sun.com/osol/docs/content/2008.11/OSDEV/docinfo.html | OpenSolaris 2008.11 Development Environment Guide]]
+* https://web.archive.org/web/20090215194657/http://dlc.sun.com/osol/docs/content/2008.11/OSDEV/docinfo.html[OpenSolaris 2008.11 Development Environment Guide]
 
-* [[https://web.archive.org/web/20090207094506/http://dlc.sun.com/osol/docs/content/2008.11/SYSADV0/ | OpenSolaris 2008.11 System Administration Guide]]
+* https://web.archive.org/web/20090207094506/http://dlc.sun.com/osol/docs/content/2008.11/SYSADV0/[OpenSolaris 2008.11 System Administration Guide]
 
-* [[https://web.archive.org/web/20100207034244/http://dlc.sun.com/osol/docs/content/2008.11/snapupgrade/docinfo.html | OpenSolaris 2008.11 Managing Boot Environments]]
+* https://web.archive.org/web/20100207034244/http://dlc.sun.com/osol/docs/content/2008.11/snapupgrade/docinfo.html[OpenSolaris 2008.11 Managing Boot Environments]
 
-* [[https://web.archive.org/web/20090429214954/http://dlc.sun.com/osol/docs/content/2008.11/getstart/docinfo.html | Introduction to the OpenSolaris 2008.11 Release]]
+* https://web.archive.org/web/20090429214954/http://dlc.sun.com/osol/docs/content/2008.11/getstart/docinfo.html[Introduction to the OpenSolaris 2008.11 Release]
 
-\\
 
 == Other OpenSolaris docs
 
-* [[https://web.archive.org/web/20100123170801/http://docs.sun.com/app/docs/coll/2509.1 | Open HA Cluster 2009.06 Collection]]
+* https://web.archive.org/web/20100123170801/http://docs.sun.com/app/docs/coll/2509.1[Open HA Cluster 2009.06 Collection]
 
-\\
