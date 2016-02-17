@@ -8,7 +8,7 @@
 * "FreeBSD has been around almost as long as Unix itself existed (not entirely true, but you get the idea) and same can be said for Solaris as it was. Yet the OpenSolaris group basically still has to prove themselves. For all I know (from a commercial point of view) they could be gone next month. That makes it a liability, especially in comparison to Sun being out of the picture and the love/hate relationship with Oracle."
 
 
-=== Some other things to think about
+==== Some other things to think about
 
 
 As a general thought....seems like it would be a good idea for the OI project to begin distancing itself from both Oracle and it's OpenSolaris roots. 
@@ -18,7 +18,7 @@ What I mean is it's almost kind of pointless to keep talking about OI being a fo
 //[The reason is that the website's content has not been update aside from the few pages I modified during the update - alarcher ]//
 
 
-=== Useful references
+==== Useful references
 * https://web.archive.org/web/20081207155129/http://opensolaris.org/os/community/documentation/files/OSOLDOCSG.pdf[ OpenSolaris Documentation Style Guide -(from wayback machine)]
 * https://web.archive.org/web/20090823064740/http://www.opensolaris.org/os/community/documentation/[Old OpenSolaris Docs website - (from wayback machine)]
 * link to illumos graphics files: https://www.illumos.org/projects/site/files
@@ -26,27 +26,27 @@ What I mean is it's almost kind of pointless to keep talking about OI being a fo
 * https://www.freebsd.org/doc/en_US.ISO8859-1/books/fdp-primer/[FreeBSD Documentation Project Primer for New Contributors]
 
 
-== Subjects to write about (Tutorials, etc.)
+=== Subjects to write about (Tutorials, etc.)
 
 * Illumos HLC: https://www.illumos.org/hcl/
 
 
-=== 3rd party Systems Automation
+==== 3rd party Systems Automation
 ** Puppet - Hipster repo has package - version 3.6.2
 
 
-=== 3rd party remote systems monitoring tools
+==== 3rd party remote systems monitoring tools
 * Nagios (outdated - but might be a starting point) - https://www.opencsw.org/package/nagios/
 
 
-=== Write about ABI support and how the change from Sun Studio to GCC has broken ABI from previous Solaris releases/OpenSolaris, etc.
+==== Write about ABI support and how the change from Sun Studio to GCC has broken ABI from previous Solaris releases/OpenSolaris, etc.
 
 * For more details, see: http://openindiana.org/pipermail/oi-dev/2014-December/003496.html
 
 We might also want to talk about what other effects (if any) have/will result from the move to OI-Userland  
 
 
-=== Write about installing OI onto ISCSI exposed SCSI target
+==== Write about installing OI onto ISCSI exposed SCSI target
 
 * Snipped from OI-DEV IRC channel
 ====
@@ -67,3 +67,15 @@ If not, how can someone tell what release they are on?
 * https://hg.openindiana.org/sustaining/
 * https://hg.openindiana.org/upstream/
 
+* Publish man pages online
+** illumos core man pages are available on illumos.org
+** OI specific man pages are not published. 
+
+[comment from OI-DEV IRC]
+====
+<leoric> looking at Ubuntu dhcp.conf online man page, I thought it would be good to have automatic extractor and search interface, extracting man pages from package repository and publishing them on OI site...
+<alanc> http://illumos.org/man/ covers the illumos ones, but not all the other packages
+<leoric> I know about illumos man pages, but thought about all available man pages
+<alanc> yeah, I figured that's what you meant
+<leoric> new dhcpd seems to be working...
+====
