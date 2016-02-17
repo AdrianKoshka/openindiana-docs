@@ -1,16 +1,25 @@
 = OpenSolaris redistributable docs
 
+==== Current Situation
 * The source for PDL licensed restributable docs is Solbook XML 3.5 (and in some cases Solbook XML 3.6). Solbook is a simplified subset of Docbook. We have a conversion tool which can handle Solbook XML 3.5, but we do not have DTD's for any other version. Assuming the differences between these versions are not too great, we might be able to trick the java conversion tool by simply changing the version number within the DTD (don't know if that will work, haven't tried it yet).
+* We have the source for the 2009.06 docs, but not for the 2008.11 docs. While there is some overlap, some things are found in the 2008.11 docs which do not look to be present in the 2009.06 docs (e.g. Comstar, etc.).
 
-* As a way forward, we should consider either converting them all to Docbook 5, or some kind of text markup (e.g. restructured text, etc.).
+==== Future Direction
+* We should consider converting all the OpenSolaris to either Docbook 5, or some kind of simple text based markup (e.g. ASCIIDOC(tor), restructured text, Markdown, etc.). Using a text based markup would greatly lower the bar for working on the docs. 
 * For books for which we do not have the source, perhaps pandoc can be used to reconvert the HTML back to docbook 5, text markup, etc.
-** Using a text based markup would lower the bar to working on the docs. 
-*** The PC-BSD Project follows this approach using the python based Sphinx toolchain (which is based on restructured text).
-** For comparison's sake, the FreeBSD project uses Docbook 5, which they maintain using plain old text editors (VIM, gedit, nano, etc.). 
-*** The FreeBSD project then uses an semi-automated XML toolchain to validate and convert the source code to other formats. 
-*** The FreeBSD project hosts their Docbook 5 XML source in a single subversion repository where you check out the entire project.
-*** For more details of the FreeBSD docs process, see: https://www.freebsd.org/doc/en_US.ISO8859-1/books/fdp-primer/index.html
-* Whatever documentation build system we end up using....it should be natively supported on OI (and ideally cross platform as well).
+
+==== What are other projects doing?
+
+* In a nutshell, they're not using wiki's. Instead they're doing it with static HTML.
+* Whatever documentation build system we end up using....it should be natively supported on OI (and ideally cross platform to both Windows and Linux as well).
+
+[PC-PCD]
+* The PC-BSD Project uses the python based Sphinx toolchain (which is based on restructured text).
+* The FreeBSD project uses Docbook 5 along with a semi-automated XML toolchain to validate and convert the source code to other formats.
+
+[FreeBSD]
+* The FreeBSD project hosts their Docbook 5 XML source in a single subversion repository where you check out the entire project.
+* For more details of the FreeBSD docs process, see: https://www.freebsd.org/doc/en_US.ISO8859-1/books/fdp-primer/index.html
 
 
 === OpenSolaris Doc Refresh Challenges
@@ -19,15 +28,15 @@
 ** Even the illumos books have broken sun links (thus also need some love).
 * The books have difficult to decipher names.
 * The books are not really mobile friendly (single page HTML with embedded navigation is more friendly - see FreeBSD Handbook)
-* Soldoc to html conversion tool chain is broken (Indexing does not work).
+* Soldoc to html conversion tool chain is broken (indexing does not work). The conversion tool was written in JAVA.
 * XML is hard to read, hard to edit, and requires validation after editing.
 * We're missing the source code for the 2008.11 books.
-* In regard to the factual correctness of the documentation, do we ourselves know what still works, doesn't work, has been deprecated, replaced, etc.?
+* In regard to the factual correctness of the documentation, do we ourselves even know what still works, doesn't work, has been deprecated, replaced, etc.?
 
 
 === 2009.6 drop
 
-I believe we have the XML source for these books.
+We have the XML source for these books.
 
 * Application Packaging Developer's Guide
 * Device Driver Tutorial
@@ -73,10 +82,9 @@ I believe we have the XML source for these books.
 * ZFS Administration Guide
 
 
-
 === 2008.11 drop
 
-We **do not** have the source for these books. All that looks to be available is HTML. Presumably these books are also open source, but I am not sure they were released under PDL like the books from the 2009.06 drop.
+We **do not** have the source for these books. All that looks to be available is HTML. Presumably these books are also open source, but without the source code, there is no way to really tell whether they were released under the PDL like the books from the 2009.06 drop.
 
 * https://web.archive.org/web/20110812020753/http://dlc.sun.com/osol/docs/content/2008.11/[2008.11 OpenSolaris Docs]
 * Another link to the same 2008 books: http://www.linuxtopia.org/online_books/opensolaris_2008/
