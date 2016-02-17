@@ -22,8 +22,11 @@
 * For books for which we do not have the XML source, perhaps pandoc can be used to reconvert the HTML back to text markup.
 * We need to create a fully automated toochain with the following features:
 ** Source code stored on GITHUB.
-** Commit hooks kick off a conversion (build) and deployment of the docs to their public location (OI website, Github pages, etc.)
+** Commit hooks kick off an automated conversion (build) and deployment of the docs to their public location.
+** We need to determine where to host the docs - (e.g. OI website, Github pages, readthedocs.com, etc.)
 ** Docs maintenance process needs to be fully documented.
+
+Another consideration is printing. There should be printer friendly CSS used with the HTML pages. 
 
 ==== What are other projects doing?
 
