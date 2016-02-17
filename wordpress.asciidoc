@@ -87,12 +87,6 @@
 
 * Export XML/HTML to PDF and EPUB books.
 
-* Updated Custom desktop background for OI - Perhaps downloads from the website, or included in distro.
-//[I would love that. Also I want to publish new pictures for Community and Roadmap every 6 months]//
-
-* Updated Custom splash screen for grub
-//[That is if GRUB stays our bootloader - alarcher]//
-
 * Add list of mirrors, torrents, etc., to download page on website.
 ** Need to find more places to mirror, preferably some in north america too.
 ** https://web.archive.org/web/20091223051956/http://www.opensolaris.com/get/index.jsp[Original list of mirrors]
