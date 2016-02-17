@@ -39,17 +39,6 @@ What I mean is it's almost kind of pointless to keep talking about OI being a fo
 * Nagios (outdated - but might be a starting point) - https://www.opencsw.org/package/nagios/
 
 
-=== Nvidia driver support
-* Talk about the expected behavior when booting the live CD from a system with an NVIDIA card.
-* Discuss procedure for adding an NVIDIA card to a system that was using VESA or some other non-3d video driver.
-* Troubleshooting - what logs to look at, manual configuration, etc. 
-* Walk through NVIDIA utility screens.
-
-
-=== Enabling and using Compiz, configuring font anti-aliasing, etc. 
-Walk through using the apearance applet and the various settings.
-
-
 === Write about ABI support and how the change from Sun Studio to GCC has broken ABI from previous Solaris releases/OpenSolaris, etc.
 
 * For more details, see: http://openindiana.org/pipermail/oi-dev/2014-December/003496.html
