@@ -1,28 +1,33 @@
 = OpenSolaris redistributable docs
 
 ==== Current Situation
-* The source for PDL licensed restributable docs is Solbook XML 3.5 (and in some cases Solbook XML 3.6). Solbook is a simplified subset of Docbook. We have a conversion tool (written in JAVA) which can handle the conversion of Solbook XML 3.5 to HTML 4.5, but we do not have DTD's for any other XML versions. 
-** Assuming the differences between these Solbook XML versions are not too great, we might be able to trick the java conversion tool by simply changing the version number within the DTD (This is speculative and not been tried yet).
-* We have the source for the 2009.06 docs, but not for the 2008.11 docs. While there is some overlap of content, many things are found in the 2008.11 docs which do not look to be present in the 2009.06 docs (e.g. Comstar, etc.).
+* The source for PDL licensed restributable docs is Solbook XML 3.5 (and in some cases Solbook XML 3.6). Solbook is a creation of Sun Microsystems and is a simplified subset of Docbook. We have a conversion tool (written in JAVA) which can handle the conversion of Solbook XML 3.5 to HTML 4.5, but we do not have DTD's for any other XML versions (e.g 3.6). 
+** Assuming the differences between these Solbook XML versions are not too great, we might be able to trick the java conversion tool by simply changing the version number within the DTD (This is speculative and not yet been tried).
+* We have the source for the 2009.06 docs, but not for the 2008.11 docs. While there is some overlap of content, many things found in the 2008.11 docs do not look to be present in the 2009.06 docs (e.g. Comstar, etc.).
 
 ==== OpenSolaris Doc Refresh Challenges
-
 * The OpenSolaris books all reference each other using the original SUN hosted URL's.
 ** Even the illumos books have broken sun links (thus also need some love).
-* The books have difficult to decipher names.
-* The books are not really mobile friendly (single page HTML with embedded navigation is more friendly - see FreeBSD Handbook)
-* Soldoc to html conversion tool chain is broken (indexing does not work). The conversion tool was written in JAVA.
+* The books have difficult to decipher folder and xml doc names.
+* The books are not particularly mobile friendly
+** Single page HTML or multipage with embedded page navigation is generally more friendly - e.g. FreeBSD Handbook)
+* The Soldoc to html conversion tool chain (JAR) is broken (indexing does not work).
+** Conversion and deployment of the docs is a manual process.
+** We have no automated way to maintain these docs (no automated toolchain exists).
 * XML is hard to read, hard to edit, and requires validation after editing.
-* We're missing the source code for the 2008.11 books.
 * In regard to the factual correctness of the documentation, do we ourselves even know what still works, doesn't work, has been deprecated, replaced, etc.?
 
 ==== Future Direction
-* We should consider converting all the OpenSolaris to either Docbook 5, or some kind of simple text based markup (e.g. ASCIIDOC(tor), restructured text, Markdown, etc.). Using a text based markup would greatly lower the bar for working on the docs. 
-* For books for which we do not have the source, perhaps pandoc can be used to reconvert the HTML back to docbook 5, text markup, etc.
+* We should consider converting all the OpenSolaris to some kind of simple text based markup (e.g. ASCIIDOC, restructured text, Markdown, etc.). Using a text based markup would greatly lower the bar for working on the docs. 
+* For books for which we do not have the XML source, perhaps pandoc can be used to reconvert the HTML back to text markup.
+* We need to create a fully automated toochain with the following features:
+** Source code stored on GITHUB.
+** Commit hooks kick off a conversion (build) and deployment of the docs to their public location (OI website, Github pages, etc.)
+** Docs maintenance process needs to be fully documented.
 
 ==== What are other projects doing?
 
-* In a nutshell, they're not using wiki's. Instead they're doing it with static HTML.
+* In a nutshell, they're not using wiki's. Instead they're doing it all with static HTML.
 * Whatever documentation build system we end up using....it should be natively supported on OI (and ideally cross platform to both Windows and Linux as well).
 
 [PC-PCD]
@@ -34,10 +39,7 @@
 * For more details of the FreeBSD docs process, see: https://www.freebsd.org/doc/en_US.ISO8859-1/books/fdp-primer/index.html
 
 
-
-
-
-=== 2009.6 drop
+==== OpenSolaris Docs - 2009.6 drop
 
 We have the XML source for these books.
 
@@ -85,7 +87,7 @@ We have the XML source for these books.
 * ZFS Administration Guide
 
 
-=== 2008.11 drop
+==== OpenSolaris Docs - 2008.11 drop
 
 We **do not** have the source for these books. All that looks to be available is HTML. Presumably these books are also open source, but without the source code, there is no way to really tell whether they were released under the PDL like the books from the 2009.06 drop.
 
@@ -93,7 +95,7 @@ We **do not** have the source for these books. All that looks to be available is
 * Another link to the same 2008 books: http://www.linuxtopia.org/online_books/opensolaris_2008/
 
 
-=== A full list of the 2008.11 books with separate links to each directory:
+==== A full list of the 2008.11 books with separate links to each directory:
 
 * https://web.archive.org/web/20090711142146/http://dlc.sun.com/osol/docs/content/2008.11/AIinstall/docinfo.html[OpenSolaris 2008.11 Automated Installer Guide]
 
@@ -114,7 +116,7 @@ We **do not** have the source for these books. All that looks to be available is
 * https://web.archive.org/web/20090429214954/http://dlc.sun.com/osol/docs/content/2008.11/getstart/docinfo.html[Introduction to the OpenSolaris 2008.11 Release]
 
 
-=== Other OpenSolaris docs
+==== Other OpenSolaris docs
 
 * https://web.archive.org/web/20100123170801/http://docs.sun.com/app/docs/coll/2509.1[Open HA Cluster 2009.06 Collection]
 
