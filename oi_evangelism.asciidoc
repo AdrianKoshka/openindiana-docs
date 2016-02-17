@@ -1,8 +1,16 @@
 = OI evangelism
 
-=== This page is a bucket list of ideas and suggestions for promoting the OpenIndiana distro
+=== This page is a bucket list of ideas and suggestions for promoting and or improving the OpenIndiana distro
+
+==== OI Selling points
+* The desktop is really what makes OI unique among all the different illumos distributions. 
+** The project should really capitalize on the desktop
+*** Even though OI makes for a great server, the server space is dominated by OmniOS, SmartOS; OI will struggle competing there.
+** Aim not just for parity with PC-BSD or FreeBSD, but usability parity with Linux Mint.
+* 47 keyboard layouts, 22 languages - All Illumos have this though, so not really unique among illumos
 
 
+==== Public Relations
 * Updated distro info on Distrowatch (currently showing hipster 2105.03 as most current). Also remove references to dead /dev branch.
 ** I contacted Distrowatch to update to info to 2015.10 and provided and updated list of package version. - [alarcher]
 ** Verified Distrowatch has updated their package info, etc. - [makruger]
@@ -12,18 +20,14 @@
 * Feed periodic updates to Slashdot, phoronix, UnixMen, etc.
 ** Even if the pertinence of such benchmarks is questionable, we should add the Phoronix Test Suite to oi-userland as indicator. - [alarcher]
 
-=== Hipster news
+==== Hipster News
 * Current events with OI Hipster distro
 * OI/illumos news stories
 * Featured new packages
 * Tips and Tricks
 
-=== OI Selling points
-* The desktop is really what makes OI unique among all the different illumos distributions. 
-** The project should really capitalize on the desktop
-*** Even though OI makes for a great server, the server space is dominated by OmniOS, SmartOS; OI will struggle competing there.
-** Aim not just for parity with PC-BSD or FreeBSD, but usability parity with Linux Mint.
-* 47 keyboard layouts, 22 languages - All Illumos have this though, so not really unique among illumos
+==== Other Periodic Website Updates
+* Publish new pictures for the Community and update the Roadmap every 6 months
 
 === Software wish list to make the desktop more usable
 
