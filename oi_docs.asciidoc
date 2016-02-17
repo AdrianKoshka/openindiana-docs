@@ -25,28 +25,6 @@ What I mean is it's almost kind of pointless to keep talking about OI being a fo
 * https://web.archive.org/web/20110904232819/http://dlc.sun.com/osol/docs/downloads/minibook/en/820-7102-10-Eng-doc.pdf[ Getting StartedWith OpenSolaris 2008.11 - (PDF minibook - from wayback machine)]
 * https://www.freebsd.org/doc/en_US.ISO8859-1/books/fdp-primer/[FreeBSD Documentation Project Primer for New Contributors]
 
-=== IPS Stuff
-
-* http://www.oracle.com/technetwork/articles/servers-storage-admin/o11-083-ips-basics-523756.html[Basics of Image Packaging System (IPS) - Oracle]
-* http://www.oracle.com/technetwork/server-storage/solaris11/documentation/ips-one-liners-032011-337775.pdf[IPS cheat sheet PDF - Oracle]
-* `pkg update -nv` for change list
-* `pkg update` for actual update
-
-
-==== Relevant OpenSolaris IPS doc titles
-* Image Packaging System Guide
-*Application Packaging Developer's Guide
-* OpenSolaris 2008.11 Image Packaging System Guide
-
-
-==== Some notes for writing the IPS pages
-* Clean up and consolidate information from website and wiki about where to find additional software. 
-** Need to answer the questions - Where and how can I install more software?
-** Discuss the various package managers (PKGIN, IPS (PKG), etc.)
-** Discuss the various repos (opencsw, sfe, pkgsrc.joyent, etc.), what's available in them, and which might break compatibility, etc.
-** What is SFE? How does it differ from other repos?
-** Add a page for popular available software with descriptions, etc.
-
 
 == Subjects to write about (Tutorials, etc.)
 
