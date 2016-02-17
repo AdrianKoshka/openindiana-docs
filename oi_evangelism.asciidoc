@@ -1,6 +1,6 @@
 = OI evangelism
 
-=== This page is a bucket list of ideas and suggestions for promoting and or improving the OpenIndiana distro
+=== Suggestions for promoting and or improving the OpenIndiana distro
 
 ==== OI Selling points
 * The desktop is really what makes OI unique among all the different illumos distributions. 
@@ -31,14 +31,24 @@
 
 === Software wish list to make the desktop more usable
 
+==== Alternate Desktops
+* Mate
+* KDE
+* Cinnamon
+
 ==== Development tools
 * ATOM - Text Editor
-* Eclipse IDE
 * GVIM - Text Editor
+* Eclipse - IDE
 * Meld - Diff Viewer
 
 ==== Desktop publishing
-* Scribus or inkscape
+* Scribus
+* Inkscape
+
+==== Graphics
+* Blender
+
 
 ==== Photography
 * Darktable
