@@ -32,31 +32,37 @@
 === Software wish list to make the desktop more usable
 
 ==== Alternate Desktops
-* Mate
-* KDE
-* Cinnamon
+* http://mate-desktop.com/[Mate]
+* https://www.kde.org/[KDE]
+* http://cinnamon.linuxmint.com/[Cinnamon]
 
 ==== Benchmarking tools
-* Phoronix Test Suite
+* http://www.phoronix-test-suite.com/[Phoronix Test Suite]
 
 ==== Development tools
-* ATOM - Text Editor
-* GVIM - Text Editor
-* Eclipse - IDE
-* Meld - Diff Viewer
+* https://atom.io/[ATOM - Text Editor]
+* http://www.vim.org/[GVIM - Text Editor]
+* https://eclipse.org/[Eclipse - IDE]
+* http://meldmerge.org/[Meld - Diff Viewer]
 
 ==== Desktop publishing
-* Scribus
-* Inkscape
+* http://www.scribus.net/[Scribus]
+* https://inkscape.org/en/[Inkscape]
+* https://www.calligra.org/[Calligra Suite]
 
 ==== Graphics
-* Blender
-
+* https://www.blender.org/[Blender]
+* https://krita.org/[Krita]
+* http://www.xaraxtreme.org/[Xara]
+* http://www.povray.org/[POV-Ray]
+* http://www.radiance-online.org/[Radiance]
 
 ==== Photography
-* Darktable
-* RawTherapee
-* Picasa
+* http://www.darktable.org/[Darktable]
+* http://rawtherapee.com/[RawTherapee]
+* https://www.digikam.org/[Digikam]
+* http://hugin.sourceforge.net/[Hugin]
+* https://picasa.google.com/[Picasa]
 
 ==== Suggestions for improving elements of the distro itself
 * Updated Custom desktop background for OI - Perhaps downloads from the website, or included in distro.
