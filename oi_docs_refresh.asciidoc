@@ -1,8 +1,20 @@
 = OpenSolaris redistributable docs
 
 ==== Current Situation
-* The source for PDL licensed restributable docs is Solbook XML 3.5 (and in some cases Solbook XML 3.6). Solbook is a simplified subset of Docbook. We have a conversion tool which can handle Solbook XML 3.5, but we do not have DTD's for any other version. Assuming the differences between these versions are not too great, we might be able to trick the java conversion tool by simply changing the version number within the DTD (don't know if that will work, haven't tried it yet).
-* We have the source for the 2009.06 docs, but not for the 2008.11 docs. While there is some overlap, some things are found in the 2008.11 docs which do not look to be present in the 2009.06 docs (e.g. Comstar, etc.).
+* The source for PDL licensed restributable docs is Solbook XML 3.5 (and in some cases Solbook XML 3.6). Solbook is a simplified subset of Docbook. We have a conversion tool (written in JAVA) which can handle the conversion of Solbook XML 3.5 to HTML 4.5, but we do not have DTD's for any other XML versions. 
+** Assuming the differences between these Solbook XML versions are not too great, we might be able to trick the java conversion tool by simply changing the version number within the DTD (This is speculative and not been tried yet).
+* We have the source for the 2009.06 docs, but not for the 2008.11 docs. While there is some overlap of content, many things are found in the 2008.11 docs which do not look to be present in the 2009.06 docs (e.g. Comstar, etc.).
+
+==== OpenSolaris Doc Refresh Challenges
+
+* The OpenSolaris books all reference each other using the original SUN hosted URL's.
+** Even the illumos books have broken sun links (thus also need some love).
+* The books have difficult to decipher names.
+* The books are not really mobile friendly (single page HTML with embedded navigation is more friendly - see FreeBSD Handbook)
+* Soldoc to html conversion tool chain is broken (indexing does not work). The conversion tool was written in JAVA.
+* XML is hard to read, hard to edit, and requires validation after editing.
+* We're missing the source code for the 2008.11 books.
+* In regard to the factual correctness of the documentation, do we ourselves even know what still works, doesn't work, has been deprecated, replaced, etc.?
 
 ==== Future Direction
 * We should consider converting all the OpenSolaris to either Docbook 5, or some kind of simple text based markup (e.g. ASCIIDOC(tor), restructured text, Markdown, etc.). Using a text based markup would greatly lower the bar for working on the docs. 
@@ -22,16 +34,7 @@
 * For more details of the FreeBSD docs process, see: https://www.freebsd.org/doc/en_US.ISO8859-1/books/fdp-primer/index.html
 
 
-=== OpenSolaris Doc Refresh Challenges
 
-* The books all reference each other using the original SUN URL's.
-** Even the illumos books have broken sun links (thus also need some love).
-* The books have difficult to decipher names.
-* The books are not really mobile friendly (single page HTML with embedded navigation is more friendly - see FreeBSD Handbook)
-* Soldoc to html conversion tool chain is broken (indexing does not work). The conversion tool was written in JAVA.
-* XML is hard to read, hard to edit, and requires validation after editing.
-* We're missing the source code for the 2008.11 books.
-* In regard to the factual correctness of the documentation, do we ourselves even know what still works, doesn't work, has been deprecated, replaced, etc.?
 
 
 === 2009.6 drop
