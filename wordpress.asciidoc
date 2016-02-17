@@ -19,11 +19,11 @@
 | Use It 
 | Hipster Handbook
 
-| Extend It 
-| Developer Handbook
-
 | Discuss it 
 | OI Mailing lists/IRC, etc.
+
+| Extend It 
+| Developer Handbook
 |===
 
 
