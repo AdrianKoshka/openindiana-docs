@@ -72,19 +72,7 @@
 //[Opening comments on this Wiki is an error in the first place - alarcher]//
 
 * Blog aggregator
-
-* [partially complete] -- Publish man pages online
-** Core man pages are available on illumos.org
-** Perhaps there are some OI specific man pages which need to be published as well. [e.g. PKG(5) is missing]
-** [comment from OI-DEV IRC - 
-*** <leoric> looking at Ubuntu dhcp.conf online man page, I thought it would be good to have automatic extractor and search interface, extracting man pages from package repository and publishing them on OI site...
-***<alanc> http://illumos.org/man/ covers the illumos ones, but not all the other packages
-***<leoric> I know about illumos man pages, but thought about all available man pages
-***<alanc> yeah, I figured that's what you meant
-*** <leoric> new dhcpd seems to be working...
-
 * Post old Solaris docs (as they are updated)
-
 * Export XML/HTML to PDF and EPUB books.
 
 * Add list of mirrors, torrents, etc., to download page on website.
