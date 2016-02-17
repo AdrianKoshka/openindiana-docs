@@ -1,4 +1,4 @@
-== Thoughts and Considerations for Improving OpenIndiana Documentation
+=== Thoughts and Considerations for Improving OpenIndiana Documentation
 
 ==== A user comment posted to OI wiki in 2011:
 * "Documentation such as a manual is essential in not just learning from, it tells everyone where the product is in the scheme of things. Referring to Oracle for documentation relating to OI just makes one have less confidence with OI itself. Look at the FreeBSD site documentation levels are really good and gives people confidence to try FreeBSD and its derivatives."
@@ -71,7 +71,7 @@ If not, how can someone tell what release they are on?
 ** illumos core man pages are available on illumos.org
 ** OI specific man pages are not published. 
 
-[comment from OI-DEV IRC]
+* Recent Comment from OI-DEV IRC
 ====
 <leoric> looking at Ubuntu dhcp.conf online man page, I thought it would be good to have automatic extractor and search interface, extracting man pages from package repository and publishing them on OI site...
 <alanc> http://illumos.org/man/ covers the illumos ones, but not all the other packages
