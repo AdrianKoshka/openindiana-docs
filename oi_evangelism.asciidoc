@@ -34,7 +34,7 @@
 ==== Alternate Desktops
 * http://mate-desktop.com/[Mate]
 * https://www.kde.org/[KDE]
-* http://cinnamon.linuxmint.com/[Cinnamon]
+* https://github.com/linuxmint/Cinnamon[Cinnamon]
 
 ==== Benchmarking tools
 * http://www.phoronix-test-suite.com/[Phoronix Test Suite]
