@@ -73,9 +73,9 @@ If not, how can someone tell what release they are on?
 
 * Recent Comment from OI-DEV IRC
 ====
-<leoric> looking at Ubuntu dhcp.conf online man page, I thought it would be good to have automatic extractor and search interface, extracting man pages from package repository and publishing them on OI site...
-<alanc> http://illumos.org/man/ covers the illumos ones, but not all the other packages
-<leoric> I know about illumos man pages, but thought about all available man pages
-<alanc> yeah, I figured that's what you meant
-<leoric> new dhcpd seems to be working...
+  <leoric> looking at Ubuntu dhcp.conf online man page, I thought it would be good to have automatic extractor and search interface, extracting man pages from package repository and publishing them on OI site...
+  <alanc> http://illumos.org/man/ covers the illumos ones, but not all the other packages
+  <leoric> I know about illumos man pages, but thought about all available man pages
+  <alanc> yeah, I figured that's what you meant
+  <leoric> new dhcpd seems to be working...
 ====
