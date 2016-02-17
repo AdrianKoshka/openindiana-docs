@@ -1,4 +1,6 @@
-= OI Handbook - Basic outline
+= OI Handbook
+
+=== Basic outline
 * Intro
 
 * Get it
@@ -64,18 +66,22 @@
 * 1 GB of memory for each TB of ZFS storage.
 
 === What are the post-installation caveats and considerations?
+* e.g. - What kinds of things can be done with a system once installed?
 
 ==== Where to find support and help
 * Talk about IRC, mailing list, how to use MAN pages, mlocate, apropos, etc.
 
-
-=== What kinds of things can be done with a system once installed?
-
+==== Nvidia driver support
+* Talk about the expected behavior when booting the live CD from a system with an NVIDIA card.
+* Discuss procedure for adding an NVIDIA card to a system that was using VESA or some other non-3d video driver.
+* Troubleshooting - what logs to look at, manual configuration, etc. 
+* Walk through NVIDIA utility screens.
 
 ==== How can the desktop be modified?
 * Gnome walkthrough
-* Compiz
-
+* Appearance applet 
+** Enabling Compiz
+** Configuring font anti-aliasing
 
 ==== How does one keep the system updated and find more software?
 * IPS and BEADMIN walkthroughs
@@ -112,7 +118,7 @@
 
 ==== How does one add additional users?
 * Basic system administration
-* Basic UNIX commands
+* Basic Unix commands
 
 
 ==== How does one mount or import additional disks?
@@ -131,7 +137,7 @@
 * How to use the hidden `gstreamer-properties` configuration utility.
 
 
-==== How do you use OI as a NAS?
+==== Using OI as a NAS
 * See: https://web.archive.org/web/20091008234550/http://developers.sun.com/openstorage/articles/opensolaris_nas.html
 * Running OI as a VMware EXSI guest
 ** Local storage hardware is passed through to the OI guest and then shared via ISCSI, CIFS, NFS, etc.
@@ -140,6 +146,7 @@
 ==== Using OI as a Media server, HTPC, etc.
 * http://forum.kodi.tv/showthread.php?tid=44315&page=2
 * http://lightsandshapes.com/plex-on-smartos.html
+
 
 ==== Graphics workstation
 
