@@ -19,18 +19,27 @@
 * Tips and Tricks
 
 === OI Selling points
-* The desktop is really what makes OI unique among all the different illumos distributions. I'd say the project should really capitalize on that. 
-* 47 keyboard layouts, 22 languages.
+* The desktop is really what makes OI unique among all the different illumos distributions. 
+** The project should really capitalize on the desktop
+*** Even though OI makes for a great server, the server space is dominated by OmniOS, SmartOS; OI will struggle competing there.
+** Aim not just for parity with PC-BSD or FreeBSD, but usability parity with Linux Mint.
+* 47 keyboard layouts, 22 languages - All Illumos have this though, so not really unique among illumos
 
 === Software wish list to make the desktop more usable
 
-* ATOM text editor
+==== Development tools
+* ATOM - Text Editor
+* Eclipse IDE
+* GVIM - Text Editor
+* Meld - Diff Viewer
 
 ==== Desktop publishing
 * Scribus or inkscape
 
 ==== Photography
 * Darktable
+* RawTherapee
+* Picasa
 
 
 
