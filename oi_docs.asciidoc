@@ -67,10 +67,9 @@ If not, how can someone tell what release they are on?
 * https://hg.openindiana.org/sustaining/
 * https://hg.openindiana.org/upstream/
 
-* Publish man pages online
-** illumos core man pages are available on illumos.org
-** OI specific man pages are not published. 
-
+==== Publish man pages online
+* illumos core man pages are available on illumos.org
+* OI specific man pages are not published. 
 * Recent Comment from OI-DEV IRC
 ====
   <leoric> looking at Ubuntu dhcp.conf online man page, I thought it would be good to have automatic extractor and search interface, extracting man pages from package repository and publishing them on OI site...
