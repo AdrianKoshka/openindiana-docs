@@ -36,6 +36,9 @@
 * KDE
 * Cinnamon
 
+==== Benchmarking tools
+* Phoronix Test Suite
+
 ==== Development tools
 * ATOM - Text Editor
 * GVIM - Text Editor
