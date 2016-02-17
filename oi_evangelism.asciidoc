@@ -2,14 +2,6 @@
 
 === Suggestions for promoting and or improving the OpenIndiana distro
 
-==== OI Selling points
-* The desktop is really what makes OI unique among all the different illumos distributions. 
-** The project should really capitalize on the desktop
-*** Even though OI makes for a great server, the server space is dominated by OmniOS, SmartOS; OI will struggle competing there.
-** Aim not just for parity with PC-BSD or FreeBSD, but usability parity with Linux Mint.
-* 47 keyboard layouts, 22 languages - All Illumos have this though, so not really unique among illumos
-
-
 ==== Public Relations
 * Distrowatch
 ** I contacted Distrowatch to update to info to 2015.10 and provided and updated list of package version. - [alarcher] 
@@ -29,7 +21,12 @@
 ==== Other Periodic Website Updates
 * Publish new pictures for the Community and update the Roadmap every 6 months
 
+
 === Software wish list to make the desktop more usable
+
+* The desktop is really what makes OI unique among all the different illumos distributions. 
+** The project should really capitalize on the desktop, and by extension include lots of GUI software.
+* Aim not just for parity with PC-BSD or FreeBSD, but usability parity with Linux Mint.
 
 ==== Alternate Desktops
 * http://mate-desktop.com/[Mate]
