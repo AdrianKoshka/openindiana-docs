@@ -14,7 +14,7 @@ OpenIndiana derives its name from Project Indiana, an open source effort by Sun 
 
 == Is OpenIndiana a desktop or a server operating system?
 
-As a highly capable general purpose Unix operating system, the OpenIndiana distribution is suitable for both workstations and servers. Simply pick the installer which best suits your needs (GUI or Text). OpenIndiana contains the following enterprise class features and more:
+As a highly capable general purpose Unix operating system, the OpenIndiana distribution is suitable for both workstations and servers. Simply pick the installer which best suits your needs (GUI based LiveCD or Text Console). OpenIndiana contains the following enterprise class features and more:
 
 |===
 |Feature |Description
@@ -148,7 +148,11 @@ To add a repository, use the following command: `pkg set-publisher -O <URL> <Rep
 [NOTE]
 ====
 * For each Terabyte of ZFS disk storage, it is recommended to add an additional 1GB of memory.
-* If you intend to operate OpenIndiana with minimal memory resources, please bear in mind the default size of the OpenIndiana swapfile is 50% of installed memory. For this reason, you are strongly encouraged to increase the size of the system swap to 4 GB or more. 
+====
+
+[IMPORTANT]
+====
+* If you intend to operate an OpenIndiana desktop with minimal memory resources, please bear in mind that unlike Linux or Windows, where swap files are generally 200% of installed memory, the default size of the OpenIndiana swap file is 50% of installed memory. For such use cases, the size of the system swap should be increased to 4 GB or more. 
 ====
 
 == Are there any books or documentation to help with learning OpenIndiana?
