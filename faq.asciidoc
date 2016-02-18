@@ -248,7 +248,9 @@ The **https://illumos.org[illumos project]** develops and maintains **https://gi
 
 == Does OpenIndiana provide a SPARC release?
 
-Hipster is not currently available for the SPARC platform, although there has been discussion on the **http://openindiana.org/mailman/listinfo[OpenIndiana mailing lists]** regarding the creation of a Hipster SPARC port. As for available ISO's, several years ago the OpenSolaris project released an **http://dlc.openindiana.org/isos/opensolaris[OpenSolaris text install ISO]**. And much more recently, there was work done by Adam Glassgall who produced an **http://neutron-star.mit.edu/OpenIndiana_Text_SPARC.iso[unofficial SPARC text install ISO]** based on oi-dev-151-a8. 
+Although there has been discussion on the **http://openindiana.org/mailman/listinfo[OpenIndiana mailing lists]** regarding the creation of a SPARC port, Hipster is not currently available for the SPARC platform. 
+
+However, the OpenSolaris project released in 2009 an **http://dlc.openindiana.org/isos/opensolaris[OpenSolaris text install ISO]**, and much more recently, there was work done by Adam Glassgall who produced an **http://neutron-star.mit.edu/OpenIndiana_Text_SPARC.iso[unofficial SPARC text install ISO]** based on oi-dev-151-a8. 
 
 The following illumos based distributions are known to support the SPARC platform:
 
