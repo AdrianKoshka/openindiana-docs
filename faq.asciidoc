@@ -1,5 +1,6 @@
-** Editor's note:** For comparison's sake, the current FreeBSD FAQ is 78 pages (including references, etc.), written in docbook 5, stored in subversion, and is currently at revision 47, 989. See: https://www.freebsd.org/doc/en_US.ISO8859-1/books/faq/book.html
+** Editor's note:** For comparison's sake, the current FreeBSD FAQ is 78 pages (including references, etc.), written in docbook 5, stored in subversion, and is currently at revision 47,989. See: https://www.freebsd.org/doc/en_US.ISO8859-1/books/faq/book.html
 
+= OpenIndiana FAQ
 
 == What is OpenIndiana?
 
@@ -8,7 +9,7 @@ The OpenIndiana project is the open source community which develops, maintains, 
 
 == Why is it called OpenIndiana?
 
-OpenIndiana derives its name from Project Indiana, an open source effort by Sun Microsystems (now Oracle Corporation) to produce OpenSolaris, a more modern and user friendly binary Unix distribution based on Sun Solaris. Some notable features of OpenSolaris were the introduction of the all familiar GNOME desktop, GNU userland tools, and a new network based package manager (IPS). To lead Project Indiana, Sun hired Ian Murdock, founder of the Debian Linux Distribution. 
+OpenIndiana derives its name from Project Indiana, an open source effort by Sun Microsystems (now Oracle Corporation) to produce OpenSolaris, a more modern and user friendly binary Unix distribution based on Sun Solaris. To lead Project Indiana, Sun hired Ian Murdock, founder of the Debian Linux Distribution. As the successor to Solaris Express, the OpenSolaris distribution played a (Fedora like) role as an open source community testbed for what would eventually become Oracle Solaris 11.
 
 
 == Is OpenIndiana a desktop or a server operating system?
