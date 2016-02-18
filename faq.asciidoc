@@ -98,8 +98,9 @@ Yes, absolutely. For the actively maintained Hipster rolling release, the OpenIn
 
 == What package manager does OpenIndiana use?
 
-OpenIndiana uses the network based **https://en.wikipedia.org/wiki/Image_Packaging_System[Image Packaging System (IPS)]**. For those coming to OpenIndiana from BSD or Linux, the IPS package manager will be an easy transition. You may also continue to use the legacy **pkgadd/pkgrm** commands. 
+OpenIndiana uses the network based **https://en.wikipedia.org/wiki/Image_Packaging_System[Image Packaging System (IPS)]**. For those coming to OpenIndiana from BSD or Linux, the IPS package manager will be an easy transition. You may also continue to use the legacy `pkgadd/pkgrm` commands. 
 
+[NOTE]
 The OpenIndiana distribution provides a basic set of packages, along with some extras. There are also 3rd party repositories which provide additional packages. If you wish to contribute by helping to expand package availability, please read further down about how to get involved with the OpenIndiana project.
 
 The following IPS repositories are available:
