@@ -10,6 +10,6 @@
 | http://asciidocfx.com/ | Java based Asciidoc IDE
 | https://github.com/asciidoctor/asciidoctor-confluence | Confluence plugin for Asciidoctor - (uploads pages to Confluence site)
 | http://gist.asciidoctor.org/ | Asciidoctor page renderer for GitHub Gist URL's
-| https://travis-ci.org/ | Automated test and deploy (similar to Jenkins, etc.)
+| https://travis-ci.org/ | Continious Integration (similar to Jenkins, etc.)
 | https://pages.github.com/ | Free webhosting for doc publishing
 |===
