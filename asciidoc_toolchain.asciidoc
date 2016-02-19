@@ -13,3 +13,9 @@
 | https://travis-ci.org/ | Continuous Integration (similar to Jenkins, etc.)
 | https://pages.github.com/ | Free webhosting for doc publishing
 |===
+
+* Static site generators
+** http://jekyllrb.com/
+** http://awestruct.org/
+
+
