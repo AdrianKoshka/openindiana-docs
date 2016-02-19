@@ -1,10 +1,12 @@
 = ASCIIDOC toolchain
 
 === General Information
-
-* http://www.methods.co.nz/asciidoc/
-* http://asciidoctor.org/
-* http://asciidocfx.com/
-* http://gist.asciidoctor.org/
-* https://travis-ci.org/
-* https://pages.github.com/
+|===
+|= URL |= Description
+| http://www.methods.co.nz/asciidoc/ | Asciidoc Language
+* http://asciidoctor.org/ | Ruby based Asciidoc page generator
+* http://asciidocfx.com/ | Java based Asciidoc IDE
+* https://github.com/asciidoctor/asciidoctor-confluence | Confluence plugin for Asciidoctor - (uploads pages to Confluence site)
+* http://gist.asciidoctor.org/ | Asciidoctor page renderer for GitHub Gist URL's
+* https://travis-ci.org/ | Automated test and deploy (similar to Jenkins, etc.)
+* https://pages.github.com/ | Free webhosting for doc publishing
