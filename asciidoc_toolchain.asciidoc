@@ -2,7 +2,7 @@
 
 === General Information
 |===
-|= URL |= Description
+|=URL |=Description
 | http://www.methods.co.nz/asciidoc/ | Asciidoc Language
 | http://asciidoctor.org/ | Ruby based Asciidoc page generator
 | http://asciidocfx.com/ | Java based Asciidoc IDE
