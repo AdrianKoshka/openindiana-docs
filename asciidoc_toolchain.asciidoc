@@ -5,8 +5,8 @@
 |===
 | URL | Description
 
-| http://www.methods.co.nz/asciidoc/ | Asciidoc Language
-| http://asciidoctor.org/ | Ruby based Asciidoc page generator
+| http://www.methods.co.nz/asciidoc/ | Asciidoc Language (the syntax)
+| http://asciidoctor.org/ | Ruby based parser and tools
 | http://asciidocfx.com/ | Java based Asciidoc IDE
 | https://github.com/asciidoctor/asciidoctor-confluence | Confluence plugin for Asciidoctor - (uploads to Confluence site)
 | http://gist.asciidoctor.org/ | Asciidoctor page renderer for GitHub Gist URL's
