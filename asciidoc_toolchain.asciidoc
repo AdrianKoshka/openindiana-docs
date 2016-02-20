@@ -18,4 +18,9 @@
 ** http://jekyllrb.com/
 ** http://awestruct.org/
 
+|===
+| URL | Desciption
 
+| https://www.youtube.com/watch?v=kyGJEVEjfAs | Write in AsciiDoc, Publish Everywhere!
+| https://www.youtube.com/watch?v=r6RXRi5pBXg | 7 Ways to Hack Your Brain to Write Fluently
+|===
