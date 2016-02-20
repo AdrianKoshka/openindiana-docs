@@ -1,7 +1,5 @@
 = Asciidoc toolchain
 
-=== General Information
-
 ==== Docs Writing Tips:
 * Write 1 sentence per line - Just like you would with code - (docs = code)
 * Use comments in your docs - Just like you would with code - (docs = code)
@@ -13,8 +11,7 @@
 * Write your docs by answering a question. Later turn the questions into sectional headings, etc.
 * Use a thesaurus - e.g. https://www.powerthesaurus.org/
 
-
-
+==== General Information
 
 |===
 | URL | Description
@@ -26,7 +23,7 @@
 | http://gist.asciidoctor.org/ | Asciidoctor page renderer for GitHub Gist URL's
 | https://travis-ci.org/ | Continuous Integration (similar to Jenkins, etc.)
 | https://pages.github.com/ | Publish from your github repo
-| http://hubpress.io/ | Blog from your github repo
+| http://hubpress.io/ | Blog from your github repo - built in Asciidoctor support
 |===
 
 * Static site generators
