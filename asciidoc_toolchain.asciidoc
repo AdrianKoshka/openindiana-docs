@@ -2,6 +2,20 @@
 
 === General Information
 
+==== Docs Writing Tips:
+* Write 1 sentence per line - Just like you would with code - (docs = code)
+* Use comments in your docs - Just like you would with code - (docs = code)
+* Use version control - fork and fix - Just like you would with code - (docs = code)
+* Couch read - via a phone or tablet, proof read what you previously wrote. - (puts you into the reader's shoes)
+* Use "Attributes" and name space them - e.g. `:uri-project: <url>` -(place these attributes at top of document)
+** Call your attributes in your docs like this: `{uri-project} [Project name]`
+* Use "Includes" - e.g. `include:: {uri-macros}/doc_to_import.asciidoc[]` - (allows you to pull in other docs into your docs)
+* Write your docs by answering a question. Later turn the questions into sectional headings, etc.
+* Use a thesaurus - e.g. https://www.powerthesaurus.org/
+
+
+
+
 |===
 | URL | Description
 
@@ -11,7 +25,8 @@
 | https://github.com/asciidoctor/asciidoctor-confluence | Confluence plugin for Asciidoctor - (uploads to Confluence site)
 | http://gist.asciidoctor.org/ | Asciidoctor page renderer for GitHub Gist URL's
 | https://travis-ci.org/ | Continuous Integration (similar to Jenkins, etc.)
-| https://pages.github.com/ | Free webhosting for doc publishing
+| https://pages.github.com/ | Publish from your github repo
+| http://hubpress.io/ | Blog from your github repo
 |===
 
 * Static site generators
