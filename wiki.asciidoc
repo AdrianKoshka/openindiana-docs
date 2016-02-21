@@ -1,5 +1,10 @@
 = Considerations and ideas for improving the wiki
 
+[NOTE]
+====
+Click to view this doc in it's final Asciidoctor rendered form: http://gist.asciidoctor.org/?bfa71eda36c4191a675f
+====
+
 === Just some thoughts.....
 
 === Need to give some consideration to how the wiki renders on mobile devices
