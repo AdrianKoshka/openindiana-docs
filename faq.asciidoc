@@ -15,19 +15,20 @@ Separate paragraphs using a blank line.
 
 == What is OpenIndiana?
 
-The OpenIndiana project is the open source community which develops, maintains, and supports the **https://en.wikipedia.org/wiki/OpenIndiana[OpenIndiana]** distribution, an **https://en.wikipedia.org/wiki/Illumos[illumos]** based Unix operating system derived from OpenSolaris.
+The OpenIndiana project is the open source community which develops, maintains, and supports the **https://en.wikipedia.org/wiki/OpenIndiana[OpenIndiana]** distribution, an **https://en.wikipedia.org/wiki/Illumos[illumos]** based Unix-like operating system derived from OpenSolaris.
 The OpenIndiana project is also a continuation of the collaborative effort and community spirit of the **https://en.wikipedia.org/wiki/OpenSolaris[OpenSolaris project]**.
 
 
 == Why is it called OpenIndiana?
 
-OpenIndiana derives its name from Project Indiana, an open source effort by Sun Microsystems (now Oracle Corporation) to produce OpenSolaris, a more modern and user friendly binary Unix distribution based on Sun Solaris.
-To lead Project Indiana, Sun hired Ian Murdock, founder of the Debian Linux Distribution. As the successor to Solaris Express, the OpenSolaris distribution played a (Fedora like) role as an open source community testbed for what would eventually become Oracle Solaris 11.
+OpenIndiana derives its name from Project Indiana, an open source effort by Sun Microsystems (now Oracle Corporation) to produce OpenSolaris, a more modern and user friendly binary Unix-like distribution based on Sun Solaris.
+To lead Project Indiana, Sun hired Ian Murdock, founder of the Debian Linux Distribution.
+As the successor to Solaris Express, the OpenSolaris distribution played a (Fedora like) role as an open source community testbed for what would eventually become Oracle Solaris 11.
 
 
 == Is OpenIndiana a desktop or a server operating system?
 
-As a highly capable general purpose Unix operating system, the OpenIndiana distribution is suitable for both workstations and servers.
+As a highly capable general purpose Unix-like operating system, the OpenIndiana distribution is suitable for both workstations and servers.
 Simply pick the installer which best suits your needs (GUI based LiveCD or Text Console).
 OpenIndiana contains the following enterprise class features and more:
 
@@ -86,7 +87,10 @@ Approximately every six months, the OpenIndiana project releases a snapshot of t
 
 
 |===
-| Live DVD/USB - (Best for Desktops) | Text Install DVD/USB  - (Best for Servers)
+| Workstation | Server
+
+| Live DVD or USB
+| Text Install DVD or USB
 
 | Gnome desktop
 | Text based console
@@ -259,7 +263,7 @@ For additional details, please see: **http://www.openindiana.org/community/getti
 
 == Is OpenIndiana a “fork” of OpenSolaris?
 
-The goal of the OpenIndiana Project is to ensure the continued availability of an openly developed binary Unix distribution derived from OpenSolaris. 
+The goal of the OpenIndiana Project is to ensure the continued availability of an openly developed binary Unix-like distribution derived from OpenSolaris. 
 
 As such, the OpenIndiana distribution is built from an assortment of source code.
 Some of this code was originally derived from OpenSolaris.
