@@ -1,5 +1,10 @@
 = OI Handbook
 
+[NOTE]
+====
+Click to view this doc in its final Asciidoctor rendered form: http://gist.asciidoctor.org/?0308b93ed76d35bb4c62
+====
+
 === Basic outline
 * Intro
 
