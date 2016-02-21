@@ -1,5 +1,10 @@
 = OI evangelism
 
+[NOTE]
+====
+Click to view this doc in its final Asciidoctor rendered form: http://gist.asciidoctor.org/?391b4060259e1b795152
+====
+
 === Suggestions for promoting and or improving the OpenIndiana distro
 
 ==== Public Relations
