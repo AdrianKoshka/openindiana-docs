@@ -1,3 +1,14 @@
+= OpenIndiana FAQ
+
+[NOTE]
+For comparison's sake, the current FreeBSD FAQ is 78 pages (including references, etc.).
+Written in docbook 5, the faq is stored in subversion, and is currently at revision 47,989.
+See: https://www.freebsd.org/doc/en_US.ISO8859-1/books/faq/book.html
+
+[NOTE]
+To view this doc in its final rendered form, click the following link: http://gist.asciidoctor.org/?83209277d6382c01c534
+
+
 ////
 When working on this document, please bear in mind "Docs = Source Code".
 Because docs are source code, treat and work this doc exactly like you would with source code.
@@ -8,28 +19,27 @@ Because docs are source code, treat and work this doc exactly like you would wit
 * Separate paragraphs using a blank line.
 ////
 
-[NOTE]
-For comparison's sake, the current FreeBSD FAQ is 78 pages (including references, etc.).
-Written in docbook 5, the faq is stored in subversion, and is currently at revision 47,989.
-See: https://www.freebsd.org/doc/en_US.ISO8859-1/books/faq/book.html
-
-[NOTE]
-To view this doc in its final rendered form, click the following link: http://gist.asciidoctor.org/?83209277d6382c01c534
-
-= OpenIndiana FAQ
-
 
 == What is OpenIndiana?
 
 The OpenIndiana project is the open source community which develops, maintains, and supports the https://en.wikipedia.org/wiki/OpenIndiana[OpenIndiana] distribution, an https://en.wikipedia.org/wiki/Illumos[illumos] based Unix-like operating system derived from OpenSolaris.
 The OpenIndiana project is also a continuation of the collaborative effort and community spirit of the https://en.wikipedia.org/wiki/OpenSolaris[OpenSolaris project].
-The goal of the OpenIndiana Project is to ensure the continued availability of an openly developed binary Unix-like distribution derived from OpenSolaris. 
+The goal of the OpenIndiana Project is to ensure the continued availability of an openly developed distribution based on OpenSolaris.
+
+
+== Why is it called OpenIndiana?
+
+OpenIndiana obtains its name from Project Indiana, an open source effort by Sun Microsystems (now Oracle Corporation) to produce OpenSolaris, a more modern and user friendly binary Unix-like distribution based on Sun Solaris.
+To lead Project Indiana, Sun hired Ian Murdock, founder of the Debian Linux Distribution.
+As the successor to Solaris Express, the OpenSolaris distribution played a (Fedora like) role as an open source community testbed for what would eventually become Oracle Solaris 11.
+
 
 == What is the relationship between OpenIndiana and illumos?
 
-The https://illumos.org[illumos project] develops and maintains https://github.com/illumos/illumos-gate[illumos-gate], the core software consolidation used in OpenIndiana. 
-As illumos is not itself a distribution, OpenIndiana combines illumos-gate with oi-userland, and other additional free and open-source software.
-This melding of many different open-source software projects is somewhat analogous to how Linux distributions use the Linux kernel along with software from the GNU and various other open source projects. 
+The https://illumos.org[illumos project] is the open source community which develops, maintains, and supports  https://github.com/illumos/illumos-gate[illumos-gate], the core software used by the OpenIndiana distribution.
+As illumos is not itself a distribution, the OpenIndiana project combines illumos-gate with oi-userland, and with other open-source software.
+This melding of software from many different open-source projects is somewhat analogous to how Linux distributions use the Linux kernel along with software from the GNU and various other open source projects. 
+
 
 == How does OpenIndiana differ from OpenSolaris?
 
@@ -41,12 +51,6 @@ Some of the differences between OpenIndiana and OpenSolaris can be characterized
 Please note: This change only affects applications written in `C++`. 
 Applications coded in C should continue to work normally.
 * XVM (XEN) has been replaced with the illumos-kvm port.
-
-== Why is it called OpenIndiana?
-
-OpenIndiana derives its name from Project Indiana, an open source effort by Sun Microsystems (now Oracle Corporation) to produce OpenSolaris, a more modern and user friendly binary Unix-like distribution based on Sun Solaris.
-To lead Project Indiana, Sun hired Ian Murdock, founder of the Debian Linux Distribution.
-As the successor to Solaris Express, the OpenSolaris distribution played a (Fedora like) role as an open source community testbed for what would eventually become Oracle Solaris 11.
 
 
 == Is OpenIndiana a desktop or a server operating system?
@@ -124,11 +128,9 @@ Approximately every six months, the OpenIndiana project releases a snapshot of t
 * For additional mirrors, please see: http://wiki.openindiana.org/oi/Mirrors.
 
 [NOTE]
-====
 * Releases from the legacy oi-dev-151x branch are no longer maintained.
 ** For those desiring to upgrade their legacy installations, Hipster IPS repositories are available.
 ** While upgrading from legacy releases is possible, the cleanest and most trouble free method is to perform a clean install.
-====
 
 CAUTION: Hipster is a rapid development branch where software versions are frequently updated.
 While every package is tested to ensure its stability, caution is nevertheless warranted for those intending to deploy Hipster into mission critical production environments.
@@ -205,6 +207,7 @@ If you intend to operate an OpenIndiana desktop with minimal memory resources, p
 For such use cases, the size of the system swap should be increased to 4 GB or more.
 ====
 
+
 == Are there any books or documentation to help with learning OpenIndiana?
 
 Yes. There are several resources which will assist you with OpenIndiana.
@@ -234,6 +237,7 @@ If you would like to help with either of these efforts, please indicate your int
 * http://openindiana.org/mailman[OpenIndiana discussion mailing list]
 * irc://irc.freenode.net/oi-documentation[#oi-documentation on irc.freenode.net]
 ====
+
 
 == How do I get involved with the OpenIndiana Project?
 
