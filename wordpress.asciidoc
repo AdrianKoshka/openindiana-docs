@@ -1,5 +1,10 @@
 == Considerations and ideas for further improving the OI WordPress website.
 
+[NOTE]
+====
+Click to see this doc in its final Asciidoctor rendered form: http://gist.asciidoctor.org/?113cbbe98aedec5674aa
+====
+
 === Just some general thoughts.....
 
 * The current OI website is a marked improvement over what previously existed. But anything that is already good can be further improved.
