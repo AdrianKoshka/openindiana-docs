@@ -1,7 +1,7 @@
 = Asciidoc toolchain
 
 [NOTE]
-To view this doc in it's final Asciidoctor rendered form, click here: http://gist.asciidoctor.org/?c1d8d58a0ab02e648cec
+Click to view this doc in it's final Asciidoctor rendered form: http://gist.asciidoctor.org/?c1d8d58a0ab02e648cec
 
 ==== Doc Writing Tips:
 * Write 1 sentence per line - Just like you would with code - (docs = code)
