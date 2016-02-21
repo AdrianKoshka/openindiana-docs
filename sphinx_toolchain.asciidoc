@@ -5,6 +5,11 @@
 I've deciced to go with an ASCIIDOC based tool chain, but retaining this information for future reference. Hopefully it will be useful for somebody.
 ====
 
+[NOTE]
+====
+Click to view this doc in its final Asciidoctor rendered form: http://gist.asciidoctor.org/?7025542221d44c31f29e
+====
+
 === Rough Draft for how this might work.
 
 * Preface
