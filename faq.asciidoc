@@ -3,6 +3,9 @@ For comparison's sake, the current FreeBSD FAQ is 78 pages (including references
 Written in docbook 5, the faq is stored in subversion, and is currently at revision 47,989.
 See: https://www.freebsd.org/doc/en_US.ISO8859-1/books/faq/book.html
 
+[NOTE]
+To view this doc in its final rendered form, click the following link: http://gist.asciidoctor.org/?83209277d6382c01c534
+
 ////
 When working on this document, please try to place one sentence on each line (just as you would with source code).
 This make is much easier to navigate, move lines around, add comments, etc., etc.
