@@ -1,5 +1,11 @@
 = TOC Structure used by PC-BSD
 
+[NOTE]
+====
+Click to view this doc in its final Asciidoctor rendered form: http://gist.asciidoctor.org/?da23861db4238eb4d633
+====
+
+
 * Introduction
 * Pre-Installation Tasks
 * Installing PC-BSD
