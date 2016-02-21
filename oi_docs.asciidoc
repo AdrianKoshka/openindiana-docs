@@ -1,5 +1,10 @@
 === Thoughts and Considerations for Improving OpenIndiana Documentation
 
+[NOTE]
+====
+Click to view this doc in its final Asciidoctor rendered form: http://gist.asciidoctor.org/?48bca1c83935b7285f52
+====
+
 ==== A user comment posted to OI wiki in 2011:
 * "Documentation such as a manual is essential in not just learning from, it tells everyone where the product is in the scheme of things. Referring to Oracle for documentation relating to OI just makes one have less confidence with OI itself. Look at the FreeBSD site documentation levels are really good and gives people confidence to try FreeBSD and its derivatives."
 
