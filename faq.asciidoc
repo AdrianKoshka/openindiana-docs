@@ -8,10 +8,11 @@ See: https://www.freebsd.org/doc/en_US.ISO8859-1/books/faq/book.html
 [NOTE]
 To view this doc in its final rendered form, click the following link: http://gist.asciidoctor.org/?83209277d6382c01c534
 
+FYI....The notes above will be removed when this document is published on the OpenIndiana website.
 
 ////
 When working on this document, please bear in mind "Docs = Source Code".
-Because docs are source code, treat and work this doc exactly like you would with source code.
+In other words, treat this doc exactly as you would source code.
 
 * Place one sentence on each line (just as you would with source code).
 * This make is much easier to navigate, move lines around, add comments, etc.
@@ -24,39 +25,26 @@ Because docs are source code, treat and work this doc exactly like you would wit
 
 The OpenIndiana project is the open source community which develops, maintains, and supports the https://en.wikipedia.org/wiki/OpenIndiana[OpenIndiana] distribution, an https://en.wikipedia.org/wiki/Illumos[illumos] based Unix-like operating system derived from OpenSolaris.
 The OpenIndiana project is also a continuation of the collaborative effort and community spirit of the https://en.wikipedia.org/wiki/OpenSolaris[OpenSolaris project].
-The goal of the OpenIndiana Project is to ensure the continued availability of an openly developed distribution based on OpenSolaris.
+The purpose of the OpenIndiana Project is to ensure the continued availability of an openly developed distribution based on OpenSolaris.
 
 
 == Why is it called OpenIndiana?
 
-OpenIndiana obtains its name from Project Indiana, an open source effort by Sun Microsystems (now Oracle Corporation) to produce OpenSolaris, a more modern and user friendly binary Unix-like distribution based on Sun Solaris.
+OpenIndiana obtains its name from Project Indiana, an open source effort by Sun Microsystems (now Oracle Corporation) to produce OpenSolaris, a community developed Unix-like distribution based on Sun Solaris.
 To lead Project Indiana, Sun hired Ian Murdock, founder of the Debian Linux Distribution.
-As the successor to Solaris Express, the OpenSolaris distribution played a (Fedora like) role as an open source community testbed for what would eventually become Oracle Solaris 11.
 
 
 == What is the relationship between OpenIndiana and illumos?
 
 The https://illumos.org[illumos project] is the open source community which develops, maintains, and supports  https://github.com/illumos/illumos-gate[illumos-gate], the core software used by the OpenIndiana distribution.
-As illumos is not itself a distribution, the OpenIndiana project combines illumos-gate with oi-userland, and with other open-source software.
-This melding of software from many different open-source projects is somewhat analogous to how Linux distributions use the Linux kernel along with software from the GNU and various other open source projects. 
+Similar to a BSD `src` tree, illumos-gate includes the illumos kernel, along with many of the device drivers, core libraries, and system utilities.
+
+To form a complete distribution, the OpenIndiana project combines illumos-gate with oi-userland, and with other free and open-source software.
+This melding of software from many different open-source projects is similar to how Linux distributions use the Linux kernel along with software from the GNU and various other open source projects. 
+
+== What features does Openindiana have?
 
 
-== How does OpenIndiana differ from OpenSolaris?
-
-Some of the differences between OpenIndiana and OpenSolaris can be characterized as follows:
-
-* Sun/Oracle's proprietary OS/NET consolidation has been replaced with https://github.com/OpenIndiana/illumos-gate[illumos-gate].
-* Many of the original OpenSolaris software consolidations have been reorganized into a single https://github.com/OpenIndiana/oi-userland[oi-userland] consolidation.
-* Oracle's Sun Studio has been replaced with the open source GNU GCC compiler - thus breaking ABI (binary) compatibility with Oracle Solaris and OpenSolaris. 
-Please note: This change only affects applications written in `C++`. 
-Applications coded in C should continue to work normally.
-* XVM (XEN) has been replaced with the illumos-kvm port.
-
-
-== Is OpenIndiana a desktop or a server operating system?
-
-As a highly capable general purpose Unix-like operating system, the OpenIndiana distribution is suitable for both workstations and servers.
-Simply pick the installer which best suits your needs (GUI based LiveCD or Text Console).
 OpenIndiana contains the following enterprise class features and more:
 
 |===
@@ -103,37 +91,49 @@ OpenIndiana contains the following enterprise class features and more:
 |===
 
 
-== Does OpenIndiana support additional keyboard layouts and languages?
+== What types of releases does OpenIndiana make available?
 
-Yes, when installing OpenIndiana, you may choose from 47 different keyboard layouts and 22 different languages.
-
-
-== What type of releases does OpenIndiana make available?
-
-Approximately every six months, the OpenIndiana project releases a snapshot of the Hipster rapid development branch in the following formats:
-
+Approximately every six months, the OpenIndiana project releases a snapshot of the Hipster rolling release branch.
+Perfectly suited for both workstations and servers, simply pick the installer which best suits your needs:
 
 |===
 | Workstation | Server
 
-| Live DVD or USB
-| Text Install DVD or USB
+| Live installer with Gnome desktop | Text installer with command line console
 
-| Gnome desktop
-| Text based console
+| http://openindiana.org/download[Primary Download Site] 
+| http://wiki.openindiana.org/oi/Mirrors[Additional Mirrors]
 |===
 
 
-* To access our download site, please see: http://openindiana.org/download.
-* For additional mirrors, please see: http://wiki.openindiana.org/oi/Mirrors.
-
 [NOTE]
-* Releases from the legacy oi-dev-151x branch are no longer maintained.
-** For those desiring to upgrade their legacy installations, Hipster IPS repositories are available.
-** While upgrading from legacy releases is possible, the cleanest and most trouble free method is to perform a clean install.
+====
+* Releases from the oi-dev-151x branch are no longer maintained.
+* For those desiring to upgrade legacy installations, Hipster IPS repositories are available.
+* While upgrading from oi-dev-151x is possible, the most trouble free method is to perform a clean install.
+====
 
-CAUTION: Hipster is a rapid development branch where software versions are frequently updated.
+[CAUTION]
+====
+Hipster is a rapid development branch where software versions are frequently updated.
 While every package is tested to ensure its stability, caution is nevertheless warranted for those intending to deploy Hipster into mission critical production environments.
+====
+
+== How does OpenIndiana differ from OpenSolaris?
+
+Some of the differences between OpenIndiana and OpenSolaris can be characterized as follows:
+
+* Sun/Oracle's proprietary OS/NET consolidation has been replaced with https://github.com/OpenIndiana/illumos-gate[illumos-gate].
+* Many of the original OpenSolaris software consolidations have been reorganized into a single https://github.com/OpenIndiana/oi-userland[oi-userland] consolidation.
+* Oracle's Sun Studio has been replaced with the open source GNU GCC compiler - thus breaking ABI (binary) compatibility with Oracle Solaris and OpenSolaris. 
+Please note: This change only affects applications written in `C++`. 
+Applications coded in C should continue to work normally.
+* XVM (XEN) has been replaced with the illumos-kvm port.
+
+
+== Is there support additional keyboard layouts and languages?
+
+Yes, when installing OpenIndiana, you may choose from 47 different keyboard layouts and 22 different languages.
 
 
 == Does OpenIndiana provide security and bug fixes?
@@ -203,8 +203,8 @@ To add a repository, use the following command: `pkg set-publisher -O <URL> <Rep
 
 [IMPORTANT]
 ====
-If you intend to operate an OpenIndiana desktop with minimal memory resources, please bear in mind that unlike Linux or Windows, where swap files are generally 200% of installed memory, the default size of the OpenIndiana swap file is 50% of installed memory.
-For such use cases, the size of the system swap should be increased to 4 GB or more.
+Unlike Linux or Windows, where swap files are generally 100-200% of installed memory, the default size of the OpenIndiana swap file is 50% of installed memory.
+For use cases where OpenIndiana is operated with minimal memory resources, system swap size should be increased to 4 GB or more.
 ====
 
 
