@@ -24,14 +24,14 @@ In other words, treat this doc exactly as you would source code.
 == What is OpenIndiana?
 
 The OpenIndiana project is the open source community which develops, maintains, and supports the https://en.wikipedia.org/wiki/OpenIndiana[OpenIndiana] distribution, an https://en.wikipedia.org/wiki/Illumos[illumos] based Unix-like operating system derived from OpenSolaris.
-The OpenIndiana project is also a continuation of the collaborative effort and community spirit of the https://en.wikipedia.org/wiki/OpenSolaris[OpenSolaris project].
 The purpose of the OpenIndiana Project is to ensure the continued availability of an openly developed distribution based on OpenSolaris.
+The OpenIndiana project is also a continuation of the collaborative effort and community spirit of the https://en.wikipedia.org/wiki/OpenSolaris[OpenSolaris project].
 
 
 == Why is it called OpenIndiana?
 
 OpenIndiana obtains its name from Project Indiana, an open source effort by Sun Microsystems (now Oracle Corporation) to produce OpenSolaris, a community developed Unix-like distribution based on Sun Solaris.
-To lead Project Indiana, Sun hired Ian Murdock, founder of the Debian Linux Distribution.
+Project Indiana was led by Ian Murdock, founder of the Debian Linux Distribution.
 
 
 == What is the relationship between OpenIndiana and illumos?
