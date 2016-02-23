@@ -34,7 +34,7 @@ OpenIndiana obtains its name from Project Indiana, an open source effort by Sun 
 Project Indiana was led by Ian Murdock, founder of the Debian Linux Distribution.
 
 
-== What is the relationship between OpenIndiana and illumos?
+== How are OpenIndiana and illumos related?
 
 The https://illumos.org[illumos project] is the open source community which develops, maintains, and supports  https://github.com/illumos/illumos-gate[illumos-gate], the core software used by the OpenIndiana distribution.
 Similar to a BSD `src` tree, illumos-gate includes the illumos kernel, along with many of the device drivers, core libraries, and system utilities.
