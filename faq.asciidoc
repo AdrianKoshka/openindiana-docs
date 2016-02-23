@@ -131,7 +131,7 @@ Applications coded in C should continue to work normally.
 * XVM (XEN) has been replaced with the illumos-kvm port.
 
 
-== Is there support additional keyboard layouts and languages?
+== Are additional keyboard layouts and languages available?
 
 Yes, when installing OpenIndiana, you may choose from 47 different keyboard layouts and 22 different languages.
 
