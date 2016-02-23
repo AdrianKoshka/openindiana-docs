@@ -42,8 +42,8 @@ Similar to a BSD `src` tree, illumos-gate includes the illumos kernel, along wit
 To form a complete distribution, the OpenIndiana project combines illumos-gate with oi-userland, and with other free and open-source software.
 This melding of software from many different open-source projects is similar to how Linux distributions use the Linux kernel along with software from the GNU and various other open source projects. 
 
-== What features does Openindiana have?
 
+== What features does Openindiana have?
 
 OpenIndiana contains the following enterprise class features and more:
 
@@ -101,8 +101,9 @@ Perfectly suited for both workstations and servers, simply pick the installer wh
 
 | Live installer with Gnome desktop | Text installer with command line console
 
-| http://openindiana.org/download[Primary Download Site] 
-| http://wiki.openindiana.org/oi/Mirrors[Additional Mirrors]
+| http://dlc.openindiana.org/isos/hipster[Primary Download Mirror] 
+| http://ftp.vim.org/os/openindiana.org/dlc/isos/hipster[Vim.org Alternate Download Mirror]
+
 |===
 
 
@@ -110,7 +111,7 @@ Perfectly suited for both workstations and servers, simply pick the installer wh
 ====
 * Releases from the oi-dev-151x branch are no longer maintained.
 * For those desiring to upgrade legacy installations, Hipster IPS repositories are available.
-* While upgrading from oi-dev-151x is possible, the most trouble free method is to perform a clean install.
+* While upgrading from legacy is possible, the most trouble free method is to perform a clean install.
 ====
 
 [CAUTION]
