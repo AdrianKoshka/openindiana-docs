@@ -167,11 +167,6 @@ While every package is tested to ensure its stability, caution is nevertheless w
 |===
 
 
-[NOTE]
-====
-* For each Terabyte of ZFS disk storage, it is recommended to add an additional 1GB of memory.
-====
-
 [IMPORTANT]
 ====
 Unlike Linux or Windows, where swap files are generally 100-200% of installed memory, the default size of the OpenIndiana swap file is 50% of installed memory.
