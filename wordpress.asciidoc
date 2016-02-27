@@ -1,0 +1,85 @@
+== Considerations and ideas for further improving the OI WordPress website.
+
+[NOTE]
+====
+Click to see this doc in its final Asciidoctor rendered form: http://gist.asciidoctor.org/?113cbbe98aedec5674aa
+====
+
+=== Just some general thoughts.....
+
+* The current OI website is a marked improvement over what previously existed. But anything that is already good can be further improved.
+* Wondering if we can expand on the Hipster name, perhaps by theming the website in a similar manor.
+** Hipster denotes something trendy, or in fashion, etc., the website theme should exploit this in some way.
+*** Could try something some like big fashionable buttons as follows:
+
+|===
+| Button label | URL points to
+
+| Get it 
+| Hipster Downloads
+
+| Install it 
+| Installation Guidance/Tutorials/Instructions
+
+| Use It 
+| Hipster Handbook
+
+| Discuss it 
+| OI Mailing lists/IRC, etc.
+
+| Extend It 
+| Developer Handbook
+|===
+
+
+=== Favicon
+* Can we add the OI favicon to Wordpress like we see on the wiki?
+
+
+=== Mobile Devices
+* Maybe we should put something on the front page mentioning the mobile menu which is available in the upper left hand corner.
+** Due to the dark blue color scheme, this menu is hard to see and easily missed.
+** Can the color of the 3 bars be changed to white or something?
+
+=== Other Thoughts
+* Add some links to the Community > Getting Involved page.
+** #oi-dev IRC chat archives - http://echelog.com/logs/browse/oi-dev/
+** #openindiana IRC chat archives - http://echelog.com/logs/browse/openindiana/
+** oi-dev mailing list archives - http://openindiana.org/pipermail/oi-dev/
+** openindiana mailing list archives - http://openindiana.org/pipermail/openindiana-discuss/
+** twitter @openindiana
+//[Already listed there but maybe it is more a matter of reorganizing the content for better readability - alarcher ]//
+
+* Have redirects (mailing lists, illumos links, etc., ) open into a new tab so OI webpage remains open.
+
+* Update Roadmap page and move it underneath some other tab.
+//[I disagree on this one, it is important to have the roadmap as visible as possible, especially for a projet like OI that many call dead - alarcher ]//
+
+* Move link to WIKI to a more prominent location (e.g. its own first level tab on home page). Wiki is currently listed last under documentation.
+//[Agreed but after the Wiki is turned into something else than a pile of obsolete or unstructured info. Currently I do not want to direct people to this mess - alarcher]//
+
+* More frequent updates to Latest News.
+//[Agreed but need people to write them... - alarcher]//
+
+* Community > Security Advisories is misleading. This only leads to page to report problems, not view already reported advisories as the breadcrumbs would suggest.
+
+* Update Documentation > FAQ
+
+* Documentation > Gallery - Lets update the screenshots - should be from Hipster.
+
+* Update Packages page to include SFE and other repos (along with information and what is and isn’t compatible).
+//[Done - alarcher]//
+
+* Disable WordPress pingbacks. They don’t look to offer any real value (e.g. the download page has 68 pingbacks).
+//[Already disabled, these are oldies - alarcher]//
+
+* A support forum like Ubuntu or Mint, etc. People have been leaving (largely unanswered) comments on Wiki in lieu of a support forum.
+//[Opening comments on this Wiki is an error in the first place - alarcher]//
+
+* Blog aggregator
+* Post old Solaris docs (as they are updated)
+* Export XML/HTML to PDF and EPUB books.
+
+* Add list of mirrors, torrents, etc., to download page on website.
+** Need to find more places to mirror, preferably some in north america too.
+** https://web.archive.org/web/20091223051956/http://www.opensolaris.com/get/index.jsp[Original list of mirrors]
