@@ -1,19 +1,15 @@
-=== Thoughts and Considerations for Improving OpenIndiana Documentation
+= Improving OpenIndiana Documentation
 
-[NOTE]
-====
-Click to view this doc in its final Asciidoctor rendered form: http://gist.asciidoctor.org/?48bca1c83935b7285f52
-====
 
-==== A user comment posted to OI wiki in 2011:
+=== A user comment posted to OI wiki in 2011:
 * "Documentation such as a manual is essential in not just learning from, it tells everyone where the product is in the scheme of things. Referring to Oracle for documentation relating to OI just makes one have less confidence with OI itself. Look at the FreeBSD site documentation levels are really good and gives people confidence to try FreeBSD and its derivatives."
 
 
-==== A comment snipped from the FreeBSD Forum in 2013
+=== A comment snipped from the FreeBSD Forum in 2013
 * "FreeBSD has been around almost as long as Unix itself existed (not entirely true, but you get the idea) and same can be said for Solaris as it was. Yet the OpenSolaris group basically still has to prove themselves. For all I know (from a commercial point of view) they could be gone next month. That makes it a liability, especially in comparison to Sun being out of the picture and the love/hate relationship with Oracle."
 
 
-==== Some other things to think about
+=== Some other things to think about
 
 
 As a general thought....seems like it would be a good idea for the OI project to begin distancing itself from both Oracle and it's OpenSolaris roots. 
@@ -23,7 +19,7 @@ What I mean is it's almost kind of pointless to keep talking about OI being a fo
 //[The reason is that the website's content has not been update aside from the few pages I modified during the update - alarcher ]//
 
 
-==== Useful references
+=== Useful references
 * https://web.archive.org/web/20081207155129/http://opensolaris.org/os/community/documentation/files/OSOLDOCSG.pdf[ OpenSolaris Documentation Style Guide -(from wayback machine)]
 * https://web.archive.org/web/20090823064740/http://www.opensolaris.org/os/community/documentation/[Old OpenSolaris Docs website - (from wayback machine)]
 * link to illumos graphics files: https://www.illumos.org/projects/site/files

@@ -1,11 +1,8 @@
 = OI Handbook
 
-[NOTE]
-====
-Click to view this doc in its final Asciidoctor rendered form: http://gist.asciidoctor.org/?0308b93ed76d35bb4c62
-====
 
 == Basic outline
+
 * Intro
 
 * Get it
@@ -54,6 +51,7 @@ Hipster is a rapid development branch where software versions are frequently upd
 While every package is tested to ensure its stability, caution is nevertheless warranted for those intending to deploy Hipster into mission critical production environments.
 ====
 
+
 == What are the system hardware requirements?
 
 |===
@@ -79,6 +77,7 @@ Unlike Linux or Windows, where swap files are generally 100-200% of installed me
 For use cases where OpenIndiana is operated with minimal memory resources, system swap size should be increased to 4 GB or more.
 ====
 
+
 == Where can the software be obtained?
 
 |===
@@ -90,6 +89,7 @@ For use cases where OpenIndiana is operated with minimal memory resources, syste
 
 If you wish to purchase a ready made DVD or USB drive there is also https://www.osdisc.com/products/solaris/openindiana[OSDISC.COM]
 
+
 == How can I create a bootable OpenIndiana DVD?
 
 Windows, Linux, and OpenIndiana
@@ -98,8 +98,8 @@ Windows, Linux, and OpenIndiana
 * Check MD5.
 * Burn it to a DVD.
 
-== How can I create a bootable OpenIndiana USB flash drive? 
 
+== How can I create a bootable OpenIndiana USB flash drive? 
 
 Requirements
 
@@ -160,11 +160,13 @@ Although it is possible to use it over a network with SSH X forwarding if you en
 The text installer is not graphical and does not have a live environment.
 When you boot it, it immediately begins the installation process.
 
+
 === Booting Physical Hardware
 
 Insert the bootable media (DVD or USB flash drive) and boot (start/restart) your computer.
 For the computer to boot from the media, you may need to specify the device by pressing the boot order hotkey.
 Alternately, you may need to change the boot device order in your BIOS configuration.
+
 
 === Booting Virtual Hardware
 
@@ -178,6 +180,7 @@ For VirtualBox 3.2 or later:
 
 "Use host I/O cache" must be enabled in the emulated storage controller used by the virtual machine to successfully boot OpenIndiana.
 
+
 ==== Vmware Workstation Player
 
 
@@ -190,13 +193,16 @@ When you see a menu, press Enter to start OpenIndiana on your computer.
 As it runs, you will be prompted with a few questions.
 You should eventually be presented with a desktop. 
 
+
 === Using the Device Driver Utility
 
 You can use the Device Driver Utility to check if your hardware requires additional drivers.
 
+
 === Installing OpenIndiana to the Hard Disk
 
 Click on Install OpenIndiana to permanently install OpenIndiana on your computer.
+
 
 === Troubleshooting Installations
 
@@ -206,6 +212,7 @@ Click on Install OpenIndiana to permanently install OpenIndiana on your computer
 ** When you contact us, please include any error messages you see on the console, as well as the output of the `svcs -xv` command.
 ** If possible, also include the contents of the file `/var/log/Xorg.0.log`.
 
+
 === Logging into OpenIndiana
 
 The user login for the text session is username 'jack' along with the password 'jack'.
@@ -213,6 +220,7 @@ For administrative or elevated access, prepend your commands with `pfexec`.
 You may also use the `sudo` command.
 
 You may obtain root using the `su` command along with the password 'openindiana'.
+
 
 == What are the pre-installation caveats and considerations?
 * System partitioning, Gparted, etc.

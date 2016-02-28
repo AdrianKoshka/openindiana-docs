@@ -1,9 +1,7 @@
-= TOC Structure used by PC-BSD
+= BSD Handbooks
 
-[NOTE]
-====
-Click to view this doc in its final Asciidoctor rendered form: http://gist.asciidoctor.org/?da23861db4238eb4d633
-====
+
+== TOC Structure used by PC-BSD
 
 
 * Introduction
@@ -18,25 +16,27 @@ Click to view this doc in its final Asciidoctor rendered form: http://gist.ascii
 * Finding Help
 * Supporting PC-BSD®
 
-\\
 
-= TOC Structure used by Free-BSD
+== TOC Structure used by Free-BSD
 
-== Getting Started
+
+=== Getting Started
 * Introduction
 * Installing FreeBSD
 * Unix Basics
 * Installing Applications - Packages and Ports
 * The X-Window System
 
-== Common Tasks
+
+=== Common Tasks
 * Desktop Applications
 * Multimedia
 * Configuring the FreeBSD Kernel
 * Printing
 * Linux Binary Compatibility
 
-== System Administration
+
+=== System Administration
 * Configuration and Tuning
 * FreeBSD Boot Process
 * Security
@@ -51,7 +51,8 @@ Click to view this doc in its final Asciidoctor rendered form: http://gist.ascii
 * Updating and Upgrading
 * Dtrace
 
-== Network Communications
+
+=== Network Communications
 * Serial communications
 * PPP
 * Electronic mail
@@ -59,14 +60,12 @@ Click to view this doc in its final Asciidoctor rendered form: http://gist.ascii
 * Firewalls
 * Advanced networking
 
-\\
+
+== What characteristics of the FreeBSD & PCBSD websites and handbooks make them helpful and attractive?
 
 
-= What characteristics of the FreeBSD & PCBSD websites and handbooks make them helpful and attractive?
 
-\\
- 
-== PCBSD 
+=== PCBSD
 *website: http://www.pcbsd.org/
 ** Well laid out, clutter free.
 ** Download buttons are present right on home page. 
@@ -81,9 +80,8 @@ Click to view this doc in its final Asciidoctor rendered form: http://gist.ascii
 *example of their handbook page source: http://web.pcbsd.org/doc-archive/10.2/html/_sources/install.txt
 ** Very simple [[http://docutils.sourceforge.net/rst.html | reStructuredText markup]] - Similar to ASCIIDOC or Creole
 
-\\
 
-== FreeBSD 
+=== FreeBSD 
 * website - https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/
 ** well defined and well organized navigational dropdowns
 ** Lots of color used to delineate one piece of information from another
@@ -94,9 +92,8 @@ Click to view this doc in its final Asciidoctor rendered form: http://gist.ascii
 ** grey boxes used to delineate columns of information from each other.
 ** Each page has it's own navigational breadcrumbs (top and bottom, left and right)
 
-\\
 
-==What can we learn from this?
+== What can we learn from this?
 
 * The PCBSD Project is using [[http://www.sphinx-doc.org/en/stable/index.html | Sphinx]] for their handbook.
 ** Python Project also uses restructuredtext based Sphinx for their documentation (you'll notice the similarities).
@@ -110,4 +107,3 @@ Click to view this doc in its final Asciidoctor rendered form: http://gist.ascii
 
 * The PCBSD handbook is searchable (uses several javascripts to do this). The FreeBSD handbook is not searchable.
 
-\\

@@ -1,9 +1,5 @@
 == Considerations and ideas for further improving the OI WordPress website.
 
-[NOTE]
-====
-Click to see this doc in its final Asciidoctor rendered form: http://gist.asciidoctor.org/?113cbbe98aedec5674aa
-====
 
 === Just some general thoughts.....
 
@@ -40,6 +36,7 @@ Click to see this doc in its final Asciidoctor rendered form: http://gist.asciid
 * Maybe we should put something on the front page mentioning the mobile menu which is available in the upper left hand corner.
 ** Due to the dark blue color scheme, this menu is hard to see and easily missed.
 ** Can the color of the 3 bars be changed to white or something?
+
 
 === Other Thoughts
 * Add some links to the Community > Getting Involved page.

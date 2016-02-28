@@ -1,11 +1,8 @@
 = OI evangelism
 
-[NOTE]
-====
-Click to view this doc in its final Asciidoctor rendered form: http://gist.asciidoctor.org/?391b4060259e1b795152
-====
 
 === Suggestions for promoting and or improving the OpenIndiana distro
+
 
 ==== Public Relations
 * Distrowatch
@@ -17,11 +14,13 @@ Click to view this doc in its final Asciidoctor rendered form: http://gist.ascii
 * Phoronix
 ** Even if the pertinence of such benchmarks is questionable, we should add the Phoronix Test Suite to oi-userland as indicator. - [alarcher]
 
+
 ==== Hipster News
 * Current events with OI Hipster distro
 * OI/illumos news stories
 * Featured new packages
 * Tips and Tricks
+
 
 ==== Other Periodic Website Updates
 * Publish new pictures for the Community and update the Roadmap every 6 months
@@ -33,13 +32,16 @@ Click to view this doc in its final Asciidoctor rendered form: http://gist.ascii
 ** The project should really capitalize on the desktop, and by extension include lots of GUI software.
 * Aim not just for parity with PC-BSD or FreeBSD, but usability parity with Linux Mint.
 
+
 ==== Alternate Desktops
 * http://mate-desktop.com/[Mate]
 * https://www.kde.org/[KDE]
 * https://github.com/linuxmint/Cinnamon[Cinnamon]
 
+
 ==== Benchmarking tools
 * http://www.phoronix-test-suite.com/[Phoronix Test Suite]
+
 
 ==== Development tools
 * https://atom.io/[ATOM - Text Editor]
@@ -47,10 +49,12 @@ Click to view this doc in its final Asciidoctor rendered form: http://gist.ascii
 * https://eclipse.org/[Eclipse - IDE]
 * http://meldmerge.org/[Meld - Diff Viewer]
 
+
 ==== Desktop publishing
 * http://www.scribus.net/[Scribus]
 * https://inkscape.org/en/[Inkscape]
 * https://www.calligra.org/[Calligra Suite]
+
 
 ==== Graphics
 * https://www.blender.org/[Blender]
@@ -59,12 +63,14 @@ Click to view this doc in its final Asciidoctor rendered form: http://gist.ascii
 * http://www.povray.org/[POV-Ray]
 * http://www.radiance-online.org/[Radiance]
 
+
 ==== Photography
 * http://www.darktable.org/[Darktable]
 * http://rawtherapee.com/[RawTherapee]
 * https://www.digikam.org/[Digikam]
 * http://hugin.sourceforge.net/[Hugin]
 * https://picasa.google.com/[Picasa]
+
 
 ==== Suggestions for improving elements of the distro itself
 * Updated Custom desktop background for OI - Perhaps downloads from the website, or included in distro.

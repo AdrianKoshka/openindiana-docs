@@ -1,16 +1,16 @@
-= Considerations and ideas for improving the wiki
+= Improving the wiki
 
-[NOTE]
-====
-Click to view this doc in it's final Asciidoctor rendered form: http://gist.asciidoctor.org/?bfa71eda36c4191a675f
-====
-
-=== Just some thoughts.....
 
 === Need to give some consideration to how the wiki renders on mobile devices
 
 * Finding the left hand navigation menu is completely absent when browsing the OI wiki from my android tablet. - [makruger]
-** This is a pretty serious issue that we should look into as soon as possible. 
+* This is a pretty serious issue that we should look into as soon as possible. 
+
+Possible solutions:
+
+* Replace the wiki with a mobile aware wiki
+* Replace the wiki with a user forum
+* Add in page navigation menus - This is likely to be the most practical solution
 
 
 === Need to create an OI wiki style guide

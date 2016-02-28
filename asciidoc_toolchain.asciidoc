@@ -1,7 +1,5 @@
 = Asciidoc toolchain
 
-[NOTE]
-Click to view this doc in it's final Asciidoctor rendered form: http://gist.asciidoctor.org/?c1d8d58a0ab02e648cec
 
 ==== Doc Writing Tips:
 * Write 1 sentence per line - Just like you would with code - (docs = code)
@@ -13,6 +11,7 @@ Click to view this doc in it's final Asciidoctor rendered form: http://gist.asci
 * Use "Includes" - e.g. `include:: {uri-macros}/doc_to_import.asciidoc[]` - (allows you to pull in other docs into your docs)
 * Write your docs by answering a question. Later turn the questions into sectional headings, etc.
 * Use a thesaurus - e.g. https://www.powerthesaurus.org/
+
 
 ==== General Information
 
