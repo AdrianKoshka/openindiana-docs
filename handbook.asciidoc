@@ -14,7 +14,7 @@
 * FAQ's
 * Tips and Tricks
 
-== Pre-installation caveats and considerations
+=== Pre-installation caveats and considerations
 * System partitioning, Gparted, etc.
 * Device Driver utility - (also how to manually install missing drivers - and where to find them if they are available)
 * Network install drivers: `pkgrecv -s http://pkg.openindiana.org/hipster-2015 -d bash.p5a -a bash && sudo pkg install -nv  -g bash.p5a bash`
@@ -22,13 +22,13 @@
 * How to disable drivers at boot time (this might help fix the kernel panic we see when trying to boot OI inside KVM)
 * Physical or virtual?
 
-== What are the post-installation caveats and considerations?
+=== What are the post-installation caveats and considerations?
 * e.g. - What kinds of things can be done with a system once installed?
 
-== Where to find support and help
+=== Where to find support and help
 * Talk about IRC, mailing list, how to use MAN pages, mlocate, apropos, etc.
 
-== Helpful resources for writing some of these sections
+=== Helpful resources for writing some of these sections
 
 * https://web.archive.org/web/20090611234850/http://dlc.sun.com/osol/docs/downloads/minibook/en/820-7102-10-Eng-doc.pdf[ Getting Started with OpenSolaris 2008.11]
 * https://web.archive.org/web/20091229232632/http://www.opensolaris.com/learn/[OpenSolaris Learn site - Wayback Machine]
@@ -36,10 +36,8 @@
 * https://web.archive.org/web/20100401024945/http://www.opensolaris.com/use/OpenSolaris200906Booklet.pdf[OpenSolaris 2009.06 Booklet PDF]
 
 
-**The New OpenIndiana Handbook needs to answer at least the following:**
-
 :sectnums:
-== Intro
+== Introduction
 
 
 === OpenIndiana Software Releases
@@ -93,8 +91,15 @@ Unlike Linux or Windows, where swap files are generally 100-200% of installed me
 For use cases where OpenIndiana is operated with minimal memory resources, system swap size should be increased to 4 GB or more.
 ====
 
+== Preparing to Install OpenIndiana
 
-== Get It
+=== Backing up data
+
+=== Deciding where to install OpenIndiana
+
+=== Gathering Network Information
+
+=== Obtaining the software
 
 |===
 | Download Mirrors
@@ -106,13 +111,18 @@ For use cases where OpenIndiana is operated with minimal memory resources, syste
 If you wish to purchase a ready made DVD or USB drive there is also https://www.osdisc.com/products/solaris/openindiana[OSDISC.COM]
 
 
-=== How can I create a bootable OpenIndiana DVD?
+=== Creating a bootable OpenIndiana DVD
 
-Windows, Linux, and OpenIndiana
+* Obtain the software from the download site
+* Check MD5/SHA
+* Burn it to a DVD
 
-* Obtain the software from the download site.
-* Check MD5.
-* Burn it to a DVD.
+==== Windows
+
+==== Linux
+
+==== OpenIndiana
+
 
 
 === Creating a bootable OpenIndiana USB flash drive
@@ -161,7 +171,7 @@ Run the following command (as root or with appropriate privileges):
 `cat 1G.header <live USB image file> | dd bs=1024k of=<path to raw USB storage device>`
 
 
-== Install It
+== Installing OpenIndiana
 
 
 === Booting the system
@@ -228,7 +238,7 @@ Click on Install OpenIndiana to permanently install OpenIndiana on your computer
 ** When you contact us, please include any error messages you see on the console, as well as the output of the `svcs -xv` command.
 ** If possible, also include the contents of the file `/var/log/Xorg.0.log`.
 
-== Use It
+== Using OpenIndiana
 
 
 === Logging into OpenIndiana
@@ -240,21 +250,21 @@ You may also use the `sudo` command.
 You may obtain root using the `su` command along with the password 'openindiana'.
 
 
-== Nvidia driver support
+=== Nvidia driver support
 * Talk about the expected behavior when booting the live CD from a system with an NVIDIA card.
 * Discuss procedure for adding an NVIDIA card to a system that was using VESA or some other non-3d video driver.
 * Troubleshooting - what logs to look at, manual configuration, etc. 
 * Walk through NVIDIA utility screens.
 
 
-== How can the desktop be modified?
+=== How can the desktop be modified?
 * Gnome walkthrough
 * Appearance applet 
 ** Enabling Compiz
 ** Configuring font anti-aliasing
 
 
-== How does one keep the system updated and find more software?
+=== How does one keep the system updated and find more software?
 * IPS and BEADMIN walkthroughs
 * http://www.oracle.com/technetwork/articles/servers-storage-admin/o11-083-ips-basics-523756.html[Basics of Image Packaging System (IPS) - Oracle]
 * http://www.oracle.com/technetwork/server-storage/solaris11/documentation/ips-one-liners-032011-337775.pdf[IPS cheat sheet PDF - Oracle]
@@ -281,26 +291,26 @@ You may obtain root using the `su` command along with the password 'openindiana'
 ** How to install flash player
 
 
-== How does one perform system backups?
+=== How does one perform system backups?
 * Time Machine
 * ZFS exports
 * Bacula?
 
 
-== How does one add additional users?
+=== How does one add additional users?
 * Basic system administration
 * Basic Unix commands
 
 
-== How does one mount or import additional disks?
+=== How does one mount or import additional disks?
 * Talk about the ZFS import command.
 * Need a walkthrough of mounting options for other filesystems...NTFS, FAT, UFS, etc.
 
 
-== What other things should someone learn to best utilize OI?
+=== What other things should someone learn to best utilize OI?
 
 
-== Getting OI to play Multimedia
+=== Getting OI to play Multimedia
 * How to get OI to play a DVD
 * How to get flash player installed and working.
 * How to get VLC installed and working.
@@ -308,29 +318,29 @@ You may obtain root using the `su` command along with the password 'openindiana'
 * How to use the hidden `gstreamer-properties` configuration utility.
 
 
-== Using OI as a NAS
+=== Using OI as a NAS
 * See: https://web.archive.org/web/20091008234550/http://developers.sun.com/openstorage/articles/opensolaris_nas.html
 * Running OI as a VMware EXSI guest
 ** Local storage hardware is passed through to the OI guest and then shared via ISCSI, CIFS, NFS, etc.
 
 
-== Using OI as a Media server, HTPC, etc.
+=== Using OI as a Media server, HTPC, etc.
 * http://forum.kodi.tv/showthread.php?tid=44315&page=2
 * http://lightsandshapes.com/plex-on-smartos.html
 
 
-== Graphics workstation
+=== Graphics workstation
 
 
-== Desktop Publishing system, Etc.
+=== Desktop Publishing system, Etc.
 
 
-== Virtualization Storage Server
+=== Virtualization Storage Server
 * Poor man's standalone ISCSI SAN linked to a 2nd machine running VMware ESXI (2 computers required)
 ** A variation of this would be to run OI as an ESXI guest with local storage hardware "passed through" to OI and then subsequently share ZFS volumes via  ISCSI with the ESXI host itself. In this configuration, OI effectively becomes a SAN (1 computer required)
 
 
-== Virtualization Server
+=== Virtualization Server
 * Qemu-KVM walkthrough (Does hipster even have this package?)
 ** Yes, KVM is the package name
 * Using VIRSH, Virt-manager, etc. (Does hipster [or any illumos distro for that matter] even have virsh or Virt-manager)
@@ -338,24 +348,24 @@ You may obtain root using the `su` command along with the password 'openindiana'
 ** Virtualbox walkthrough - ditto...is there a package available?
 
 
-== Zones - running web stuff in zone, development, etc.
+=== Zones - running web stuff in zone, development, etc.
 * Need to mention some of the changes to zone management...eg. 
 ** sys-unconfig gone. 
 ** sysding replaced syscfg
 *** now have to have DNS, root password, etc. all configured inside the zone before being able to logon using `zlogin -C <zonename>`, otherwise have to do `zlogin <zonename>`. So a fair amount of stuff has changed there. 
 
 
-== Extend It
+== Developing with OpenIndiana
 
 [NOTE] 
 The book titled "Introduction to Operating Systems: A Hands-On Approach Using the OpenSolaris Project" may be a good resource for helping to complete this part of the handbook.
 
 
-== How can OI be used as a development platform?
+=== How can OI be used as a development platform?
 
 
-== What programming tools, languages, etc., are available?
+=== What programming tools, languages, etc., are available?
 
 
-== How can OI be used to further the development of OI itself?
+=== How can OI be used to further the development of OI itself?
 
