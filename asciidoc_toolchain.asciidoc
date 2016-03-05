@@ -1,17 +1,27 @@
 = Asciidoc toolchain
 
 
-==== Doc Writing Tips:
-* Write 1 sentence per line - Just like you would with code - (docs = code)
-* Use comments in your docs - Just like you would with code - (docs = code)
-* Use version control - fork and fix - Just like you would with code - (docs = code)
+=== Docs are Code
+
+The most important thing to keep in mind is that docs = code.
+So, we treat the docs just as we would code.
+
+* Write 1 sentence per line.
+* Use comments in your docs.
+* Use version control - fork and fix.
+
+=== General writing tips
+
+* Write your docs by answering a question.
+** Later turn the questions into sectional headings, etc.
+* Use a thesaurus - e.g. https://www.powerthesaurus.org/
 * Couch read - via a phone or tablet, proof read what you previously wrote. - (puts you into the reader's shoes)
+
+=== Tips for working with Asciidoctor
+
 * Use "Attributes" and name space them - e.g. `:uri-project: <url>` -(place these attributes at top of document)
 ** Call your attributes in your docs like this: `{uri-project} [Project name]`
 * Use "Includes" - e.g. `include:: {uri-macros}/doc_to_import.asciidoc[]` - (allows you to pull in other docs into your docs)
-* Write your docs by answering a question. Later turn the questions into sectional headings, etc.
-* Use a thesaurus - e.g. https://www.powerthesaurus.org/
-
 
 ==== General Information
 
@@ -30,6 +40,9 @@
 | https://pages.github.com/ | Publish from your github repo
 | http://hubpress.io/ | Blog from your github repo - built in Asciidoctor support
 |===
+
+[NOTE]
+In order to use the Asciidoctor Chrome extention with local files, you must enable the plugin option "Allow access to file URLs".
 
 * Static site generators
 ** http://jekyllrb.com/

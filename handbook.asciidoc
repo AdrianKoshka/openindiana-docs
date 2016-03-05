@@ -14,8 +14,21 @@
 * FAQ's
 * Tips and Tricks
 
+== Pre-installation caveats and considerations
+* System partitioning, Gparted, etc.
+* Device Driver utility - (also how to manually install missing drivers - and where to find them if they are available)
+* Network install drivers: `pkgrecv -s http://pkg.openindiana.org/hipster-2015 -d bash.p5a -a bash && sudo pkg install -nv  -g bash.p5a bash`
+* Local install drivers: `pkg install -g name.p5a fmri`
+* How to disable drivers at boot time (this might help fix the kernel panic we see when trying to boot OI inside KVM)
+* Physical or virtual?
 
-== Helpful resources for writing some of these sections:
+== What are the post-installation caveats and considerations?
+* e.g. - What kinds of things can be done with a system once installed?
+
+== Where to find support and help
+* Talk about IRC, mailing list, how to use MAN pages, mlocate, apropos, etc.
+
+== Helpful resources for writing some of these sections
 
 * https://web.archive.org/web/20090611234850/http://dlc.sun.com/osol/docs/downloads/minibook/en/820-7102-10-Eng-doc.pdf[ Getting Started with OpenSolaris 2008.11]
 * https://web.archive.org/web/20091229232632/http://www.opensolaris.com/learn/[OpenSolaris Learn site - Wayback Machine]
@@ -25,8 +38,11 @@
 
 **The New OpenIndiana Handbook needs to answer at least the following:**
 
+:sectnums:
+== Intro
 
-== What types of releases does OpenIndiana make available?
+
+=== OpenIndiana Software Releases
 
 Approximately every six months, the OpenIndiana project releases a snapshot of the Hipster rolling release branch.
 Perfectly suited for both workstations and servers, simply pick the installer which best suits your needs:
@@ -52,7 +68,7 @@ While every package is tested to ensure its stability, caution is nevertheless w
 ====
 
 
-== What are the system hardware requirements?
+=== System Requirements
 
 |===
 | | Minimum | Recommended
@@ -78,7 +94,7 @@ For use cases where OpenIndiana is operated with minimal memory resources, syste
 ====
 
 
-== Where can the software be obtained?
+== Get It
 
 |===
 | Download Mirrors
@@ -90,7 +106,7 @@ For use cases where OpenIndiana is operated with minimal memory resources, syste
 If you wish to purchase a ready made DVD or USB drive there is also https://www.osdisc.com/products/solaris/openindiana[OSDISC.COM]
 
 
-== How can I create a bootable OpenIndiana DVD?
+=== How can I create a bootable OpenIndiana DVD?
 
 Windows, Linux, and OpenIndiana
 
@@ -99,11 +115,11 @@ Windows, Linux, and OpenIndiana
 * Burn it to a DVD.
 
 
-== How can I create a bootable OpenIndiana USB flash drive? 
+=== Creating a bootable OpenIndiana USB flash drive
 
 Requirements
 
-* Flash drive 2GB or larger
+* Flash drive - (2GB or larger)
 * Download the OI USB install media
 * Download the OI 1G header file
 
@@ -142,13 +158,13 @@ Requirements
 
 Run the following command (as root or with appropriate privileges): 
 
-[source, bash]
-====
-cat 1G.header <live USB image file> | dd bs=1024k of=<path to raw USB storage device>
-====
+`cat 1G.header <live USB image file> | dd bs=1024k of=<path to raw USB storage device>`
 
 
-== Booting and Installing
+== Install It
+
+
+=== Booting the system
 
 
 The LiveDVD installer is graphical and requires X11.
@@ -161,30 +177,30 @@ The text installer is not graphical and does not have a live environment.
 When you boot it, it immediately begins the installation process.
 
 
-=== Booting Physical Hardware
+==== Booting Physical Hardware
 
 Insert the bootable media (DVD or USB flash drive) and boot (start/restart) your computer.
 For the computer to boot from the media, you may need to specify the device by pressing the boot order hotkey.
 Alternately, you may need to change the boot device order in your BIOS configuration.
 
 
-=== Booting Virtual Hardware
+==== Booting Virtual Hardware
 
 The most efficient way to boot a virtual machine is to boot directly from the DVD ISO file.
 Alternately, you may use host to guest DVD/USB passthrough to boot from physical media.
 
 
-==== Virtualbox
+===== Virtualbox
 
 For VirtualBox 3.2 or later: 
 
 "Use host I/O cache" must be enabled in the emulated storage controller used by the virtual machine to successfully boot OpenIndiana.
 
 
-==== Vmware Workstation Player
+===== Vmware Workstation Player
 
 
-==== Vmware ESXI
+===== Vmware ESXI
 
 
 === The OpenIndiana Boot Menu
@@ -212,6 +228,8 @@ Click on Install OpenIndiana to permanently install OpenIndiana on your computer
 ** When you contact us, please include any error messages you see on the console, as well as the output of the `svcs -xv` command.
 ** If possible, also include the contents of the file `/var/log/Xorg.0.log`.
 
+== Use It
+
 
 === Logging into OpenIndiana
 
@@ -220,24 +238,6 @@ For administrative or elevated access, prepend your commands with `pfexec`.
 You may also use the `sudo` command.
 
 You may obtain root using the `su` command along with the password 'openindiana'.
-
-
-== What are the pre-installation caveats and considerations?
-* System partitioning, Gparted, etc.
-* Device Driver utility - (also how to manually install missing drivers - and where to find them if they are available)
-* Network install drivers: `pkgrecv -s http://pkg.openindiana.org/hipster-2015 -d bash.p5a -a bash && sudo pkg install -nv  -g bash.p5a bash`
-* Local install drivers: `pkg install -g name.p5a fmri`
-* How to disable drivers at boot time (this might help fix the kernel panic we see when trying to boot OI inside KVM)
-* Physical or virtual?
-* 1 GB of memory for each TB of ZFS storage.
-
-
-== What are the post-installation caveats and considerations?
-* e.g. - What kinds of things can be done with a system once installed?
-
-
-== Where to find support and help
-* Talk about IRC, mailing list, how to use MAN pages, mlocate, apropos, etc.
 
 
 == Nvidia driver support
@@ -345,7 +345,7 @@ You may obtain root using the `su` command along with the password 'openindiana'
 *** now have to have DNS, root password, etc. all configured inside the zone before being able to logon using `zlogin -C <zonename>`, otherwise have to do `zlogin <zonename>`. So a fair amount of stuff has changed there. 
 
 
-== Development related topics
+== Extend It
 
 [NOTE] 
 The book titled "Introduction to Operating Systems: A Hands-On Approach Using the OpenSolaris Project" may be a good resource for helping to complete this part of the handbook.
