@@ -1,4 +1,4 @@
-= OI Handbook
+= OpenIndiana Handbook
 
 
 == Basic outline
@@ -25,8 +25,6 @@
 === What are the post-installation caveats and considerations?
 * e.g. - What kinds of things can be done with a system once installed?
 
-=== Where to find support and help
-* Talk about IRC, mailing list, how to use MAN pages, mlocate, apropos, etc.
 
 === Helpful resources for writing some of these sections
 
@@ -37,7 +35,7 @@
 
 
 :sectnums:
-== Introduction
+== Introducing OpenIndiana
 
 
 === OpenIndiana Software Releases
@@ -90,6 +88,41 @@ While every package is tested to ensure its stability, caution is nevertheless w
 Unlike Linux or Windows, where swap files are generally 100-200% of installed memory, the default size of the OpenIndiana swap file is 50% of installed memory.
 For use cases where OpenIndiana is operated with minimal memory resources, system swap size should be increased to 4 GB or more.
 ====
+
+=== Finding help and support
+
+==== Local system command line help
+
+* apropos - search the manual page names and descriptions
+* find - search for files in a directory hierarchy
+* info - read Info documents
+* locate - find files by name
+* man - an interface to the on-line reference manuals
+
+
+==== Web based support resources
+
+|===
+| Resource | URL
+
+| User Support IRC channel
+| irc://irc.freenode.net/openindiana[#openindiana on irc.freenode.net]
+
+| Development IRC channel
+| irc://irc.freenode.net/oi-dev[#oi-dev on irc.freenode.net]
+
+| Documentation IRC channel
+| irc://irc.freenode.net/oi-documentation[#oi-documentation on irc.freenode.net]
+
+| OpenIndiana Mailing Lists
+| http://openindiana.org/mailman
+
+| OpenIndiana Wiki
+| http://wiki.openindiana.org
+
+| OpenIndiana Bug Tracker
+| http://www.illumos.org/projects/openindiana/issues
+|===
 
 == Preparing to Install OpenIndiana
 

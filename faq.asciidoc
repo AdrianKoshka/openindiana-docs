@@ -1,13 +1,5 @@
 = OpenIndiana FAQ
 
-[NOTE]
-For comparison's sake, the current FreeBSD FAQ is 78 pages (including references, etc.).
-Written in docbook 5, the faq is stored in subversion, and is currently at revision 47,989.
-See: https://www.freebsd.org/doc/en_US.ISO8859-1/books/faq/book.html
-
-
-FYI....The note above will be removed when this document is published on the OpenIndiana website.
-
 ////
 When working on this document, please bear in mind "Docs = Source Code".
 In other words, treat this doc exactly as you would source code.
