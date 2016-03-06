@@ -1,5 +1,8 @@
 = Improving the wiki
 
+[NOTE]
+To view this doc in it's final rendered form, click the following link:
+http://gist.asciidoctor.org/?github-makruger/openindiana-docs//wiki.asciidoc
 
 === Need to give some consideration to how the wiki renders on mobile devices
 

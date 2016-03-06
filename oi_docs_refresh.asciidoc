@@ -1,10 +1,16 @@
 = OpenSolaris redistributable docs
 
+[NOTE]
+To view this doc in it's final rendered form, click the following link:
+http://gist.asciidoctor.org/?github-makruger/openindiana-docs//oi_docs_refresh.asciidoc
 
 ==== Current Situation
-* The source for PDL licensed restributable docs is Solbook XML 3.5 (and in some cases Solbook XML 3.6). Solbook is a creation of Sun Microsystems and is a simplified subset of Docbook. We have a conversion tool (written in JAVA) which can handle the conversion of Solbook XML 3.5 to HTML 4.5, but we do not have DTD's for any other XML versions (e.g 3.6). 
+* The source for PDL licensed restributable docs is Solbook XML 3.5 (and in some cases Solbook XML 3.6).
+Solbook is a creation of Sun Microsystems and is a simplified subset of Docbook.
+We have a conversion tool (written in JAVA) which can handle the conversion of Solbook XML 3.5 to HTML 4.5, but we do not have DTD's for any other XML versions (e.g 3.6). 
 ** Assuming the differences between these Solbook XML versions are not too great, we might be able to trick the java conversion tool by simply changing the version number within the DTD (This is speculative and not yet been tried).
-* We have the source for the 2009.06 docs, but not for the 2008.11 docs. While there is some overlap of content, many things found in the 2008.11 docs do not look to be present in the 2009.06 docs (e.g. Comstar, etc.).
+* We have the source for the 2009.06 docs, but not for the 2008.11 docs.
+While there is some overlap of content, many things found in the 2008.11 docs do not look to be present in the 2009.06 docs (e.g. Comstar, etc.).
 
 ==== OpenSolaris Doc Refresh Challenges
 * The OpenSolaris books all reference each other using the original SUN hosted URL's.
@@ -19,7 +25,8 @@
 * In regard to the factual correctness of the documentation, do we ourselves even know what still works, doesn't work, has been deprecated, replaced, etc.?
 
 ==== Future Direction
-* We should consider converting all the OpenSolaris to some kind of simple text based markup (e.g. ASCIIDOC, restructured text, Markdown, etc.). Using a text based markup would greatly lower the bar for working on the docs. 
+* We should consider converting all the OpenSolaris to some kind of simple text based markup (e.g. ASCIIDOC, restructured text, Markdown, etc.).
+Using a text based markup would greatly lower the bar for working on the docs. 
 * For books for which we do not have the XML source, perhaps pandoc can be used to reconvert the HTML back to text markup.
 * We need to create a fully automated toochain with the following features:
 ** Source code stored on GITHUB.
@@ -27,11 +34,13 @@
 ** We need to determine where to host the docs - (e.g. OI website, Github pages, readthedocs.com, etc.)
 ** Docs maintenance process needs to be fully documented.
 
-Another consideration is printing. There should be printer friendly CSS used with the HTML pages. 
+Another consideration is printing.
+There should be printer friendly CSS used with the HTML pages. 
 
 ==== What are other projects doing?
 
-* In a nutshell, they're not using wiki's. Instead they're doing it all with static HTML.
+* In a nutshell, they're not using wiki's.
+Instead they're doing it all with static HTML.
 * Whatever documentation build system we end up using....it should be natively supported on OI (and ideally cross platform to both Windows and Linux as well).
 
 [PC-PCD]
@@ -93,7 +102,9 @@ We have the XML source for these books.
 
 ==== OpenSolaris Docs - 2008.11 drop
 
-We **do not** have the source for these books. All that looks to be available is HTML. Presumably these books are also open source, but without the source code, there is no way to really tell whether they were released under the PDL like the books from the 2009.06 drop.
+We **do not** have the source for these books.
+All that looks to be available is HTML.
+Presumably these books are also open source, but without the source code, there is no way to really tell whether they were released under the PDL like the books from the 2009.06 drop.
 
 * https://web.archive.org/web/20110812020753/http://dlc.sun.com/osol/docs/content/2008.11/[2008.11 OpenSolaris Docs]
 * Another link to the same 2008 books: http://www.linuxtopia.org/online_books/opensolaris_2008/

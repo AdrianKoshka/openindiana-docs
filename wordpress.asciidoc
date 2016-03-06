@@ -1,9 +1,13 @@
-== Considerations and ideas for further improving the OI WordPress website.
+= Considerations and ideas for further improving the OI WordPress website.
 
+[NOTE]
+To view this doc in it's final rendered form, click the following link:
+http://gist.asciidoctor.org/?github-makruger/openindiana-docs//wordpress.asciidoc
 
-=== Just some general thoughts.....
+== Just some general thoughts.....
 
-* The current OI website is a marked improvement over what previously existed. But anything that is already good can be further improved.
+* The current OI website is a marked improvement over what previously existed.
+But anything that is already good can be further improved.
 * Wondering if we can expand on the Hipster name, perhaps by theming the website in a similar manor.
 ** Hipster denotes something trendy, or in fashion, etc., the website theme should exploit this in some way.
 *** Could try something some like big fashionable buttons as follows:
@@ -58,7 +62,8 @@
 * More frequent updates to Latest News.
 //[Agreed but need people to write them... - alarcher]//
 
-* Community > Security Advisories is misleading. This only leads to page to report problems, not view already reported advisories as the breadcrumbs would suggest.
+* Community > Security Advisories is misleading.
+This only leads to page to report problems, not view already reported advisories as the breadcrumbs would suggest.
 
 * Update Documentation > FAQ
 
@@ -67,10 +72,12 @@
 * Update Packages page to include SFE and other repos (along with information and what is and isn’t compatible).
 //[Done - alarcher]//
 
-* Disable WordPress pingbacks. They don’t look to offer any real value (e.g. the download page has 68 pingbacks).
+* Disable WordPress pingbacks.
+They don’t look to offer any real value (e.g. the download page has 68 pingbacks).
 //[Already disabled, these are oldies - alarcher]//
 
-* A support forum like Ubuntu or Mint, etc. People have been leaving (largely unanswered) comments on Wiki in lieu of a support forum.
+* A support forum like Ubuntu or Mint, etc.
+People have been leaving (largely unanswered) comments on Wiki in lieu of a support forum.
 //[Opening comments on this Wiki is an error in the first place - alarcher]//
 
 * Blog aggregator

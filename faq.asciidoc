@@ -1,5 +1,9 @@
 = OpenIndiana FAQ
 
+[NOTE]
+To view this doc in it's final rendered form, click the following link:
+http://gist.asciidoctor.org/?github-makruger/openindiana-docs//faq.asciidoc
+
 ////
 When working on this document, please bear in mind "Docs = Source Code".
 In other words, treat this doc exactly as you would source code.

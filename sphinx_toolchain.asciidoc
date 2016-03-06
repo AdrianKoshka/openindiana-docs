@@ -1,6 +1,11 @@
 = Sphinx toolchain
 
 [NOTE]
+To view this document in it's final rendered form, click the following link:
+http://gist.asciidoctor.org/?github-makruger/openindiana-docs//sphinx_toolchain.asciidoc
+
+
+[NOTE]
 ====
 I've deciced to go with an ASCIIDOC based tool chain, but retaining this information for future reference.
 Hopefully it will be useful for somebody.
