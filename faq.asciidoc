@@ -56,11 +56,13 @@ Some of the differences between OpenIndiana and OpenSolaris can be characterized
 
 * Sun/Oracle's proprietary OS/NET consolidation has been replaced with https://github.com/OpenIndiana/illumos-gate[illumos-gate].
 * Many of the original OpenSolaris software consolidations have been reorganized into a single https://github.com/OpenIndiana/oi-userland[oi-userland] consolidation.
-* Oracle's Sun Studio has been replaced with the open source GNU GCC compiler - thus breaking ABI (binary) compatibility with Oracle Solaris and OpenSolaris. 
-Please note: This change only affects applications written in `C++`. 
-Applications coded in C should continue to work normally.
+* Oracle's Sun Studio has been replaced with the open source GNU GCC compiler.
 * XVM (XEN) has been replaced with the illumos-kvm port.
 
+[NOTE]
+OpenIndiana Hipster's transistion from Sun Studio to GCC has resulted in a discontinuance of ABI (binary) compatibility with previous releases of OpenIndiana, Oracle Solaris, and OpenSolaris.
+Applications coded in the C language should continue to work normally.
+Therefore, this change only affects applications written in the `C++` language.
 
 == How does OpenIndiana compare to BSD or Linux?
 
@@ -117,10 +119,10 @@ OpenIndiana contains the following enterprise class features and more:
 |===
 
 
-== What types of releases does OpenIndiana make available?
+== What is the OpenIndiana release schedule?
 
 Approximately every six months, the OpenIndiana project releases a snapshot of the Hipster rolling release branch.
-Perfectly suited for both workstations and servers, simply pick the installer which best suits your needs:
+Ideally suited for both workstations and servers, simply pick the installer which best your needs:
 
 |===
 | Workstation | Server
@@ -131,15 +133,15 @@ Perfectly suited for both workstations and servers, simply pick the installer wh
 
 [NOTE]
 ====
-* Releases from the oi-dev-151x branch are no longer maintained.
-* For those desiring to upgrade legacy installations, Hipster IPS repositories are available.
-* While upgrading from legacy is possible, the most trouble free method is to perform a clean install.
+* OpenIndiana releases from the legacy oi-dev-151x branch are no longer maintained.
+* For those desiring to upgrade from legacy installations, Hipster IPS repositories are available.
+* While upgrades from the legacy branch are possible, the most trouble free method is to perform a clean install.
 ====
 
 [CAUTION]
 ====
 Hipster is a rapid development branch where software versions are frequently updated.
-While every package is tested to ensure its stability, caution is nevertheless warranted for those intending to deploy Hipster into mission critical production environments.
+While every package is tested to ensure stability, caution is nevertheless warranted when deploying Hipster into mission critical production environments.
 ====
 
 == What are the system hardware requirements?
@@ -167,7 +169,7 @@ Unlike Linux or Windows, where swap files are generally 100-200% of installed me
 For use cases where OpenIndiana is operated with minimal memory resources, system swap size should be increased to 4 GB or more.
 ====
 
-== Are additional keyboard layouts and languages available?
+== Does OpenIndiana support internationalization and localization?
 
 Yes, when installing OpenIndiana, you may choose from 47 different keyboard layouts and 22 different languages.
 
@@ -179,10 +181,10 @@ For the actively maintained Hipster rolling release, the OpenIndiana project see
 For this effort to succeed, we ask our user base to diligently bring security and bugfix concerns to our attention by submitting a ticket with the https://www.illumos.org/projects/openindiana/issues[OpenIndiana Bug Tracker].
 
 
-== Where can the software be obtained?
+== Where can the OpenIndiana software be obtained?
 
 |===
-| Download Mirrors
+| OpenIndiana Download Mirrors
 
 | http://dlc.openindiana.org/isos/hipster[Primary Download Mirror] 
 | http://ftp.vim.org/os/openindiana.org/dlc/isos/hipster[Vim.org Alternate Download Mirror]
@@ -225,10 +227,10 @@ The following IPS repositories are available:
 To add a repository, use the following command: `pkg set-publisher -O <URL> <Repository Name>`
 
 
-== Are there any books or documentation to help with learning OpenIndiana?
+== What books are available to help with learning OpenIndiana?
 
-Yes. There are several resources which will assist you with OpenIndiana.
-While somewhat dated now, these resources are still mostly relevant.
+There are several resources which will assist you with learning to use OpenIndiana.
+While somewhat dated now, these resources are largely still relevant.
 
 * http://www.bookfinder.com/search/?keywords=1430218916&new=&used=&ebooks=&classic=&lang=en&st=sh&ac=qr&submit=[Pro OpenSolaris]
 ** A gentle and well written introduction to OpenSolaris. It weighs in at 250 pages.
@@ -237,7 +239,7 @@ While somewhat dated now, these resources are still mostly relevant.
 ** A much larger and more comprehensive reference book of nearly 1000 Pages.
 
 * https://illumos.org/books/[The illumos bookshelf]
-** The illumos bookshelf consists of several original OpenSolaris advanced administration and development titles, which have been updated for illumos.
+** Updated for illumos, the illumos bookshelf consists of several original OpenSolaris advanced administration and development titles.
 
 * http://www.linuxtopia.org/online_books/opensolaris_2008/index.html[OpenSolaris 2008 Docs]
 ** This online collection consists of over 40 books ranging from development to systems administration.
@@ -245,10 +247,12 @@ These books were originally created by the OpenSolaris project and are PDL open 
 
 [NOTE]
 ====
-A newer version of the OpenSolaris docs exist (the 2009.06 drop) which the OpenIndiana documentation team is currently reviewing and updating.
-As each book is completed, it will be hosted on OpenIndiana.org.
-The documentation team is also working to produce an updated OpenIndiana handbook.
-If you would like to help with either of these efforts, please indicate your interest in one or more of the following ways:
+In 2009, the OpenSolaris project released an updated version (the 2009.06 drop) of the OpenSolaris book collection.
+This collection is currently being reviewed and updated by the OpenIndiana documentation team.
+As each book is completed, it will be published on OpenIndiana.org.
+
+The documentation team is also working to produce an updated OpenIndiana handbook and task based tutorials.
+If you would like to help with these efforts, please indicate your interest in one or more of the following ways:
 
 * http://openindiana.org/mailman[OpenIndiana discussion mailing list]
 * irc://irc.freenode.net/oi-documentation[#oi-documentation on irc.freenode.net]
@@ -257,12 +261,14 @@ If you would like to help with either of these efforts, please indicate your int
 
 == How do I get involved with the OpenIndiana Project?
 
-As a solely community supported open source software project, the success and future of OpenIndiana depends entirely on you.
+As a community supported open source software project, the success and future of OpenIndiana depends entirely on you.
+
 The most important thing you can do is download and begin using OpenIndiana.
-Also, be sure to report all issues to our bug tracker. Tell your friends and coworkers about Opendiana as well.
+Tell your friends and coworkers about Opendiana as well.
 
+Also, be sure to report all issues to our bug tracker.
 
-Below is a list of resources you may find helpful:
+Below is a list of OpenIndiana community resources you may find helpful:
 
 
 |===
@@ -306,26 +312,30 @@ For additional details, including links to our github source repositories, pleas
 
 == Does OpenIndiana provide a SPARC release?
 
-Although there has been discussion on the http://openindiana.org/mailman/listinfo[OpenIndiana mailing lists] regarding the creation of a SPARC port, Hipster is not currently available for the SPARC platform. 
+OpenIndiana Hipster is not currently available for the SPARC platform.
 
-However, the OpenSolaris project released in 2009 an http://dlc.openindiana.org/isos/opensolaris[OpenSolaris text install ISO], and much more recently, there was work done by Adam Glassgall who produced an http://neutron-star.mit.edu/OpenIndiana_Text_SPARC.iso[unofficial SPARC text install ISO] based on oi-dev-151-a8. 
+In regards to the creation of a SPARC port of OpenIndiana Hipster, there have been periodic discussions on the http://openindiana.org/mailman/listinfo[OpenIndiana mailing lists].
+If you would like to see SPARC become a supported platform, please help us by joining the http://www.openindiana.org/community/getting-involved[OpenIndiana community].
 
+=== Historical SPARC releases
+In 2009, the OpenSolaris project released an http://dlc.openindiana.org/isos/opensolaris[OpenSolaris text install ISO], and much more recently, there was work done by Adam Glassgall who produced an http://neutron-star.mit.edu/OpenIndiana_Text_SPARC.iso[unofficial SPARC text install ISO] based on oi-dev-151-a8. 
+
+=== illumos distributions with SPARC releases
 The following illumos based distributions are known to support the SPARC platform:
 
 * http://www.dilos.org/download[Dilos]
 * http://opensxce.org[OpenSCXE]
 * http://www.tribblix.org/download.html[Tribblix]
 
+=== Commercial distributions with SPARC releases
 For production use on modern SPARC hardware, there is also commercial https://www.oracle.com/solaris/solaris11/index.html[Oracle Solaris].
-
-If you would like to see SPARC become an OpenIndiana supported platform, please help us by joining the http://www.openindiana.org/community/getting-involved[OpenIndiana community].
 
 
 == What are the licensing terms for OpenIndiana?
 
 OpenIndiana is composed of software from multiple different sources, each with its own licensing terms. 
 
-For more details see:
+Here is a list of the most commonly used licenses:
 
 * https://opensource.org/licenses/CDDL-1.0[Common Development and Distribution License (CDDL-1.0)]
 * http://illumos.org/license/PDL[PUBLIC DOCUMENTATION LICENSE (PDL), Version 1.01]
