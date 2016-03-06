@@ -61,7 +61,7 @@ Some of the differences between OpenIndiana and OpenSolaris can be characterized
 
 [NOTE]
 OpenIndiana Hipster's transistion from Sun Studio to GCC has resulted in a discontinuance of ABI (binary) compatibility with previous releases of OpenIndiana, Oracle Solaris, and OpenSolaris.
-Applications coded in the C language should continue to work normally.
+Applications coded in the `C` language should continue to work normally.
 Therefore, this change only affects applications written in the `C++` language.
 
 == How does OpenIndiana compare to BSD or Linux?
@@ -122,7 +122,7 @@ OpenIndiana contains the following enterprise class features and more:
 == What is the OpenIndiana release schedule?
 
 Approximately every six months, the OpenIndiana project releases a snapshot of the Hipster rolling release branch.
-Ideally suited for both workstations and servers, simply pick the installer which best your needs:
+Ideally suited for both workstations and servers, simply pick the installer which best serves your needs:
 
 |===
 | Workstation | Server
@@ -155,18 +155,18 @@ While every package is tested to ensure stability, caution is nevertheless warra
 
 | **Disk Space**
 | 20 GB
-| 40 GB +
+| 40 GB (or more)
 
 | **Memory (RAM)**
 | 2 GB
-| 4 GB +
+| 4 GB (or more)
 |===
 
 
 [IMPORTANT]
 ====
 Unlike Linux or Windows, where swap files are generally 100-200% of installed memory, the default size of the OpenIndiana swap file is 50% of installed memory.
-For use cases where OpenIndiana is operated with minimal memory resources, system swap size should be increased to 4 GB or more.
+For use cases where OpenIndiana is operated as a desktop, and with minimal memory resources, system swap size should be increased to 4 GB or more.
 ====
 
 == Does OpenIndiana support internationalization and localization?
