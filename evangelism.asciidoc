@@ -39,6 +39,10 @@ http://gist.asciidoctor.org/?github-makruger/openindiana-docs//evangelism.asciid
 * https://www.kde.org/[KDE]
 * https://github.com/linuxmint/Cinnamon[Cinnamon]
 
+=== Audio/Video Editing
+* http://www.audacityteam.org/[Audacity]
+* https://handbrake.fr/[Handbrake]
+
 === Benchmarking tools
 * http://www.phoronix-test-suite.com/[Phoronix Test Suite]
 
@@ -56,6 +60,15 @@ http://gist.asciidoctor.org/?github-makruger/openindiana-docs//evangelism.asciid
 === Ebook Tools
 * https://calibre-ebook.com/[Calibre]
 
+=== File Backup
+* https://www.code42.com/crashplan/[CrashPlan]
+
+=== File Sharing
+http://deluge-torrent.org/[Deluge]
+
+=== File Storage
+* docs://www.dropbox.com[dropbox]
+
 === Graphics
 * https://www.blender.org/[Blender]
 * https://krita.org/[Krita]
@@ -70,9 +83,9 @@ http://gist.asciidoctor.org/?github-makruger/openindiana-docs//evangelism.asciid
 * http://hugin.sourceforge.net/[Hugin]
 * https://picasa.google.com/[Picasa]
 
-=== Audio/Video Editing
-* http://www.audacityteam.org/[Audacity]
-* https://handbrake.fr/[Handbrake]
+=== Web browsers
+* http://www.chromium.org/Home[Chromium]
+
 
 === Suggestions for improving elements of the distro itself
 * Updated Custom desktop background for OI - Perhaps downloads from the website, or included in distro.
