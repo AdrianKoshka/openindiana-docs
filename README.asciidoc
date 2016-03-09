@@ -1,0 +1,51 @@
+= openindiana-docs
+
+This online repository is for the development of OpenIndiana systems documentation.
+
+Here is a breif synopsis of the content of each file:
+
+
+== asciidoc_toolchain.asciidoc
+
+Guidance and weblinks for the development of an asciidoc based continuous integration toolchain.
+
+== books.asciidoc
+
+Information about the OpenSolaris book collections (2008.11 and 2009.06, etc.)
+
+== bsd.asciidoc
+
+TOC outlines for the FreeBSD and PCBSD handbooks for help with developing an OpenIndiana handbook.
+
+== docs.asciidoc
+
+General discussion about the challenges of working with existing OpenSolaris documentation.
+
+== evangelism.asciidoc
+
+General discussion of ideas to further promote OpenIndiana.
+Also contains a wish list of software to enhance the utility of OpenIndiana Hipster as a desktop operating system.
+
+== faq.asciidoc
+
+The OpenIndiana FAQ - Still a work in progress.
+Not a technical FAQ as it only answers general questions about the project and it's software.
+
+== handbook.asciidoc
+
+The OpenIndiana Handbook - Still a work in progress.
+This document is a basic HOWTO guide for new users unfamiliar with OpenIndinana Hipster.
+
+== sphinx_toolchain.asciidoc
+
+Guidance and weblinks for the development of a Sphinx based continious integration toolchain.
+This doc is for future reference in case we ever want to revisit this as a potential toolchain.
+
+== wiki.asciidoc
+
+General discussion and suggestions for improving the OpenIndiana Wiki website.
+
+== wordpress.asciidoc
+
+General discussion and suggestions for improving the OpenIndiana Wordpress (Primary) website.
+
