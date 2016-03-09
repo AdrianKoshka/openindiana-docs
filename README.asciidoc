@@ -1,13 +1,13 @@
 = openindiana-docs
 
-This online repository is for the development of OpenIndiana systems documentation.
+This repository is for the development of OpenIndiana systems documentation.
 
-Here is a breif synopsis of the content of each file:
+Here is a brief synopsis of the content of each file:
 
 
 == asciidoc_toolchain.asciidoc
 
-Guidance and weblinks for the development of an asciidoc based continuous integration toolchain.
+Guidance and web-links for the development of an asciidoc based continuous integration toolchain.
 
 == books.asciidoc
 
@@ -38,7 +38,7 @@ This document is a basic HOWTO guide for new users unfamiliar with OpenIndinana 
 
 == sphinx_toolchain.asciidoc
 
-Guidance and weblinks for the development of a Sphinx based continious integration toolchain.
+Guidance and web-links for the development of a Sphinx based continuous integration toolchain.
 This doc is for future reference in case we ever want to revisit this as a potential toolchain.
 
 == wiki.asciidoc
