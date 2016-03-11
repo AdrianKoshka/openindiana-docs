@@ -1,3 +1,6 @@
+:sectnums:
+:toc: left
+
 = Considerations and ideas for further improving the OI WordPress website.
 
 [NOTE]

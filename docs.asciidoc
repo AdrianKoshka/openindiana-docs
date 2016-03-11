@@ -1,3 +1,6 @@
+:sectnums:
+:toc: left
+
 = Improving OpenIndiana Documentation
 
 [NOTE]
