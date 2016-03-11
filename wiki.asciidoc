@@ -7,7 +7,7 @@
 To view this doc in it's final rendered form, click the following link:
 http://gist.asciidoctor.org/?github-makruger/openindiana-docs//wiki.asciidoc
 
-=== Need to give some consideration to how the wiki renders on mobile devices
+== Need to give some consideration to how the wiki renders on mobile devices
 
 * Finding the left hand navigation menu is completely absent when browsing the OI wiki from my android tablet. - [makruger]
 * This is a pretty serious issue that we should look into as soon as possible. 
@@ -19,7 +19,7 @@ Possible solutions:
 * Add in page navigation menus - This is likely to be the most practical solution
 
 
-=== Need to create an OI wiki style guide
+== Need to create an OI wiki style guide
 
 * This would be very helpful for providing some consistency between different pages.
 ** Use horizontal lines (top and bottom) to separate code blocks from the text body.
@@ -34,7 +34,7 @@ Possible solutions:
 
 
 
-=== Some notes for updating wiki pages
+== Some notes for updating wiki pages
 
 * Root of wiki says "dashboard". Can this be relabeled as “OpenIndiana”?
 

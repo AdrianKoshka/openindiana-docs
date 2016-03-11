@@ -40,7 +40,7 @@ Using a text based markup would greatly lower the bar for working on the books.
 Another consideration is printing.
 There should be printer friendly CSS used with the HTML pages. 
 
-==== What are other projects doing?
+=== What are other projects doing?
 
 * In a nutshell, they're not using wiki's.
 Instead they're doing it all with static HTML.
@@ -55,7 +55,7 @@ Instead they're doing it all with static HTML.
 * For more details of the FreeBSD docs process, see: https://www.freebsd.org/doc/en_US.ISO8859-1/books/fdp-primer/index.html
 
 
-==== OpenSolaris Books- 2009.6 drop
+=== OpenSolaris Books- 2009.6 drop
 
 We have the XML source for these books.
 
@@ -103,7 +103,7 @@ We have the XML source for these books.
 * ZFS Administration Guide
 
 
-==== OpenSolaris Books - 2008.11 drop
+=== OpenSolaris Books - 2008.11 drop
 
 We **do not** have the source for these books.
 All that looks to be available is HTML.
@@ -112,7 +112,7 @@ All that looks to be available is HTML.
 * Another link to the same 2008 books: http://www.linuxtopia.org/online_books/opensolaris_2008/
 
 
-==== A full list of the 2008.11 books with separate links to each directory:
+=== A full list of the 2008.11 books with separate links to each directory:
 
 * https://web.archive.org/web/20090711142146/http://dlc.sun.com/osol/docs/content/2008.11/AIinstall/docinfo.html[OpenSolaris 2008.11 Automated Installer Guide]
 
@@ -133,7 +133,7 @@ All that looks to be available is HTML.
 * https://web.archive.org/web/20090429214954/http://dlc.sun.com/osol/docs/content/2008.11/getstart/docinfo.html[Introduction to the OpenSolaris 2008.11 Release]
 
 
-==== Other OpenSolaris Books
+=== Other OpenSolaris Books
 
 * https://web.archive.org/web/20100123170801/http://docs.sun.com/app/docs/coll/2509.1[Open HA Cluster 2009.06 Collection]
 
