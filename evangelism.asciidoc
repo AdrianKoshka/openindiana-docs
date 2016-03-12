@@ -11,7 +11,9 @@ http://gist.asciidoctor.org/?github-makruger/openindiana-docs//evangelism.asciid
 == Public Relations
 * Distrowatch
 ** I contacted Distrowatch to update to info to 2015.10 and provided and updated list of package version. - [alarcher] 
-** Some version numbers are still incorrect, for the next round I provided a mapping from DistroWatch to Hipster names http://hub.openindiana.ninja/?q=content/distrowatch-openindiana-hipster-packages[here] - [alarcher]
+** Some version numbers are still incorrect.
+For the next round I provided a mapping from DistroWatch to Hipster names:
+http://hub.openindiana.ninja/?q=content/distrowatch-openindiana-hipster-packages[here] - [alarcher]
 * http://opensolaris.linuxfreedom.com/ - didn't see OpenIndiana here anywhere (still showing OpenSolaris)
 * Unixmen
 * Slashdot
@@ -67,10 +69,10 @@ http://gist.asciidoctor.org/?github-makruger/openindiana-docs//evangelism.asciid
 * https://www.code42.com/crashplan/[CrashPlan]
 
 === File Sharing
-http://deluge-torrent.org/[Deluge]
+* http://deluge-torrent.org/[Deluge]
 
 === File Storage
-* docs://www.dropbox.com[dropbox]
+* http://www.dropbox.com[dropbox]
 
 === Graphics
 * https://www.blender.org/[Blender]
