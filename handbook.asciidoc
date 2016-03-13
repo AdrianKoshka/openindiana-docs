@@ -386,20 +386,24 @@ Packages cannot be installed locally like RPM, have to setup local network repos
 
 === Using OpenIndiana as a NAS
 
-==== Configuring OpenIndiana as a Samba Server
+==== Configuring OpenIndiana as a CIFS (Samba) Server
 
-* For help writing this section, see:
-https://web.archive.org/web/20091008234550/http://developers.sun.com/openstorage/articles/opensolaris_nas.html[Setting Up an OpenSolaris NAS Box]
+For help writing this section, see the following:
+* https://web.archive.org/web/20091008234550/http://developers.sun.com/openstorage/articles/opensolaris_nas.html[Setting Up an OpenSolaris NAS Box]
+* https://web.archive.org/web/20091005070838/http://wiki.genunix.org/wiki/index.php/Getting_Started_With_the_Solaris_CIFS_Service[Getting Started With the Solaris CIFS Service]
+* https://web.archive.org/web/20091021005616/http://blogs.sun.com/afshinsa/entry/how_to_enable_guest_access[How to enable guest access to a Solaris CIFS share]
+* https://web.archive.org/web/20091126111451/http://wiki.genunix.org/wiki/index.php/Solaris_CIFS_Service_Troubleshooting[Solaris CIFS Service Troubleshooting]
+* https://web.archive.org/web/20091124124935/http://wiki.genunix.org/wiki/index.php/What's_New_With_Solaris_CIFS[What's New With Solaris CIFS]
+* https://web.archive.org/web/20090725231658/http://wiki.genunix.org/wiki/index.php/CIFS_Technical_References[CIFS Technical References]
 
-Also see:
-https://web.archive.org/web/20091005070838/http://wiki.genunix.org/wiki/index.php/Getting_Started_With_the_Solaris_CIFS_Service[Getting Started With the Solaris CIFS Service]
-
-.steps
+.Home NAS setup steps
 * Get the hardware
 * Assemble the hardware
 * Install OpenIndiana
 * Configure OpenIndiana
 * Configure Windows
+
+Write about the share manager command - `sharemgr`.
 
 .For a variation of this....could be done virtually as well
 * Running OI as a VMware EXSI guest
