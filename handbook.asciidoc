@@ -454,6 +454,16 @@ https://web.archive.org/web/20091005070838/http://wiki.genunix.org/wiki/index.ph
 ** sysding replaced syscfg
 *** now have to have DNS, root password, etc. all configured inside the zone before being able to logon using `zlogin -C <zonename>`, otherwise have to do `zlogin <zonename>`. So a fair amount of stuff has changed there. 
 
+=== Clustering with Open HA Cluster
+
+See old sun docs
+
+* http://docs.oracle.com/cd/E19735-01/
+
+Also see:
+
+* http://zfs-create.blogspot.nl/
+
 
 == Developing with OpenIndiana
 
