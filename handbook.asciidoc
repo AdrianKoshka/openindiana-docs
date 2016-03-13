@@ -408,9 +408,15 @@ Also have a look at the OpenSolaris CIFS Adminstration Guide:
 * Configure OpenIndiana
 * Configure Windows
 
-Write about the share manager command - `sharemgr`.
+.commands used
+* `sharemgr` - configure and manage file sharing
+* `smbadm` - configure and manage CIFS local groups and users, and manage domain membership
+*  `zfs` - configures ZFS file systems
+* `passwd` - change login password and password attributes
+* `chown` - change file ownership
 
-.For a variation of this....could be done virtually as well
+
+.For a variation of configuring a home NAS - this could be done virtually as well
 * Running OI as a VMware EXSI guest
 ** Local storage hardware is passed through to the OI guest and then shared via ISCSI, CIFS, NFS, etc.
 
