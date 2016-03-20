@@ -326,34 +326,47 @@ When you boot it, it immediately begins the installation process.
 ** Configuring font anti-aliasing
 
 
-=== How does one keep the system updated and find more software?
+=== How does one keep the system updated?
 
-* IPS and BEADMIN walkthroughs
+Some notes and reference docs for writing the IPS section:
+
+* Be sure to provide walkthrous for both IPS and BEADMIN (as they work together).
 * http://www.oracle.com/technetwork/articles/servers-storage-admin/o11-083-ips-basics-523756.html[Basics of Image Packaging System (IPS) - Oracle]
 * http://www.oracle.com/technetwork/server-storage/solaris11/documentation/ips-one-liners-032011-337775.pdf[IPS cheat sheet PDF - Oracle]
-* `pkg update -nv` for change list
-* `pkg update` for actual update
 
-* Relevant OpenSolaris IPS doc titles
-** Image Packaging System Guide
-** Application Packaging Developer's Guide
-** OpenSolaris 2008.11 Image Packaging System Guide
 
-* Some notes for writing the IPS pages
-** Clean up and consolidate information from website and wiki about where to find additional software. 
-** Need to answer the questions - Where and how can I install more software?
-** Discuss the various package managers (PKGIN, IPS (PKG), etc.)
-** Discuss the various repos (opencsw, sfe, pkgsrc.joyent, etc.), what's available in them, and which might break compatibility, etc.
-** What is SFE? How does it differ from other repos?
-** Add a page for popular available software with descriptions, etc.
-** When they say IPS is network centric, they're not kidding;
-Packages cannot be installed locally like RPM, have to setup local network repository.
-*** See: http://serverfault.com/questions/348139/how-to-manually-download-individual-files-from-the-openindiana-or-solaris-pkg
-** How to additional repos, etc.
-** How to compile your own software. I think there is an existing wiki page for this. Given the limited number of IPS packages currently available, this is a pretty important subject to write about.
-*** Also could look here (might be outdated): http://www.inetdaemon.com/tutorials/computers/software/operating_systems/unix/Solaris/compiling_software.shtml
-** How to install flash player
+.Using pkg to list packages currently installed on the system
 
+<Place holder for content>
+
+.Using pkg to search for packages
+
+<Place holder for content>
+
+.Using pkg to update the system
+* `pkg update -nv` for a dry run (lists the changes which will be made to the system)
+* `pkg update` for the actual update itself
+* `pkg history` for a list of the changes which were made
+
+=== How does one find and install more software?
+
+Tips for writing this section:
+
+* Clean up and consolidate information from website and wiki about where to find additional software. 
+* Need to answer the questions - Where and how can I install more software?
+* Discuss the various package managers (PKGIN, IPS (PKG), etc.)
+* Discuss the various repos (opencsw, sfe, pkgsrc.joyent, etc.), what's available in them, and which might break compatibility, etc.
+* What is SFE? How does it differ from other repos?
+* Add a page for popular available software with descriptions, etc.
+* When they say IPS is network centric, they're not kidding;
+Packages cannot be installed locally like RPM, instead you have to setup a local network repository.
+** See: http://serverfault.com/questions/348139/how-to-manually-download-individual-files-from-the-openindiana-or-solaris-pkg
+* How to additional repos, etc.
+* How to compile your own software.
+I think there is an existing wiki page for this.
+Given the limited number of IPS packages currently available, this is a pretty important subject to write about.
+** Also could look here (might be outdated): http://www.inetdaemon.com/tutorials/computers/software/operating_systems/unix/Solaris/compiling_software.shtml
+* How to install flash player
 
 === How does one perform system backups?
 
