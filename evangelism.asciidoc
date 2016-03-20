@@ -88,17 +88,17 @@ http://hub.openindiana.ninja/?q=content/distrowatch-openindiana-hipster-packages
 * http://hugin.sourceforge.net/[Hugin]
 * https://picasa.google.com/[Picasa]
 
-
-=== Virtualization
-
+=== Virtualization - OpenIndiana as a Host
 * https://virt-manager.org/[Virt-Manager]
-* http://www.spice-space.org/[Spice Protocol Support for an OpenIndiana Guest OS]
 * http://www.ovirt.org/[O-virt]
+* https://www.virtualbox.org/[Virtualbox]
 
+=== Virtualization - OpenIndiana as a Guest
+* http://www.spice-space.org/[Native Spice Protocol Support for an OpenIndiana Guest OS]
+* https://my.vmware.com/web/vmware/details?productId=491&downloadGroup=VMTOOLS1000[Native Vmware tools support for an OpenIndana Guest OS]
 
 === Web browsers
 * http://www.chromium.org/Home[Chromium]
-
 
 === Suggestions for improving elements of the distro itself
 * Updated Custom desktop background for OI - Perhaps downloads from the website, or included in distro.
