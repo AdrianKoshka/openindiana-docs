@@ -131,14 +131,6 @@ For use cases where OpenIndiana is operated with minimal memory resources, syste
 | http://www.illumos.org/projects/openindiana/issues
 |===
 
-== Preparing to Install OpenIndiana
-
-=== Backing up data
-
-=== Deciding where to install OpenIndiana
-
-=== Gathering Network Information
-
 === Obtaining the software
 
 |===
@@ -211,20 +203,14 @@ Run the following command (as root or with appropriate privileges):
 `cat 1G.header <live USB image file> | dd bs=1024k of=<path to raw USB storage device>`
 
 
-== Installing OpenIndiana
+== Testing Openindiana Using the Live DVD/USB
 
+The Live DVD/USB provides a graphical live enviroment where you can explore OpenIndiana and test the compatibility of your hardware.
+Unless you choose to install OpenIndiana from the Live media, no changes are made to your system. 
 
-=== Booting the system
-
-
-The LiveDVD installer is graphical and requires X11.
-When booted, it starts a live CD session which allows you to explore and test the software prior to installation.
-To install from the Live CD, click one of the desktop installer icons.
- 
 Although it is possible to use it over a network with SSH X forwarding if you enable SSH.
 
-The text installer is not graphical and does not have a live environment.
-When you boot it, it immediately begins the installation process.
+=== Booting OpenIndiana
 
 
 ==== Booting Physical Hardware
@@ -259,18 +245,42 @@ When you see a menu, press Enter to start OpenIndiana on your computer.
 As it runs, you will be prompted with a few questions.
 You should eventually be presented with a desktop. 
 
+=== Authenticating when using the OpenIndiana LiveDVD
+
+The user login for the text session is username 'jack' along with the password 'jack'.
+For administrative or elevated access, prepend your commands with `pfexec`.
+You may also use the `sudo` command.
+
+You may obtain root using the `su` command along with the password 'openindiana'.
 
 === Using the Device Driver Utility
 
 You can use the Device Driver Utility to check if your hardware requires additional drivers.
 
+== Preparing to Install OpenIndiana
 
-=== Installing OpenIndiana to the Hard Disk
+=== Backing up data
 
-Click on Install OpenIndiana to permanently install OpenIndiana on your computer.
+=== Deciding where to install OpenIndiana
 
+=== Gathering Network Information
 
-=== Troubleshooting Installations
+== Installing OpenIndiana
+
+=== Installing OpenIndiana using the LiveDVD
+
+To install OpenIndiana from the LiveDVD, click one of the desktop installer icons.
+
+<Place -holder> - don't forget to write about networking (DHCP or static)
+
+=== Installing OpenIndiana using the Text Installer
+
+The text installer is not graphical and does not have a live environment.
+When you boot it, it immediately begins the installation process.
+
+<Place -holder> - don't forget to write about networking (DHCP or static)
+
+== Troubleshooting Installations
 
 * If you do not see a menu after booting your computer with the DVD or USB device, and instead see some text and a "grub>" prompt, there may be an error in your copy of the installer, or it was created incorrectly.
 * If you see a "login:" prompt after selecting your keyboard and language and no desktop appears after several seconds, there may be a problem with the drivers for your graphics hardware. 
@@ -279,15 +289,6 @@ Click on Install OpenIndiana to permanently install OpenIndiana on your computer
 ** If possible, also include the contents of the file `/var/log/Xorg.0.log`.
 
 == Using OpenIndiana
-
-
-=== Logging into OpenIndiana
-
-The user login for the text session is username 'jack' along with the password 'jack'.
-For administrative or elevated access, prepend your commands with `pfexec`.
-You may also use the `sudo` command.
-
-You may obtain root using the `su` command along with the password 'openindiana'.
 
 
 === Nvidia driver support
