@@ -401,6 +401,22 @@ Given the limited number of IPS packages currently available, this is a pretty i
 ** Also could look here (might be outdated): http://www.inetdaemon.com/tutorials/computers/software/operating_systems/unix/Solaris/compiling_software.shtml
 * How to install flash player
 
+.Using the pkg publisher and pkg set-publisher commands
+The `pkg publisher` command is used to add and remove remote repositories.
+
+* `pkg publisher` - lists all the repositories configured on the system.
+* To add a repository, use `pkg set-publisher -O <Repository_URL> <Repository_Name>`
+
+
+.Using the pkgrepo command
+The `pkgrepo` command is primarily used for creating and working with IPS repositories.
+It can also be used for querying the contents of a repository.
+
+* `pkgrepo info -s <repo_URL>`
+* `pkgrepo list -s <repo_URL> <package_group>`
+
+
+
 === How does one perform system backups?
 
 * Time Machine
