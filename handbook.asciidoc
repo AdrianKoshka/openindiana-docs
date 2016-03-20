@@ -44,11 +44,17 @@ http://gist.asciidoctor.org/?github-makruger/openindiana-docs//handbook.asciidoc
 :sectnums:
 == Introducing OpenIndiana
 
+// The content for this section is pulled from the OpenIndiana FAQ.
+// As the FAQ evolves, try to keep this section in sync.
+
 The OpenIndiana project is the open source community which develops, maintains, and supports the https://en.wikipedia.org/wiki/OpenIndiana[OpenIndiana] distribution, an https://en.wikipedia.org/wiki/Illumos[illumos] based Unix-like operating system derived from OpenSolaris.
 The purpose of the OpenIndiana Project is to ensure the continued availability of an openly developed distribution based on OpenSolaris.
 The OpenIndiana project is also a continuation of the collaborative effort and community spirit of the https://en.wikipedia.org/wiki/OpenSolaris[OpenSolaris project].
 
 === OpenIndiana Software Releases
+
+// The content for this section is pulled from the OpenIndiana FAQ.
+// As the FAQ evolves, try to keep this section in sync.
 
 Approximately every six months, the OpenIndiana project releases a snapshot of the Hipster rolling release branch.
 Perfectly suited for both workstations and servers, simply pick the installer which best suits your needs:
@@ -75,6 +81,9 @@ While every package is tested to ensure its stability, caution is nevertheless w
 
 
 === System Requirements
+
+// The content for this section is pulled from the OpenIndiana FAQ.
+// As the FAQ evolves, try to keep this section in sync.
 
 |===
 | | Minimum | Recommended
