@@ -88,6 +88,14 @@ http://hub.openindiana.ninja/?q=content/distrowatch-openindiana-hipster-packages
 * http://hugin.sourceforge.net/[Hugin]
 * https://picasa.google.com/[Picasa]
 
+
+=== Virtualization
+
+* https://virt-manager.org/[Virt-Manager]
+* http://www.spice-space.org/[Spice Protocol Support for an OpenIndiana Guest OS]
+* http://www.ovirt.org/[O-virt]
+
+
 === Web browsers
 * http://www.chromium.org/Home[Chromium]
 
