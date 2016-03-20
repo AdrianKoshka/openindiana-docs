@@ -51,6 +51,7 @@ The OpenIndiana project is the open source community which develops, maintains, 
 The purpose of the OpenIndiana Project is to ensure the continued availability of an openly developed distribution based on OpenSolaris.
 The OpenIndiana project is also a continuation of the collaborative effort and community spirit of the https://en.wikipedia.org/wiki/OpenSolaris[OpenSolaris project].
 
+
 === OpenIndiana Software Releases
 
 // The content for this section is pulled from the OpenIndiana FAQ.
@@ -110,6 +111,9 @@ For use cases where OpenIndiana is operated with minimal memory resources, syste
 
 === Finding help and support
 
+< Place Holder for section Introduction Content >
+
+
 ==== Local system command line help
 
 * apropos - search the manual page names and descriptions
@@ -161,12 +165,20 @@ If you wish to purchase a ready made DVD or USB drive there is also https://www.
 * Check MD5/SHA
 * Burn it to a DVD
 
+
 ==== Windows
+
+< Place holder for content >
+
 
 ==== Linux
 
+< Place holder for content >
+
+
 ==== OpenIndiana
 
+< Place holder for content >
 
 
 === Creating a bootable OpenIndiana USB flash drive
@@ -224,6 +236,8 @@ Although it is possible to use it over a network with SSH X forwarding if you en
 
 === Booting OpenIndiana
 
+< Place holder for section introduction  content >
+
 
 ==== Booting Physical Hardware
 
@@ -247,8 +261,12 @@ For VirtualBox 3.2 or later:
 
 ===== Vmware Workstation Player
 
+< place holder for content >
+
 
 ===== Vmware ESXI
+
+< place holder for content >
 
 
 === The OpenIndiana Boot Menu
@@ -271,11 +289,23 @@ You can use the Device Driver Utility to check if your hardware requires additio
 
 == Preparing to Install OpenIndiana
 
+< Place Holder for section introduction content >
+
+
 === Backing up data
+
+< Place holder for content >
+
 
 === Deciding where to install OpenIndiana
 
+< Place holder for content >
+
+
 === Gathering Network Information
+
+< Place holder for content >
+
 
 == Installing OpenIndiana
 
@@ -308,6 +338,8 @@ When you boot it, it immediately begins the installation process.
 ** If possible, also include the contents of the file `/var/log/Xorg.0.log`.
 
 == Using OpenIndiana
+
+<Place holder for section introduction content>
 
 
 === Nvidia driver support
@@ -344,9 +376,10 @@ Some notes and reference docs for writing the IPS section:
 <Place holder for content>
 
 .Using pkg to update the system
-* `pkg update -nv` for a dry run (lists the changes which will be made to the system)
-* `pkg update` for the actual update itself
-* `pkg history` for a list of the changes which were made
+* `pkg update -nv` will perform a dry run and list the changes which would have been made to the system.
+* `pkg update` will perform a normal update and print a very brief summary.
+* `pkg update -v` will perform the update and then print a summary of what was updated.
+* `pkg history` will provide basic details for previous uses of the pkg command.
 
 === How does one find and install more software?
 
@@ -383,6 +416,8 @@ Given the limited number of IPS packages currently available, this is a pretty i
 
 === Working with storage and file systems
 
+
+<Place holder for section introduction content>
 
 ==== How does one mount or import additional disks?
 
@@ -426,6 +461,9 @@ Given the limited number of IPS packages currently available, this is a pretty i
 
 
 === Using OpenIndiana as a NAS
+
+<place holder for section introduction content>
+
 
 ==== Configuring OpenIndiana as a CIFS (Samba) Server
 
@@ -540,8 +578,12 @@ You can create additional CIFS datasets using the following 4 commands.
 
 ==== Configuring OpenIndiana as an NFS Server
 
+<Place holder for content>
+
+
 ==== Configuring OpenIndiana as an ISCSI Target Server -(COMSTAR)
 
+<Place holder for content>
 
 
 === Getting OI to play Multimedia
@@ -561,8 +603,12 @@ You can create additional CIFS datasets using the following 4 commands.
 
 === Graphics workstation
 
+<Place holder for content>
+
 
 === Desktop Publishing system, Etc.
+
+<Place holder for content>
 
 
 === Virtualization Storage Server
@@ -587,6 +633,7 @@ You can create additional CIFS datasets using the following 4 commands.
 ** sysding replaced syscfg
 *** now have to have DNS, root password, etc. all configured inside the zone before being able to logon using `zlogin -C <zonename>`, otherwise have to do `zlogin <zonename>`. So a fair amount of stuff has changed there. 
 
+
 === Clustering with Open HA Cluster
 
 See old sun docs
@@ -606,9 +653,16 @@ The book titled "Introduction to Operating Systems: A Hands-On Approach Using th
 
 === How can OI be used as a development platform?
 
+<Place holder for content>
+
 
 === What programming tools, languages, etc., are available?
 
+<Place holder for content>
+
 
 === How can OI be used to further the development of OI itself?
+
+<Place holder for content>
+
 
