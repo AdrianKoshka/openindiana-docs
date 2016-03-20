@@ -353,8 +353,16 @@ Packages cannot be installed locally like RPM, have to setup local network repos
 
 ==== How does one mount or import additional disks?
 
+
 * Talk about the ZFS import command.
 * Need a walkthrough of mounting options for other filesystems...NTFS, FAT, UFS, etc.
+
+.commands used
+* `mount`
+
+.NTFS support - 3rd party
+* http://jp-andre.pagesperso-orange.fr/openindiana-ntfs-3g.html
+
 
 ==== How does one mirror their root zpool?
 
@@ -452,7 +460,7 @@ Set the share name to be used for the CIFS/SMB share.
 
 Change the ownership of ZFS dataset to the user account which will be used for remotely accessing the CIFS/SMB share.
 
- # chown -R <user_account> /backup
+ # chown -R <user_account> /storage/backup
 
 Verify everything is all set to go.
 
@@ -464,6 +472,14 @@ smb smb=()
 zfs smb=()
     zfs/storage/backup smb=()
           backup=/storage/backup
+
+You can create additional CIFS datasets using the following 4 commands.
+
+ # zfs create -o casesensitivity=mixed -o sharesmb=on <pool_name/dataset_name>
+ # zfs set sharesmb=name=<new_share_name> <pool_name/dataset_name>
+ # chown -R <user_account> <path_to_dataset>
+ # sharemgr show -vp
+
 
 ===== ConfiguringF CIFS/SMB linux client connectivity
 
