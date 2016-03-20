@@ -166,38 +166,56 @@ If you wish to purchase a ready made DVD or USB drive there is also https://www.
 * Burn it to a DVD
 
 
+==== BSD
+
+< Place holder for content >
+
+
+==== illumos/Solaris
+
+< Place holder for content >
+
+
+==== Mac OS-X
+
+< Place holder for content >
+
+
 ==== Windows
 
 < Place holder for content >
 
 
-==== Linux
+=== Creating a bootable OpenIndiana USB Flash Drive
 
-< Place holder for content >
+< Place Holder for section introduction content >
 
-
-==== OpenIndiana
-
-< Place holder for content >
+.TODO
+* Break this section out into 3 primary parts - One for each type of creation method.
 
 
-=== Creating a bootable OpenIndiana USB flash drive
-
-Requirements
-
-* Flash drive - (2GB or larger)
-* Download the OI USB install media
-* Download the OI 1G header file
+==== Live Media Creation Methods
 
 |===
 | Operating System | Method 
 
-| Windows | OpenSolaris Live USB Creator
 | BSD/Linux/OS X | DD
 | illumos/Solaris | usbcopy tool
+| Windows | OpenSolaris Live USB Creator
 |===
 
-* Locate the path to your USB storage device.
+
+==== BSD/Linux/OS X
+
+
+===== Prerequesettes
+
+* USB flash drive - (2GB or larger)
+* Download the OpenIndiana USB Live Media installer
+* Download the OpenIndiana 1G header file
+
+
+===== Identifying the path to your USB device
 
 |===
 | Operating system | Command | Device
@@ -222,15 +240,26 @@ Requirements
 ** Use `umount <path>` to unmount a filesystem, or `rmumount <path>` on illumos/Solaris, and `diskutil unmountDisk <path>` on OS X.
 ====
 
+===== Copying the Live Media to your Flash Drive
+
 Run the following command (as root or with appropriate privileges): 
 
 `cat 1G.header <live USB image file> | dd bs=1024k of=<path to raw USB storage device>`
 
 
-== Testing Openindiana Using the Live DVD/USB
+==== illumos/Solaris
 
-The Live DVD/USB provides a graphical live enviroment where you can explore OpenIndiana and test the compatibility of your hardware.
-Unless you choose to install OpenIndiana from the Live media, no changes are made to your system. 
+< Place holder for content >
+
+==== Windows
+
+< Place Holder for content >
+
+
+== Testing Openindiana Using Live Media
+
+The Live Media DVD and USB installers provide a graphical live enviroment where you can explore OpenIndiana and test the compatibility of your hardware.
+When using Live Media to explore OpenIndiana, no changes are made to your system, unless you explicitly choose to install OpenIndiana.
 
 Although it is possible to use it over a network with SSH X forwarding if you enable SSH.
 
