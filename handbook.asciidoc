@@ -267,6 +267,13 @@ You can use the Device Driver Utility to check if your hardware requires additio
 
 == Installing OpenIndiana
 
+.For some guidance writing this section:
+* http://technodrone.blogspot.com/2012/05/openindiana-installation-walkthrough.html
+
+.Installation videos:
+* https://www.youtube.com/watch?v=VVWP_5oAy3w
+
+
 === Installing OpenIndiana using the LiveDVD
 
 To install OpenIndiana from the LiveDVD, click one of the desktop installer icons.
