@@ -1,6 +1,10 @@
-:toc: left
-:imagesdir: images/handbook
+// Start of document parameters
 
+:icons: font
+:imagesdir: images/handbook
+:toc: left
+
+// End of document parameters
 
 = OpenIndiana Handbook
 
@@ -42,8 +46,12 @@ http://gist.asciidoctor.org/?github-makruger/openindiana-docs//handbook.asciidoc
 * https://web.archive.org/web/20100105080516/http://dlc.sun.com/osol/docs/content/2009.06/[OpenSolaris 2009.06 docs]
 * https://web.archive.org/web/20100401024945/http://www.opensolaris.com/use/OpenSolaris200906Booklet.pdf[OpenSolaris 2009.06 Booklet PDF]
 
+// Start of document parameters
 
 :sectnums:
+
+// End of document parameters
+
 == Introducing OpenIndiana
 
 // The content for this section is pulled from the OpenIndiana FAQ.

@@ -1,5 +1,10 @@
+// Start of document parameters
+
+:icons: font
 :sectnums:
 :toc: left
+
+// End of document parameters
 
 = OpenIndiana FAQ
 
