@@ -7,7 +7,7 @@
 To view this doc in it's final rendered form, click the following link:
 http://gist.asciidoctor.org/?github-makruger/openindiana-docs//asciidoc_toolchain.asciidoc
 
-=== Docs are Code
+== Docs are Code
 
 The most important thing to keep in mind is that docs = code.
 So, we treat the docs just as we would code.
@@ -16,20 +16,20 @@ So, we treat the docs just as we would code.
 * Use comments in your docs.
 * Use version control - fork and fix.
 
-=== General writing tips
+== General writing tips
 
 * Write your docs by answering a question.
 ** Later turn the questions into sectional headings, etc.
 * Use a thesaurus - e.g. https://www.powerthesaurus.org/
 * Couch read - via a phone or tablet, proof read what you previously wrote. - (puts you into the reader's shoes)
 
-=== Tips for working with Asciidoctor
+== Tips for working with Asciidoctor
 
 * Use "Attributes" and name space them - e.g. `:uri-project: <url>` -(place these attributes at top of document)
 ** Call your attributes in your docs like this: `{uri-project} [Project name]`
 * Use "Includes" - e.g. `include:: {uri-macros}/doc_to_import.asciidoc[]` - (allows you to pull in other docs into your docs)
 
-==== General Information
+== General Information
 
 |===
 | URL | Description
