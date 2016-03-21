@@ -304,16 +304,17 @@ Below is a list of OpenIndiana community resources you may find helpful:
 
 Here are just some of the many ways you may contribute:
 
-* Release engineering - Distribution Constructor
-* Development
-* Utilities maintenance - Image Packaging System - `pkg[5]`
-* Packaging - oi-userland, 3rd party packaging (SFE, etc.)
-* Documentation - Handbook, Tutorials, News articles, etc.
-* OpenIndiana Evangelism - blogging, conferences, etc.
-* Website Maintenance
-* Translation
 * Artwork
+* Development
+* Documentation - Handbook, Tutorials, News articles, etc.
+* Evangelism - blogging about OpenIndiana, attending conferences, etc.
+* Packaging - oi-userland, 3rd party packaging (SFE, etc.)
+* Release engineering
+* Translation
+* Utilities maintenance - Image Packaging System - `pkg[5]`
+* Website Maintenance
 
+And many, many more. Just ask on the IRC channels or mailing lists about how you may contribute.
 
 For additional details, including links to our github source repositories, please see: http://www.openindiana.org/community/getting-involved
 
