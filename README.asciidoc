@@ -21,9 +21,9 @@ TOC outlines for the FreeBSD and PCBSD handbooks for help with developing an Ope
 
 General discussion about the challenges of working with existing OpenSolaris documentation.
 
-== evangelism.asciidoc
+== project_improvements.asciidoc
 
-General discussion of ideas to further promote OpenIndiana.
+General discussion of ideas to further improve and promote the OpenIndiana project.
 Also contains a wish list of software to enhance the utility of OpenIndiana Hipster as a desktop operating system.
 
 == faq.asciidoc

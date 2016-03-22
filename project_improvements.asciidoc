@@ -1,11 +1,27 @@
 :sectnums:
 :toc: left
 
-= OpenIndiana Evangelism and Distro Improvement
+= OpenIndiana Project Improvements
 
 [NOTE]
 To view this doc in it's final rendered form, click the following link:
 http://gist.asciidoctor.org/?github-makruger/openindiana-docs//evangelism.asciidoc
+
+== Governance Board
+
+At this time the OpenIndiana project operates ungoverned.
+As a result, reaching consensus can often be difficult.
+Furthermore, without governance, there can sometimes be discord.
+
+I propose the creation of an OpenIndiana governance board to help steer the Openindiana project and help reign in community members with troublesome behaviours.
+
+== Code of Conduct
+
+At this time the OpenIndiana project operates without a code of conduct.
+As a result, a member of the greater OpenIndiana community could concievably conduct themselves without restraint.
+Naturally this absense of order and respect would greatly disrupt the continuance and harmony of the project, affecting all members negatively.
+Poorly behaving community members also cast the entire project in a negative light.
+For this reason alone, an effective code of conduct (and a governance board to enforce it) are imperative.
 
 
 == Public Relations
