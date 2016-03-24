@@ -26,10 +26,12 @@ What I mean is it's almost kind of pointless to keep talking about OI being a fo
 
 
 == Useful references
-* https://web.archive.org/web/20081207155129/http://opensolaris.org/os/community/documentation/files/OSOLDOCSG.pdf[ OpenSolaris Documentation Style Guide -(from wayback machine)]
-* https://web.archive.org/web/20090823064740/http://www.opensolaris.org/os/community/documentation/[Old OpenSolaris Docs website - (from wayback machine)]
+* https://web.archive.org/web/20081207155129/http://opensolaris.org/os/community/documentation/files/OSOLDOCSG.pdf[OpenSolaris Documentation Style Guide]
+* https://web.archive.org/web/20090823064740/http://www.opensolaris.org/os/community/documentation/[docs from www.opensolaris.org]
+* https://web.archive.org/web/20100909110451/http://hub.opensolaris.org/bin/view/Main/documentation[docs from hub.opensolaris.org]
+* https://web.archive.org/web/20110702071619/http://cr.opensolaris.org/~gman/opensolaris-whats-new-2010-03[What's new for OSOL 2010.03]
 * link to illumos graphics files: https://www.illumos.org/projects/site/files
-* https://web.archive.org/web/20110904232819/http://dlc.sun.com/osol/docs/downloads/minibook/en/820-7102-10-Eng-doc.pdf[ Getting StartedWith OpenSolaris 2008.11 - (PDF minibook - from wayback machine)]
+* https://web.archive.org/web/20110904232819/http://dlc.sun.com/osol/docs/downloads/minibook/en/820-7102-10-Eng-doc.pdf[Getting Started With OpenSolaris 2008.11 - PDF minibook]
 * https://www.freebsd.org/doc/en_US.ISO8859-1/books/fdp-primer/[FreeBSD Documentation Project Primer for New Contributors]
 
 
