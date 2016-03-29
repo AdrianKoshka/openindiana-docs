@@ -198,7 +198,8 @@ If you wish to purchase a ready made DVD or USB drive there is also https://www.
 
 === Creating a bootable OpenIndiana USB Flash Drive
 
-< Place Holder for section introduction content >
+The most reliable method is to use the Windows OpenSolaris USB creation tool.
+DD is not always reliable (either doesn't boot at all, or fails to load liveCD and falls back to system maintenance mode with KSH93 errors).
 
 .TODO
 * Break this section out into 3 primary parts - One for each type of creation method.
@@ -279,6 +280,12 @@ Although it is possible to use it over a network with SSH X forwarding if you en
 
 
 ==== Booting Physical Hardware
+
+.OpenIndiana is picky about hardware
+* Intel socket 775 Gigabyte motherboard with ICH10 chipset - Kernel using from 40-80% cpu @ idle.
+* Seems to work OK on Intel brand desktop board.
+* Works well with HP Zxxx class workstation hardware.
+
 
 Insert the bootable media (DVD or USB flash drive) and boot (start/restart) your computer.
 For the computer to boot from the media, you may need to specify the device by pressing the boot order hotkey.
@@ -512,6 +519,11 @@ When you boot from the text installer, it immediately begins the installation pr
 * Discuss procedure for adding an NVIDIA card to a system that was using VESA or some other non-3d video driver.
 * Troubleshooting - what logs to look at, manual configuration, etc. 
 * Walk through NVIDIA utility screens.
+
+
+=== How does one add a missing device driver?
+
+< Write about finding hardware id's, searching for drivers, installing, loading, /etc/driver_alias'es file. >
 
 
 === How can the desktop be modified?
@@ -804,6 +816,26 @@ You can create additional CIFS datasets using the following 4 commands.
 * Using VIRSH, Virt-manager, etc. (Does hipster [or any illumos distro for that matter] even have virsh or Virt-manager)
 ** If not, what tools are used to manage the Joyant KVM port (VMADM perhaps?)
 ** Virtualbox walkthrough - ditto...is there a package available?
+
+* illumos KVM port does not support AMD processors.
+* Intel processors require EPT support.
+
+In a nutshell, most modern Intel processors such as i3, i5, i7, and Xeon support EPT. 
+Most older processors such as Core2duo and Core2Quad lack EPT support, and a few of them lack virtualization support at all.
+
+You can check your processor for EPT support via the following link: http://ark.intel.com/Products/VirtualizationTechnology
+
+* Hipster is currently testing a new package for managing KVM instances as SMF services.
+
+	<leoric> Testers needed! pkg://userland/system/qemu/kvmadm@0.10.3,5.11-2015.0.2.0:20160322T212709Z
+	<leoric> jeffpc: I know, you like kvm :)
+	<jeffpc> heh
+	<jeffpc> leoric: is there documentation for it?
+	<leoric> https://github.com/hadfl/kvmadm/blob/master/doc/kvmadm.pod
+	<jeffpc> oh, is it http://www.kvmadm.org/ ?
+	<leoric> yes
+	<jeffpc> interesting
+	<jeffpc> I'll have to give it a try at some point
 
 
 === Zones - running web stuff in zone, development, etc.
