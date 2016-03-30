@@ -7,6 +7,11 @@
 To view this doc in it's final rendered form, click the following link:
 http://gist.asciidoctor.org/?github-makruger/openindiana-docs//evangelism.asciidoc
 
+[NOTE]
+====
+For expert community building guidance from a seasoned OpenSolaris veteran, see Jim Grisianzio's https://jimgrisanzio.wordpress.com/communities/[communities] page.
+====
+
 == Governance Board
 
 At this time the OpenIndiana project operates ungoverned.
@@ -72,6 +77,7 @@ http://hub.openindiana.ninja/?q=content/distrowatch-openindiana-hipster-packages
 * http://www.vim.org/[GVIM - Text Editor]
 * https://eclipse.org/[Eclipse - IDE]
 * http://meldmerge.org/[Meld - Diff Viewer]
+* https://www.sublimetext.com/3[Sublime - Text Editor]
 
 === Desktop publishing
 * http://www.scribus.net/[Scribus]
