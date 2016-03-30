@@ -25,10 +25,16 @@ The continuous integration content management process might go something like th
 - Send a pull request so your changes can be reviewed for inclusion into the master repository.
 - Upon commit to the master repository, a repo hook kicks off a build and deploy of the updated content.
 
-This process can be as big or small as you like.
-For instance, you may wish to keep things limited to docs, or it can be expanded to include the project's entire web presence.
+This process can be as big or small as you like;
+You may wish to keep things limited to docs, or the concept can be expanded to include the project's entire web presence.
 
-Using static website _baking_ frameworks such as http://awestruct.org/[Awestruct] along with dynamic _mobile first_ CSS frameworks such as http://getbootstrap.com/[Bootstrap] or http://foundation.zurb.com/[Foundation], the entire OpenIndiana website, and all it's content, can be managed in a similar way.
+For the later, static website _baking_ frameworks such as http://awestruct.org/[Awestruct] or https://jekyllrb.com/[Jekyll] along with dynamic _mobile first_ CSS frameworks such as http://getbootstrap.com/[Bootstrap] or http://foundation.zurb.com/[Foundation], the entire OpenIndiana website, and all it's content, can be continuously integrated in a fully automated fashion.
+
+.No Mess, No Fuss.
+
+- No more databases to maintain
+- No more patching security holes in CMS systems
+- No more backups (remember it all lives on github, and everyone has their cloned copy of it).
 
 For a working example of what this might look like in production, have a look at the newly updated https://jenkins.io/index.html[Jenkins website].
 
