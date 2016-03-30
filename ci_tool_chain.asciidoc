@@ -4,8 +4,12 @@
 = Continuous Integration Toolchain
 
 [NOTE]
+====
+
 To view this doc in it's final rendered form, click the following link:
-http://gist.asciidoctor.org/?github-makruger/openindiana-docs//asciidoc_toolchain.asciidoc
+http://gist.asciidoctor.org/?github-makruger/openindiana-docs//ci_tool_chain.asciidoc
+
+====
 
 == Introduction
 
