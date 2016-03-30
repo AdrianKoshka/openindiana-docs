@@ -7,29 +7,66 @@
 To view this doc in it's final rendered form, click the following link:
 http://gist.asciidoctor.org/?github-makruger/openindiana-docs//asciidoc_toolchain.asciidoc
 
+== Introduction
+
+This document is whiteboard for ideas to develop a continuous integration toolchain for documentation.
+The ideal model would be where all informational contents (docs, blog posts, news, etc.) lives in github.
+This way, working with informational content is simply a matter using familar tools.
+
+The process might go something like this:
+
+- Clone the repository.
+- Add or edit some content.
+- Commit your changes.
+- Send a pull request so your changes can be reviewed and if approved, merged into the master branch.
+- Upon commit to the master repository, a repo hook kicks off a build and deploy of the updated content.
+
+Using static website _baking_ frameworks such as http://awestruct.org/[Awestruct] along with dynamic _mobile first_ CSS frameworks such as http://getbootstrap.com/[Bootstrap] or http://foundation.zurb.com/[Foundation], the entire OpenIndiana website, and all it's content, can be managed in a similar way.
+
+For a working example of what this might look like in production, have a look at the newly updated https://jenkins.io/index.html[Jenkins website].
+
 == Docs are Code
 
-The most important thing to keep in mind is that docs = code.
-So, we treat the docs just as we would code.
+The most important thing to keep in mind is that docs are code.
+So, we treat the docs (and all other content) just as we would code (and use many of the very same tools to manage it all).
 
-* Write 1 sentence per line.
-* Use comments in your docs.
-* Use version control - fork and fix.
+- Write 1 sentence per line.
+- Use comments in your code.
+- Use version control - fork and fix (just as you would anything else).
 
 == General writing tips
 
-* Write your docs by answering a question.
-** Later turn the questions into sectional headings, etc.
-* Use a thesaurus - e.g. https://www.powerthesaurus.org/
-* Couch read - via a phone or tablet, proof read what you previously wrote. - (puts you into the reader's shoes)
+- Write your docs by asking a question and then answering it.
+* Later turn the questions into sectional headings, etc.
+- Use a thesaurus - e.g. https://www.powerthesaurus.org/
+- Couch read - via a phone or tablet, proof read what you previously wrote. - (puts you into the reader's shoes)
+- Use TODO's.
+
+== What is Asciidoctor?
+
+Asciidoctor is a text based markdown language used for the production of website content.
+Whether you are writing blog posts, news stories, or systems documentation, languages such as Asciidoc (or Restructured Text), make the job easier.
+
+The main advantages of using a text markdown language is readability and flexibility.
+The raw code for your content is something you can make sense of without having to use special tools (e.g. Docbook based WYSIWYG XML editors, etc.).
+
+Asciidoc is a text markdown language using a Python based interpreter.
+Asciidoctor is a more modern Ruby based implementation of Asciidoc.
+Asciidoctor also includes some of features found in documentation frameworks such as Sphinx.
+
+The Restructured Text based Sphinx documentation framework is used by the Python project (as well as by the PC-BSD project).
+
+Both have their relative merits and both have advantages and disadvantages.
+For example if all you want to do is write and publish some docs, then Sphinx is a good choice.
+If you want to do a little more (like the Jenkins project is doing), then Asciidoctor is the better choice.
 
 == Tips for working with Asciidoctor
 
-* Use "Attributes" and name space them - e.g. `:uri-project: <url>` -(place these attributes at top of document)
-** Call your attributes in your docs like this: `{uri-project} [Project name]`
-* Use "Includes" - e.g. `include:: {uri-macros}/doc_to_import.asciidoc[]` - (allows you to pull in other docs into your docs)
+- Use "Attributes" and name space them - e.g. `:uri-project: <url>` -(place these attributes at top of document)
+* Call your attributes in your docs like this: `{uri-project} [Project name]`
+- Use "Includes" - e.g. `include:: {uri-macros}/doc_to_import.asciidoc[]` - (allows you to pull in other docs into your docs)
 
-== General Information
+== Asciidoctors tools and Informational Links
 
 |===
 | URL | Description
@@ -58,10 +95,7 @@ The Travis-CI build engine can even post the results of the build to IRC (as sho
 	<travis-ci> Change view : https://github.com/asciidoctor/asciidoctor/compare/6e41bee5dc42...cbf2ab0a9b78
 	<travis-ci> Build details : https://travis-ci.org/asciidoctor/asciidoctor/builds/114132261
 
-* Static site generators
-** http://jekyllrb.com/
-** http://awestruct.org/
-
+.Videos
 |===
 | URL | Desciption
 
