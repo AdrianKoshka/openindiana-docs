@@ -26,15 +26,16 @@ The continuous integration content management process might go something like th
 - Upon commit to the master repository, a repo hook kicks off a build and deploy of the updated content.
 
 This process can be as big or small as you like;
-You may wish to keep things limited to docs, or the concept can be expanded to include the project's entire web presence.
+You may wish to keep things limited to systems documentation, or the concept can be expanded to include the project's entire web presence.
 
 For the later, static website _baking_ frameworks such as http://awestruct.org/[Awestruct] or https://jekyllrb.com/[Jekyll] along with dynamic _mobile first_ CSS frameworks such as http://getbootstrap.com/[Bootstrap] or http://foundation.zurb.com/[Foundation], the entire OpenIndiana website, and all it's content, can be continuously integrated in a fully automated fashion.
 
 .No Mess, No Fuss.
 
-- No more databases to maintain
-- No more patching security holes in CMS systems
-- No more backups (remember it all lives on github, and everyone has their cloned copy of it).
+- No more databases to maintain.
+- No more patching security holes in CMS systems.
+- No more backups (remember the whole website lives on github, and everyone has their cloned copy of it).
+- Everything is version controlled.
 
 For a working example of what this might look like in production, have a look at the newly updated https://jenkins.io/index.html[Jenkins website].
 
@@ -47,7 +48,7 @@ So, we treat the docs (and all other content) just as we would code (and use man
 - Use comments in your code.
 - Use version control - fork and fix (just as you would anything else).
 
-== General writing tips
+== General Writing Tips
 
 - Write your docs by asking a question and then answering it.
 * Later turn the questions into sectional headings, etc.
@@ -65,21 +66,19 @@ The raw code for your content is something you can make sense of without having 
 
 Asciidoc is a text markdown language using a Python based interpreter.
 Asciidoctor is a more modern Ruby based implementation of Asciidoc.
-Asciidoctor also includes some of features found in documentation frameworks such as Sphinx.
+Asciidoctor also includes some of features found in documentation frameworks such as Sphinx (which is used by the Python and PC-BSD projects).
 
-The Restructured Text based Sphinx documentation framework is used by the Python project (as well as by the PC-BSD project).
-
-Both have their relative merits and both have advantages and disadvantages.
+Both systems have their relative merits with advantages and disadvantages.
 For example if all you want to do is write and publish some docs, then Sphinx is a good choice.
-If you want to do a little more (like the Jenkins project is doing), then Asciidoctor is the better choice.
+However, if you want to do a little more (like the Jenkins project is doing), then Asciidoctor is likely the better choice.
 
-== Tips for working with Asciidoctor
+== Tips for Working with Asciidoctor
 
 - Use "Attributes" and name space them - e.g. `:uri-project: <url>` -(place these attributes at top of document)
 * Call your attributes in your docs like this: `{uri-project} [Project name]`
 - Use "Includes" - e.g. `include:: {uri-macros}/doc_to_import.asciidoc[]` - (allows you to pull in other docs into your docs)
 
-== Asciidoctors tools and Informational Links
+== Asciidoctor Tools and Informational Links
 
 |===
 | URL | Description
