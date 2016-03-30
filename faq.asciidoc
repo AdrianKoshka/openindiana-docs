@@ -42,6 +42,7 @@ The OpenIndiana project is the open source community which develops, maintains, 
 The purpose of the OpenIndiana Project is to ensure the continued availability of an openly developed distribution based on OpenSolaris.
 The OpenIndiana project is also a continuation of the collaborative effort and community spirit of the https://en.wikipedia.org/wiki/OpenSolaris[OpenSolaris project].
 
+For a comprehensive history of the OpenSolaris project, see Jim Grisanzio's https://jimgrisanzio.wordpress.com/opensolaris/[OpenSolaris timeline].
 
 == Why is it called OpenIndiana?
 
