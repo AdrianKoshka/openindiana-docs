@@ -3,6 +3,14 @@
 
 = OpenSolaris Redistributable Books
 
+The number one thing we can do to improve the books is consolidate them into fewer volumes.
+The 2009 docs drop consists of 41 books.
+Obviously maintaining 41 different titles is no easy matter.
+So consolidating these down to a dozen volumes (or fewer), would be in our best interest.
+
+In reviewing the books, there looks to be some crossover between titles.
+It might be posible to merge the content from the Solaris Express books into the Systems Administration books, etc.
+
 [NOTE]
 To view this doc in it's final rendered form, click the following link:
 http://gist.asciidoctor.org/?github-makruger/openindiana-docs//books.asciidoc
