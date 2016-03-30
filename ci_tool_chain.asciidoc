@@ -1,7 +1,7 @@
 :sectnums:
 :toc: left
 
-= Asciidoc toolchain
+= Continuous Integration Toolchain
 
 [NOTE]
 To view this doc in it's final rendered form, click the following link:
@@ -9,17 +9,20 @@ http://gist.asciidoctor.org/?github-makruger/openindiana-docs//asciidoc_toolchai
 
 == Introduction
 
-This document is whiteboard for ideas to develop a continuous integration toolchain for documentation.
-The ideal model would be where all informational contents (docs, blog posts, news, etc.) lives in github.
-This way, working with informational content is simply a matter using familar tools.
+This document is a whiteboard for ideas to develop a continuous integration toolchain for documentation.
+The ideal model would be where all informational content (docs, blog posts, news, etc.) lives in github.
+This way, working with informational content is simply a matter of working with familiar tools and concepts.
 
-The process might go something like this:
+The continuous integration content management process might go something like this:
 
 - Clone the repository.
 - Add or edit some content.
 - Commit your changes.
-- Send a pull request so your changes can be reviewed and if approved, merged into the master branch.
+- Send a pull request so your changes can be reviewed for inclusion into the master repository.
 - Upon commit to the master repository, a repo hook kicks off a build and deploy of the updated content.
+
+This process can be as big or small as you like.
+For instance, you may wish to keep things limited to docs, or it can be expanded to include the project's entire web presence.
 
 Using static website _baking_ frameworks such as http://awestruct.org/[Awestruct] along with dynamic _mobile first_ CSS frameworks such as http://getbootstrap.com/[Bootstrap] or http://foundation.zurb.com/[Foundation], the entire OpenIndiana website, and all it's content, can be managed in a similar way.
 
