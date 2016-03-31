@@ -12,30 +12,6 @@
 To view this doc in it's final rendered form, click the following link:
 http://gist.asciidoctor.org/?github-makruger/openindiana-docs//faq.asciidoc
 
-////
-When working on this document, please bear in mind "Docs = Source Code".
-In other words, treat this doc exactly as you would source code.
-
-* Place one sentence on each line (just as you would with source code).
-* This make is much easier to navigate, move lines around, add comments, etc.
-* When the document is rendered by Asciidoctor, the lines will join together to form a paragraph.
-* Separate paragraphs using a blank line.
-
-=== What questions would people new to Openindiana have?
-
-==== Where did it come from?
-
-
-==== Why should people consider it?
-
-
-==== What makes it different than say BSD or Linux?
-
-
-==== What makes it more interesting than something else?
-////
-
-
 == What is OpenIndiana?
 
 The OpenIndiana project is the open source community which develops, maintains, and supports the https://en.wikipedia.org/wiki/OpenIndiana[OpenIndiana] distribution, an https://en.wikipedia.org/wiki/Illumos[illumos] based Unix-like operating system derived from OpenSolaris.
@@ -63,10 +39,10 @@ This melding of software from many different open-source projects is similar to 
 
 Some of the differences between OpenIndiana and OpenSolaris can be characterized as follows:
 
-* Sun/Oracle's proprietary OS/NET consolidation has been replaced with https://github.com/OpenIndiana/illumos-gate[illumos-gate].
-* Many of the original OpenSolaris software consolidations have been reorganized into a single https://github.com/OpenIndiana/oi-userland[oi-userland] consolidation.
-* Oracle's Sun Studio has been replaced with the open source GNU GCC compiler.
-* XVM (XEN) has been replaced with the illumos-kvm port.
+- Sun/Oracle's proprietary OS/NET consolidation has been replaced with https://github.com/OpenIndiana/illumos-gate[illumos-gate].
+- Many of the original OpenSolaris software consolidations have been reorganized into a single https://github.com/OpenIndiana/oi-userland[oi-userland] consolidation.
+- Oracle's Sun Studio has been replaced with the open source GNU GCC compiler.
+- XVM (XEN) has been replaced with the illumos-kvm port.
 
 [NOTE]
 OpenIndiana Hipster's transistion from Sun Studio to GCC has resulted in a discontinuance of ABI (binary) compatibility with previous releases of OpenIndiana, Oracle Solaris, and OpenSolaris.
