@@ -150,8 +150,10 @@ While every package is tested to ensure stability, caution is nevertheless warra
 
 [IMPORTANT]
 ====
-Unlike Linux or Windows, where swap files are generally 100-200% of installed memory, the default size of the OpenIndiana swap file is 50% of installed memory.
-For use cases where OpenIndiana is operated as a desktop, and with minimal memory resources, system swap size should be increased to 4 GB or more.
+The default size of the OpenIndiana swap file is 50% of installed memory with minimum and maximum sizes of 512MB and 32GB respectively.
+In use cases where OpenIndiana is installed as a desktop, ensure total system memory (RAM + swap) are at least 4GB or greater.
+For the best performance, allocate 4GB RAM or more.
+
 ====
 
 == Does OpenIndiana support internationalization and localization?
