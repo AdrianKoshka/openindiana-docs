@@ -56,7 +56,7 @@ Not a technical FAQ as it only answers general questions about the project and i
 
 
 // The OpenIndiana Handbook
-== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//handbook.asciidoc[The OpenIndiana Handbook]
+== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//openindiana_handbook.adoc[The OpenIndiana Handbook]
 The OpenIndiana Handbook - Still a work in progress.
 This document is a basic HOWTO guide for new users unfamiliar with OpenIndinana Hipster.
 
