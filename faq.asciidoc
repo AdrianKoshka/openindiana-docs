@@ -6,11 +6,8 @@
 
 // End of document parameters
 
-= OpenIndiana FAQ
+= The OpenIndiana FAQ
 
-[NOTE]
-To view this doc in it's final rendered form, click the following link:
-http://gist.asciidoctor.org/?github-makruger/openindiana-docs//faq.asciidoc
 
 == What is OpenIndiana?
 
@@ -234,7 +231,7 @@ These books were originally created by the OpenSolaris project and are PDL open 
 
 [NOTE]
 ====
-In 2009, the OpenSolaris project released an updated version (the 2009.06 drop) of the OpenSolaris book collection.
+In 2009, the OpenSolaris project released an updated version (the 2009.07.15 drop) of the OpenSolaris book collection.
 This collection is currently being reviewed and updated by the OpenIndiana documentation team.
 As each book is completed, it will be published on OpenIndiana.org.
 

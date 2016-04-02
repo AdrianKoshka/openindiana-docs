@@ -1,11 +1,8 @@
 :sectnums:
 :toc: left
 
-= Considerations and ideas for further improving the OI WordPress website.
+= Improving the OpenIndiana Website
 
-[NOTE]
-To view this doc in it's final rendered form, click the following link:
-http://gist.asciidoctor.org/?github-makruger/openindiana-docs//wordpress.asciidoc
 
 == Just some general thoughts.....
 

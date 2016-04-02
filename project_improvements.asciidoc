@@ -1,11 +1,8 @@
 :sectnums:
 :toc: left
 
-= OpenIndiana Project Improvements
+= Improving the OpenIndiana Project
 
-[NOTE]
-To view this doc in it's final rendered form, click the following link:
-http://gist.asciidoctor.org/?github-makruger/openindiana-docs//evangelism.asciidoc
 
 [NOTE]
 ====

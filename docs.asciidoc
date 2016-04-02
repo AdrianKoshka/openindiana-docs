@@ -1,11 +1,8 @@
 :sectnums:
 :toc: left
 
-= Improving OpenIndiana Documentation
+= Improving OpenIndiana Systems Documentation
 
-[NOTE]
-To view this document in it's final rendered form, click the following link:
-http://gist.asciidoctor.org/?github-makruger/openindiana-docs//docs.asciidoc
 
 == A user comment posted to OI wiki in 2011:
 * "Documentation such as a manual is essential in not just learning from, it tells everyone where the product is in the scheme of things. Referring to Oracle for documentation relating to OI just makes one have less confidence with OI itself. Look at the FreeBSD site documentation levels are really good and gives people confidence to try FreeBSD and its derivatives."
