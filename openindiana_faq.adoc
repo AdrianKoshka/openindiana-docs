@@ -1,3 +1,5 @@
+// vim: set syntax=asciidoc:
+
 // Start of document parameters
 
 :icons: font

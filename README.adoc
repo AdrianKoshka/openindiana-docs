@@ -1,3 +1,6 @@
+// vim: set syntax=asciidoc:
+
+
 = openindiana-docs
 
 This repository is for the development of OpenIndiana systems documentation as well as additional work products to help promote and improve all areas of the OpenIndiana project.
@@ -5,49 +8,49 @@ Below you will find a stylized link to each file along with a brief summary of i
 
 
 // Looking at the Structure of the BSD Handbooks
-== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//bsd.asciidoc[Looking at the Structure of the BSD Handbooks]
+== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//bsd_handbooks.adoc[Looking at the Structure of the BSD Handbooks]
 TOC outlines for the FreeBSD and PCBSD handbooks for help with developing an OpenIndiana handbook.
 
 
 // Building a Document Management Toolchain using Sphinx
-== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//sphinx_toolchain.asciidoc[Building a Document Management Toolchain using Sphinx]
+== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//sphinx_toolchain.adoc[Building a Document Management Toolchain using Sphinx]
 Guidance and web-links for the development of a Sphinx based continuous integration documentation toolchain.
 This doc is for future reference in case we ever want to revisit this as a potential toolchain.
 
 
 // Building a Continuous Integration Content Management Toolchain
-== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//ci_tool_chain.asciidoc[Building a Continuous Integration Content Management Toolchain]
+== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//cicm_toolchain.adoc[Building a Continuous Integration Content Management Toolchain]
 General discussion of ideas leading to the development of a text markup based continuous integration documentation toolchain.
 
 
 // Improving OpenIndiana Systems Documentation
-== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//docs.asciidoc[Improving OpenIndiana Systems Documentation]
+== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//openindiana_docs.adoc[Improving OpenIndiana Systems Documentation]
 General discussion about the challenges of working with existing OpenSolaris documentation.
 
 
 // Improving the OpenIndiana Project
-== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//project_improvements.asciidoc[Improving the OpenIndiana Project]
+== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//project_improvements.adoc[Improving the OpenIndiana Project]
 General discussion of ideas to further improve and promote the OpenIndiana project.
 Also contains a wish list of software to enhance the utility of OpenIndiana Hipster as a desktop operating system.
 
 
 // Improving the OpenIndiana Wiki]
-== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//wiki.asciidoc[Improving the OpenIndiana Wiki]
+== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//wiki_improvements.adoc[Improving the OpenIndiana Wiki]
 General discussion and suggestions for improving the OpenIndiana Wiki website.
 
 
 // Improving the OpenIndiana Website]
-== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//wordpress.asciidoc[Improving the OpenIndiana Website]
+== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//website_improvements.adoc[Improving the OpenIndiana Website]
 General discussion and suggestions for improving the OpenIndiana Wordpress (Primary) website.
 
 
 // The OpenSolaris Redistributable Books
-== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//books.asciidoc[The OpenSolaris Redistributable Books]
+== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//opensolaris_books.adoc[The OpenSolaris Redistributable Books]
 Information about the OpenSolaris book collections (2008.11 and 2009.09.15, etc.)
 
 
 // The OpenIndiana FAQ
-== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//faq.asciidoc[The OpenIndiana FAQ]
+== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//openindiana_faq.adoc[The OpenIndiana FAQ]
 The OpenIndiana FAQ - Still a work in progress.
 Not a technical FAQ as it only answers general questions about the project and it's software.
 
@@ -56,6 +59,5 @@ Not a technical FAQ as it only answers general questions about the project and i
 == http://gist.asciidoctor.org/?github-makruger/openindiana-docs//handbook.asciidoc[The OpenIndiana Handbook]
 The OpenIndiana Handbook - Still a work in progress.
 This document is a basic HOWTO guide for new users unfamiliar with OpenIndinana Hipster.
-
 
 
