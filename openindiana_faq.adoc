@@ -8,6 +8,12 @@
 
 // End of document parameters
 
+.TODO
+- Write a table where _included_ features of OpenIndiana are compared to _licensed_ features found in commercial software.
+* For example: Qemu-KVM | HyperV, Esxi, etc. , Zones | Docker, etc.
+* Need to look at the legal aspects of mentioning trademarked names within documentation (to keep openindiana out of trouble).
+
+
 = The OpenIndiana FAQ
 
 
