@@ -8,6 +8,11 @@
 
 // End of document parameters
 
+.TODO
+
+< Place Holder for TODO notes >
+
+
 = The OpenIndiana Handbook
 
 
@@ -55,6 +60,10 @@
 
 // The content for this section is pulled from the OpenIndiana FAQ.
 // As the FAQ evolves, try to keep this section in sync.
+
+.TODO
+- Content has changed in FAQ, need to resync.
+
 
 The OpenIndiana project is the open source community which develops, maintains, and supports the https://en.wikipedia.org/wiki/OpenIndiana[OpenIndiana] distribution, an https://en.wikipedia.org/wiki/Illumos[illumos] based Unix-like operating system derived from OpenSolaris.
 The purpose of the OpenIndiana Project is to ensure the continued availability of an openly developed distribution based on OpenSolaris.
@@ -333,6 +342,11 @@ You may obtain root using the `su` command along with the password 'openindiana'
 You can use the Device Driver Utility to check if your hardware requires additional drivers.
 
 == Preparing to Install OpenIndiana
+
+.TODO
+- Can OpenIndiana boot on a system with a UEFI BIOS?
+- Does secure boot need to be disabled?
+
 
 < Place Holder for section introduction content >
 
