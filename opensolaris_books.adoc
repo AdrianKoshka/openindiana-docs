@@ -106,6 +106,12 @@ Given the website's responsiveness, there is a good chance they're hosting stati
 
 == Book Titles - 2009.09.15 OpenSolaris Docs Consolidation
 
+[NOTE]
+Some of these titles may have newer versions than what shipped as part of this consolidation.
+The OpenSolaris project had a development directory which contained a handful of the titles.
+For more information, see: https://web.archive.org/web/20090415234443/http://dlc.sun.com/osol/docs/content/dev/
+
+
 We have the XML source for these books.
 
 * Application Packaging Developer's Guide

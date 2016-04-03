@@ -237,18 +237,27 @@ While somewhat dated now, these resources are largely still relevant.
 * This online collection consists of over 40 books ranging from development to systems administration.
 These books were originally created by the OpenSolaris project and are PDL open source licensed.
 
-[NOTE]
-====
 In 2009, the OpenSolaris project released an updated version (the 2009.07.15 drop) of the OpenSolaris book collection.
-This collection is currently being reviewed and updated by the OpenIndiana documentation team.
-As each book is completed, it will be published on OpenIndiana.org.
-
+An effort currently exists within the OpenIndiana community to review the 2009.07.15 docs collection for updating.
 The documentation team is also working to produce an updated OpenIndiana handbook and task based tutorials.
-If you would like to help with these efforts, please indicate your interest in one or more of the following ways:
+If you wish to participate in this effort, please indicate your interest in one or more of the following ways:
 
-- http://openindiana.org/mailman[OpenIndiana discussion mailing list]
-- irc://irc.freenode.net/oi-documentation[#oi-documentation on irc.freenode.net]
-====
+
+|===
+| Resource | URL
+
+| User Support IRC channel
+| irc://irc.freenode.net/openindiana[#openindiana on irc.freenode.net]
+
+| Development IRC channel
+| irc://irc.freenode.net/oi-dev[#oi-dev on irc.freenode.net]
+
+| Documentation IRC channel
+| irc://irc.freenode.net/oi-documentation[#oi-documentation on irc.freenode.net]
+
+| OpenIndiana Mailing Lists
+| http://openindiana.org/mailman
+|===
 
 
 == How do I get involved with the OpenIndiana Project?
