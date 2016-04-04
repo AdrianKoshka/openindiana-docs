@@ -27,9 +27,8 @@ Also discusses moving away from database driven CMS systems in exchange for a st
 
 
 // Improving OpenIndiana Systems Documentation
-== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//openindiana_docs.adoc[Improving OpenIndiana Systems Documentation]
-General discussion about the challenges of working with existing OpenSolaris documentation.
-
+== http://gist.asciidoctor.org/?github-makruger/openindiana-docs//content_creation.adoc[OpenIndiana Content Creation]
+This page is a whiteboard of ideas, suggestions, and movitations for how to get started with content creation.
 
 // Improving the OpenIndiana Project
 == http://gist.asciidoctor.org/?github-makruger/openindiana-docs//project_improvements.adoc[Improving the OpenIndiana Project]
