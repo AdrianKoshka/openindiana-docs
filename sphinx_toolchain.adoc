@@ -5,90 +5,88 @@
 
 = Building a Document Management Toolchain using Sphinx
 
+This document is a rough outline for how such a documentation toolchain might be used.
 
-[NOTE]
-====
-I've deciced to go with an ASCIIDOC based tool chain, but retaining this information for future reference.
-Hopefully it will be useful for somebody.
-====
+== Introduction
 
+This article looks at the Sphinx documentation management framework and how it could be used as part of a document management toolchain.
+Sphinx is a python based framework and uses RestructuredText as it's text markup language.
 
-== Rough Draft for how this might work.
+.System Characteristics
+- Easy to use
+- TOC is easy to navigate.
+- Produces a very professional looking end product.
+- Processes text markup into highly polished, searchable and indexed HTML docs (as well as PDF's and EPUBS).
+- Produces chunked HTML by means of pulling together several smaller documents into one larger document.
 
-* Preface
-** Sphinx is easy to use and capable of producing highly polished, searchable and indexed HTML docs (as well as PDF's and EPUBS) for the OI main website.
-** Sphinx provides a much more professional end product than the wiki is capable of producing.
-** The RIV vim plugin is a little buggy, but it provides text folding, syntax highlighting, etc.
-** The InstantRST vim plugin provides a realtime text parsing webserver to provide you realtime feedback for your edits. 
-** Unfortunately static HTML docs don't exactly invite community participation, unless there is version control and a toolchain available to further them. 
-*** This isn't any different than it is for developing source code. 
-*** Perhaps as a compromise and to lower the bar for community participation, the handbook could be duplicated on the wiki. 
-*** As the wiki changes, these edits could be imported into the primary handbook located on the main website.
-* FWIW....I'd like to see the wiki go away completely and for it to be replaced with an OpenIndiana user forum where doc discussions can take place and where tutorials can be stickied, etc. Perhaps if confluence could be replaced with something like mediawiki, then it might look better. But even so, wiki's require editor moderation and strict adherence to a style guide to prevent them from turning into junk yards. 
+.Editing tools
+- As a text markup any text editor can be used.
+- There is a VIM plugin for RestructuredTEXT named RIV, which provides text folding, syntax highlighting, etc., but it's rather buggy.
+- Another available plugin is InstantRST which provides a realtime text parsing webserver to provide you realtime feedback for your edits. 
 
 
-== Tool chain installation (Works on OI, but OI lacks latex, which is required for doc conversion to PDF)
+== Tool chain installation
 
-* Signup for a github account
+This works on OpenIndiana Hipster, but Hipster lacks latex, which is required for converting documents to PDF.
 
-* Install Sphinx and prerequisites
+.Linux Mint 17.2
+- `sudo apt-get install python-sphinx`
+- `sudo apt-get install git`
+- `pip install https://github.com/Rykka/instant-rst.py/archive/master.zip`
 
-* Linux Mint 17.2
-** `sudo apt-get install python-sphinx`
-** `sudo apt-get install git`
-** `pip install https://github.com/Rykka/instant-rst.py/archive/master.zip`
+.OpenIndiana Hipster
+- `pkg install git`
+- `pkg install pip`
+- `pip install sphinx`
+- `pip install https://github.com/Rykka/instant-rst.py/archive/master.zip`
 
-* OpenIndiana Hipster
-** `pkg install git`
-** `pkg install pip`
-** `pip install sphinx`
-** `pip install https://github.com/Rykka/instant-rst.py/archive/master.zip`
+.Setup VIM for using Sphinx
+- Configure Vundle for VIM (Vundle is used to manage VIM plugins)
+* backup your VIM configuration by renaming your existing .vimrc and .vim folder
+* `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+* Configure .vimrc for vundle per: https://github.com/VundleVim/Vundle.vim
+- Add plugins to .vimrc and use vundle to install the plugins
+* `Plugin 'Rykka/riv.vim'`
+* `Plugin 'Rykka/InstantRst'`
+* From within VIM, run `:PluginInstall` to process/install the plugins
 
-* Create working directory
-** create a work directory - `mkdir sphinx` - (specify this folder when you run the sphinx configuration script)
 
-* Place working directory under GIT version control
-** `cd sphinx`
-** `git init`
+== Using Sphinx
 
-* Configure Sphinx
-** `sphinx-quickstart`  (Note: For help on this, see the sphinx website, which explains all the options.)
+.Getting Started
 
-* Configure Vundle for VIM (Vundle is used to manage VIM plugins)
-** backup your VIM configuration by renaming your existing .vimrc and .vim folder
-** `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
-** Configure .vimrc for vundle per: https://github.com/VundleVim/Vundle.vim
+- Create a new repository on GitHub.
+- Clone your repository.
+- cd into the directory.
+- Configure Sphinx
+* `sphinx-quickstart`  (Note: For help on this, see the sphinx website, which explains all the options.)
 
-* Add plugins to .vimrc and use vundle to install the plugins
-** `Plugin 'Rykka/riv.vim'`
-** `Plugin 'Rykka/InstantRst'`
-** From within VIM, run `:PluginInstall` to process/install the plugins
+.Writing your docs
+- Write your docs using RestructuredTEXT.
+* Sphinx Docs use the .rst file name extension
+- Add finished doc file names to _Table of Contents_ (TOC) which is located in `Index.rst`.
 
-* Write docs in restructured text.
-** Docs use the .rst file name extension
+.Add work products to GIT
+- Create and configure a `.gitignore` as appropriate.
+- `git status`
+- `git add <file>`
+- `git commit`
 
-* Add finished doc file names to Table of Contents (TOC) which is located in Index.rst
-** This index file should be submitted to GIT hub as the root for the handbook documentation effort.
+.Process your docs into HTML
+- Generate html output by executing the command `make html` from within the build directory.
+* Finished docs are found in the _build/html directory. 
+* Images, css, javascript, etc., are found in _build/html/_static
+* Source restructured text files are copied to _build/html/_source
 
-* Add docs to GIT
-** `git status`
-** `git add <file>`
-** `git commit`
-
-* Generate html output by running `make html` from within the build directory.
-** Finished docs are found in the _build/html directory. 
-** Images, css, javascript, etc., are found in _build/html/_static
-** Source restructured text files are copied to _build/html/_source
-
-* When satisfied with HTML output, submit GIT pull requests to other members of the doc team.
-
-* When doc team is satisfied with state of GIT hub repository, a member of the doc team would clone the repository and generate the final HTML for display on the OI website.
+.Share your work
+- When satisfied with HTML output, submit GIT pull requests to other members of the doc team.
+- When doc team is satisfied with state of GIT hub repository, a member of the doc team would clone the repository and generate the final HTML for display on the OI website.
 
 
 == References:
-* http://www.sphinx-doc.org/en/stable/tutorial.html
-* https://github.com/VundleVim/Vundle.vim
-* https://github.com/Rykka/riv.vim
-* https://github.com/Rykka/InstantRst
+- http://www.sphinx-doc.org/en/stable/tutorial.html
+- https://github.com/VundleVim/Vundle.vim
+- https://github.com/Rykka/riv.vim
+- https://github.com/Rykka/InstantRst
 
 
