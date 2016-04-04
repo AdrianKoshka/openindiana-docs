@@ -8,7 +8,7 @@
 
 == Introduction
 
-This document is a whiteboard for ideas to develop a continuous integration toolchain for documentation.
+This document is a whiteboard for the development of ideas to begin the transistion to a continuous integration toolchain for documentation.
 The ideal model would be where all informational content (docs, blog posts, news, etc.) lives in github.
 This way, working with informational content is simply a matter of working with familiar tools and concepts.
 
@@ -37,11 +37,12 @@ For a working example of what this might look like in production, have a look at
 == Docs are Code
 
 The most important thing to keep in mind is that docs are code.
-So, we treat the docs (and all other content) just as we would code (and use many of the very same tools to manage it all).
+So, we treat the docs (and all other content) just as we would treat code (and use the very same tools to manage it all).
 
 - Write 1 sentence per line.
 - Use comments in your code.
 - Use version control - fork and fix (just as you would anything else).
+- Use TODO's.
 
 == General Writing Tips
 
@@ -49,23 +50,34 @@ So, we treat the docs (and all other content) just as we would code (and use man
 * Later turn the questions into sectional headings, etc.
 - Use a thesaurus - e.g. https://www.powerthesaurus.org/
 - Couch read - via a phone or tablet, proof read what you previously wrote. - (puts you into the reader's shoes)
-- Use TODO's.
 
 == What is Asciidoctor?
 
-Asciidoctor is a text based markdown language used for the production of website content.
-Whether you are writing blog posts, news stories, or systems documentation, languages such as Asciidoc (or Restructured Text), make the job easier.
-
-The main advantages of using a text markdown language is readability and flexibility.
-The raw code for your content is something you can make sense of without having to use special tools (e.g. Docbook based WYSIWYG XML editors, etc.).
-
 Asciidoc is a text markdown language using a Python based interpreter.
-Asciidoctor is a more modern Ruby based implementation of Asciidoc.
+Asciidoctor is a more modern and more powerful Ruby based implementation of Asciidoc.
 Asciidoctor also includes some of features found in documentation frameworks such as Sphinx (which is used by the Python and PC-BSD projects).
+The Asciidoctor framework can be used for docs as well as for the production of other types of content (news stories, blog posts, etc.).
 
+.System Characteristics
+- Easy to use (even easier than Sphinx)
+- TOC is easy to navigate (but not quite as clean as Sphinx)
+- Like Sphinx, produces a very professional looking end product.
+- Does not yet support chunked html, but can export to docbook and use docbook tools to perform this task.
+- Supports the pulling together of several small documents using the concept of "includes".
+- More flexible than Sphinx in that it can be used as part of a larger web content framework.
+
+.Asciidoctor compared to Sphinx
 Both systems have their relative merits with advantages and disadvantages.
 For example if all you want to do is write and publish some docs, then Sphinx is a good choice.
 However, if you want to do a little more (like the Jenkins project is doing), then Asciidoctor is likely the better choice.
+
+
+== Why a Text Markup Based Docs Framework?
+
+The primary advantage of using a text markup language is readability and flexibility.
+The raw code for your content is simply text.
+This is something you can make sense of without special tools (e.g. Docbook based WYSIWYG XML editors, etc.).
+
 
 == Tips for Working with Asciidoctor
 
