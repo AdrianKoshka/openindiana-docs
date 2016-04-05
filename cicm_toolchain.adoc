@@ -3,7 +3,7 @@
 :sectnums:
 :toc: left
 
-= Building a Continuous Integration Content Management Toolchain
+= Continuous Integration Content Management
 
 
 == Introduction
