@@ -6,56 +6,54 @@
 = Improving the OpenIndiana Wiki
 
 
-== Need to give some consideration to how the wiki renders on mobile devices
+== Wiki Usability on Mobile Devices
 
-* Finding the left hand navigation menu is completely absent when browsing the OI wiki from my android tablet. - [makruger]
-* This is a pretty serious issue that we should look into as soon as possible. 
+The OpenIndiana Wiki does not render well on mobile devices.
+
+- The left hand navigation menu is completely absent when browsing the wiki from Android phones and tablets.
 
 Possible solutions:
 
-* Replace the wiki with a mobile aware wiki
-* Replace the wiki with a user forum
-* Add in page navigation menus - This is likely to be the most practical solution
+- Add in page navigation menus
+- Replace the wiki with a mobile aware wiki
+- Replace the wiki with a user forum
+- Replace the wiki as part of a larger web presence transformation
 
 
-== Need to create an OI wiki style guide
+== Need to Create a Wiki Style Guide
 
-* This would be very helpful for providing some consistency between different pages.
-** Use horizontal lines (top and bottom) to separate code blocks from the text body.
-*** Makes it easier to tell what is or isn't code. Also provides for a more efficient use of space (don't have to use so many line breaks).
-** Need to come up with standards for displaying certain types of information...e.g. code blocks, commands, tips, warnings, info, etc. 
+Should the Wiki be retained, it may be helpful to create a Wiki style guide.
+This would be very helpful by ensuring consistency between the different pages.
+It may also be helpful to modify the existing CSS to help improve the athestics of the site.
+
+.Possible suggestions
+- This would be very helpful for providing some consistency between different pages.
+* Use horizontal lines (top and bottom) to separate code blocks from the text body.
+** Makes it easier to tell what is or isn't code. 
+Also provides for a more efficient use of space (don't have to use so many line breaks).
+- Develop standards for displaying certain types of information...e.g. code blocks, commands, tips, warnings, info, etc. 
+- consider whether it's possible to enable wiki page navigation by placing breadcrumbs navigational elements within the page itself, rather than relying entirely on Wiki navigation menu in left hand navigation pane.
 
 
-* Look at other Illumos wikis for ideas and inspiration
-** https://wiki.smartos.org/display/DOC/Doc+Team+Notes
-** http://omnios.omniti.com/wiki.php/WikiStart
-** http://wiki.illumos.org/display/illumos/illumos+Home
+- Can look at other Illumos wikis for ideas and inspiration
+* https://wiki.smartos.org/display/DOC/Doc+Team+Notes
+* http://omnios.omniti.com/wiki.php/WikiStart
+* http://wiki.illumos.org/display/illumos/illumos+Home
 
 
 
 == Some notes for updating wiki pages
 
-* Root of wiki says "dashboard". Can this be relabeled as “OpenIndiana”?
+While replacing the Wiki with some kind of continuous integration content management system would likely be the most ideal solution, there are still things which can be done to help improve the wiki.
 
-* Many, many comments from 2010 - 2012. 
-** Probably a good idea to clean these up and incorporated the information into the page as appropriate.
-** Comments with such old timestamps suggests little site activity has occurred in last 4-5 years.
+.Clean up old user comments
+- Many, many comments from 2010 - 2012. 
+* Probably a good idea to clean these up and incorporated the information into the page as appropriate.
+* Comments with such old timestamps suggests little site activity has occurred in last 4-5 years.
 
-* Provide some contrast/comparisons between OI and other illumos distros.
 
-* Provide some contrast/comparisons between OI and other BSD distros (PCBSD in relation to freebsd, etc.)
+.Mark old pages for deprication
+- Go through the wiki and mark content as obsolete.
+- Retain items of value and either pull them into the new handbook (if it's helpful for new users), or set it aside for reference when updating the OpenSolaris books.
+- Reorganize things which are not being moved.
 
-* Provide some contrast/comparisons between OI and Linux, etc. (Linux kernel and GNU userland, illumos kernel and GNU userland, etc.)
-** See: https://web.archive.org/web/20090904201802/http://wikis.sun.com/display/SolarisDeveloper/Migrating+from+Linux+to+Solaris+or+OpenSolaris
-
-* Command comparison tables – e.g. if such and such command does something on Linux, Windows, BSD, etc., use such and such command to do same thing on OI. //[Comment: For inspiration, SmartOS has such thing on their Wiki. AL]//
-
-* add a page about running OI as a virtual guest in Virtualbox, vmware, KVM, talk about which provides the best hardware support, guest tools compatibility, other caveats, etc.
-
-* consider whether it's possible to enable wiki page navigation by placing breadcrumbs navigational elements within the page itself, rather than relying entirely on Wiki navigation menu in left hand navigation pane.
-
-* Export handbook to PDF and EPUB somehow (may need to move to XML first).
-
-* Reorganize and expand out handbook sections for installation, etc.
-** many pages in wrong locations, which makes them hard to find.
-*** e.g. steps for making a bootable USB thumb-drive, etc.
