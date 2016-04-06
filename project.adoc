@@ -129,32 +129,8 @@ Public relations is an important aspect of project management, even if it's limi
 - Updated Custom splash screen for grub (or Forth bootloader)
 - Updated "Welcome to Opendiana" desktop page.
 
-== Website content related activities
-Improve the presentation of reference materials
 
-.illumos and OpenIndiana HCL's
-- Start a discussion about ways to improve and update this.
-- Illumos HLC: https://www.illumos.org/hcl/
-
-.Publishing man pages online
-- Start a discussion about getting the Hipster man pages published.
-* illumos core man pages are available on illumos.org
-* OI specific man pages are not published. 
-
-[source]
-====
-	<leoric> looking at Ubuntu dhcp.conf online man page, I thought it would be good to have automatic extractor and search interface, extracting man pages from package repository and publishing them on OI site...
-	<alanc> http://illumos.org/man/ covers the illumos ones, but not all the other packages
-	<leoric> I know about illumos man pages, but thought about all available man pages
-	<alanc> yeah, I figured that's what you meant
-====
-
-.Links to source code
-- Talk about the links to the source code and what can be found in each repository.
-* https://hg.openindiana.org/sustaining/
-* https://hg.openindiana.org/upstream/
-
-== Wiki Website improvements
+== Wiki Improvements
 
 
 
@@ -209,8 +185,31 @@ While replacing the Wiki with some kind of continuous integration content manage
 - Reorganize things which are not being moved.
 
 
-== Wordpress Website Improvements
+== Wordpress Improvements
 
+Improve the presentation of reference materials
+
+.illumos and OpenIndiana HCL's
+- Start a discussion about ways to improve and update this.
+- Illumos HLC: https://www.illumos.org/hcl/
+
+.Publishing man pages online
+- Start a discussion about getting the Hipster man pages published.
+* illumos core man pages are available on illumos.org
+* OI specific man pages are not published. 
+
+[source]
+====
+	<leoric> looking at Ubuntu dhcp.conf online man page, I thought it would be good to have automatic extractor and search interface, extracting man pages from package repository and publishing them on OI site...
+	<alanc> http://illumos.org/man/ covers the illumos ones, but not all the other packages
+	<leoric> I know about illumos man pages, but thought about all available man pages
+	<alanc> yeah, I figured that's what you meant
+====
+
+.Links to source code
+- Talk about the links to the source code and what can be found in each repository.
+* https://hg.openindiana.org/sustaining/
+* https://hg.openindiana.org/upstream/
 
 === Just some general thoughts.....
 
