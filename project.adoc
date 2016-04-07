@@ -1,7 +1,16 @@
 // vim: set syntax=asciidoc:
 
+// Start of document parameters
+
+:icons: font
 :sectnums:
 :toc: left
+
+// End of document parameters
+
+.TODO
+< Place holder for notes >
+
 
 = Improving the OpenIndiana Project
 
@@ -21,6 +30,7 @@ Creating a formal governance board would help steer the OpenIndiana project.
 
 At this time the OpenIndiana project does not have a formal code of conduct.
 Creating a formal code of conduct would be a healthy step towards ensuring harmony within the project.
+
 
 == Public Relations
 
@@ -45,6 +55,10 @@ Public relations is an important aspect of project management, even if it's limi
 - Some of the currently listed mirrors are offline or outdated.
 * Need to update the landing pages for some of the mirrors.
 - Really need a North American mirror.
+
+.Support forum
+- While the project as irc and ml, perhaps a forum would be helpful as well.
+
 
 == Other Periodic Website Updates
 - Publish new pictures for the Community and update the Roadmap every 6 months
@@ -211,13 +225,15 @@ Improve the presentation of reference materials
 * https://hg.openindiana.org/sustaining/
 * https://hg.openindiana.org/upstream/
 
-=== Just some general thoughts.....
+=== The future of OpenIndiana's web presence
 
-* The current OI website is a marked improvement over what previously existed.
+- The current OI website is a marked improvement over what previously existed.
 But anything that is already good can be further improved.
-* Wondering if we can expand on the Hipster name, perhaps by theming the website in a similar manor.
-** Hipster denotes something trendy, or in fashion, etc., the website theme should exploit this in some way.
-*** Could try something some like big fashionable buttons as follows:
+- We should begin a strategic discussion about the future direction of web content in general.
+* e.g. do we continue using CMS systems, or start looking at static html?
+- Wondering if we can expand on the Hipster name, perhaps by theming the website in a similar manor.
+- Hipster denotes something trendy, or in fashion, etc., the website theme should exploit this in some way.
+- Could try something some like big fashionable buttons as follows:
 
 |===
 | Button label | URL points to
@@ -240,57 +256,47 @@ But anything that is already good can be further improved.
 
 
 === Favicon
-* Can we add the OI favicon to Wordpress like we see on the wiki?
+- Can we add the OI favicon to Wordpress like we see on the wiki?
 
 
 === Mobile Devices
+-  Due to the dark blue color scheme, this menu is hard to see and easily missed.
 * Maybe we should put something on the front page mentioning the mobile menu which is available in the upper left hand corner.
-** Due to the dark blue color scheme, this menu is hard to see and easily missed.
-** Can the color of the 3 bars be changed to white or something?
+* Perhaps the color of the 3 bars mobile menu can be changed to white or something?
 
 
-=== Other Thoughts
-* Add some links to the Community > Getting Involved page.
-** #oi-dev IRC chat archives - http://echelog.com/logs/browse/oi-dev/
-** #openindiana IRC chat archives - http://echelog.com/logs/browse/openindiana/
-** oi-dev mailing list archives - http://openindiana.org/pipermail/oi-dev/
-** openindiana mailing list archives - http://openindiana.org/pipermail/openindiana-discuss/
-** twitter @openindiana
+=== Other Thoughts (in no particular order)
+- Add some links to the Community > Getting Involved page.
+- #oi-dev IRC chat archives - http://echelog.com/logs/browse/oi-dev/
+- #openindiana IRC chat archives - http://echelog.com/logs/browse/openindiana/
+- oi-dev mailing list archives - http://openindiana.org/pipermail/oi-dev/
+- openindiana mailing list archives - http://openindiana.org/pipermail/openindiana-discuss/
+- twitter @openindiana
 //[Already listed there but maybe it is more a matter of reorganizing the content for better readability - alarcher ]//
 
-* Have redirects (mailing lists, illumos links, etc., ) open into a new tab so OI webpage remains open.
+- Have redirects (mailing lists, illumos links, etc., ) open into a new tab so OI webpage remains open.
 
-* Update Roadmap page and move it underneath some other tab.
-//[I disagree on this one, it is important to have the roadmap as visible as possible, especially for a projet like OI that many call dead - alarcher ]//
-
-* Move link to WIKI to a more prominent location (e.g. its own first level tab on home page). Wiki is currently listed last under documentation.
+- Move link to WIKI to a more prominent location (e.g. its own first level tab on home page). Wiki is currently listed last under documentation.
 //[Agreed but after the Wiki is turned into something else than a pile of obsolete or unstructured info. Currently I do not want to direct people to this mess - alarcher]//
 
-* More frequent updates to Latest News.
+- More frequent updates to Latest News.
 //[Agreed but need people to write them... - alarcher]//
 
-* Community > Security Advisories is misleading.
-This only leads to page to report problems, not view already reported advisories as the breadcrumbs would suggest.
+- Community > Security Advisories is misleading.
+* This only leads to page to report problems, not view already reported advisories as the breadcrumbs would suggest.
+* Perhaps we could find a way to make this more clear (e.g. Report security issues)
 
-* Update Documentation > FAQ
+- Documentation > Gallery - Lets update the screenshots - should be from Hipster.
 
-* Documentation > Gallery - Lets update the screenshots - should be from Hipster.
-
-* Update Packages page to include SFE and other repos (along with information and what is and isn’t compatible).
-//[Done - alarcher]//
-
-* Disable WordPress pingbacks.
-They don’t look to offer any real value (e.g. the download page has 68 pingbacks).
+- Remove old pingbacks.
+* They don’t look to offer any real value (e.g. the download page has 68 pingbacks).
 //[Already disabled, these are oldies - alarcher]//
 
-* A support forum like Ubuntu or Mint, etc.
-People have been leaving (largely unanswered) comments on Wiki in lieu of a support forum.
-//[Opening comments on this Wiki is an error in the first place - alarcher]//
+- Blog aggregator
+- Post old OpenSolaris docs (as they are updated)
+* As the books are updated, replace them.
+- Provide PDF and Epub alternatives.
 
-* Blog aggregator
-* Post old Solaris docs (as they are updated)
-* Export XML/HTML to PDF and EPUB books.
-
-* Add list of mirrors, torrents, etc., to download page on website.
-** Need to find more places to mirror, preferably some in north america too.
-** https://web.archive.org/web/20091223051956/http://www.opensolaris.com/get/index.jsp[Original list of mirrors]
+- Add list of mirrors, torrents, etc., to download page on website.
+* Need to find more places to mirror, preferably some in north america too.
+* https://web.archive.org/web/20091223051956/http://www.opensolaris.com/get/index.jsp[Original list of mirrors]

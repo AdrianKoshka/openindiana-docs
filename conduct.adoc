@@ -1,7 +1,15 @@
 // vim: set syntax=asciidoc:
 
+// Start of document parameters
+
+:icons: font
+:sectnums:
+:toc: left
+
+// End of document parameters
 
 
 = OpenIndiana Code of Conduct
 
-
+.TODO
+Develop an OpenIndiana Code of Conduct
