@@ -134,32 +134,14 @@ Hipster is a rapid development branch where software versions are frequently upd
 While every package is tested to ensure stability, caution is nevertheless warranted when deploying Hipster into mission critical production environments.
 ====
 
-== What are the system hardware requirements?
+== What are the recommended hardware specifications?
 
 |===
-| | Minimum | Recommended
+| CPU | Disk Space | Memory (RAM)
 
-| **CPU**
-| 64 Bit
-| 64 Bit
-
-| **Disk Space**
-| 20 GB
-| 40 GB (or more)
-
-| **Memory (RAM)**
-| 2 GB
-| 4 GB (or more)
+| 64 Bit | 20GB (or more) | 4GB (or more)
 |===
 
-
-[IMPORTANT]
-====
-The default size of the OpenIndiana swap file is 50% of installed memory with minimum and maximum sizes of 512MB and 32GB respectively.
-In use cases where OpenIndiana is installed as a desktop, ensure total system memory (RAM + swap) are at least 4GB or greater.
-For the best performance, allocate 4GB RAM or more.
-
-====
 
 == Does OpenIndiana support internationalization and localization?
 
@@ -320,7 +302,7 @@ In regards to the creation of a SPARC port of OpenIndiana Hipster, there have be
 If you would like to see SPARC become a supported platform, please help us by joining the http://www.openindiana.org/community/getting-involved[OpenIndiana community].
 
 .Historical SPARC releases
-In 2009, the OpenSolaris project released an http://dlc.openindiana.org/isos/opensolaris[OpenSolaris text install ISO], and much more recently, there was work done by Adam Glassgall who produced an http://neutron-star.mit.edu/OpenIndiana_Text_SPARC.iso[unofficial SPARC text install ISO] based on oi-dev-151-a8. 
+In 2009, the OpenSolaris project released an http://dlc.openindiana.org/isos/opensolaris[OpenSolaris text install ISO], and much more recently, there was work done by Adam Glasgall who produced an http://neutron-star.mit.edu/OpenIndiana_Text_SPARC.iso[unofficial SPARC text install ISO] based on oi-dev-151-a8. 
 
 .illumos distributions with SPARC releases
 The following illumos based distributions are known to support the SPARC platform:
