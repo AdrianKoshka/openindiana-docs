@@ -891,3 +891,11 @@ The book titled "Introduction to Operating Systems: A Hands-On Approach Using th
 <Place holder for content>
 
 
+== Software Development Testing
+
+< Place Holder >
+
+// Adding a test repo to test specific packages
+
+// pkg set-publisher -O repo_url repo_name
+

@@ -113,6 +113,10 @@ Public relations is an important aspect of project management, even if it's limi
 - http://www.povray.org/[POV-Ray]
 - http://www.radiance-online.org/[Radiance]
 
+.Media Center
+- https://plex.tv/Plex[Media Server & Plex Home Theater (client)]
+- https://kodi.tv/[Kodi]
+
 .Photography
 - http://www.darktable.org/[Darktable]
 - http://rawtherapee.com/[RawTherapee]
@@ -142,6 +146,7 @@ Public relations is an important aspect of project management, even if it's limi
 - Updated Custom desktop background for OI - Perhaps downloads from the website, or included in distro.
 - Updated Custom splash screen for grub (or Forth bootloader)
 - Updated "Welcome to Opendiana" desktop page.
+- Update the welcome HTML: https://github.com/OpenIndiana/openindiana-welcome/blob/master/data/html/en/index.html
 
 
 == Wiki Improvements

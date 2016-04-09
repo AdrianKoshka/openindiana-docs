@@ -12,6 +12,10 @@
 - Write a table where _included_ features of OpenIndiana are compared to _licensed_ features found in commercial software.
 * For example: Qemu-KVM | HyperV, Esxi, etc. , Zones | Docker, etc.
 * Need to look at the legal aspects of mentioning trademarked names within documentation (to keep openindiana out of trouble).
+- Write another table providing a matrix comparing commands between BSD/Linux/OpenIndiana.
+* See: https://wiki-bsse.ethz.ch/display/ITDOC/Major+difference+between+Linux+and+Solaris
+- Have a look at the "Newbie FAQ" from hub.opensolaris.org
+* See: http://web.archive.org/web/20100111014254/http://hub.opensolaris.org/bin/view/Community+Group+documentation/newbie_faq
 
 
 = The OpenIndiana FAQ
@@ -155,7 +159,7 @@ For the actively maintained Hipster rolling release, the OpenIndiana project see
 For this effort to succeed, we ask our user base to diligently bring security and bugfix concerns to our attention by submitting a ticket with the https://www.illumos.org/projects/openindiana/issues[OpenIndiana Bug Tracker].
 
 
-== Where can the OpenIndiana software be obtained?
+== Where can I download OpenIndiana software?
 
 |===
 | OpenIndiana Download Mirrors
