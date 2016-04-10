@@ -204,7 +204,7 @@ The following IPS repositories are available:
 
 [NOTE]
 ====
-To add a repository, use the command: `pkg set-publisher --add-origin repository_url repository_name`
+To add a new repository, use the command: `pkg set-publisher --add-origin repository_url repository_name`
 
 For further information consult the http://www.linuxtopia.org/online_books/opensolaris_2008/IMGPACKAGESYS/html/docinfo.html[OpenSolaris Image Packaging System Guide] as well as the pkg(1) man page included with OpenIndiana Hipster.
 ====
@@ -228,7 +228,7 @@ While somewhat dated now, these resources are largely still relevant.
 
 [NOTE]
 In late 2009, the OpenSolaris project released a newer version of the OpenSolaris book collection.
-An effort currently exists within the OpenIndiana community to update and consolidate these titles to match current development of OpenIndiana Hipster.
+An effort currently exists within the OpenIndiana community to revise and condense these titles into a more streamlined collection which more closely follows the development state of OpenIndiana Hipster.
 The documentation team is also working to produce an updated OpenIndiana handbook as well as task based tutorials.
 If you wish to participate in this effort, please indicate your interest via the IRC channels or the mailing lists. 
 
@@ -277,7 +277,7 @@ Here are just some of the many ways you may contribute:
 
 Just ask on the IRC channels or mailing lists about how you may contribute.
 
-For additional details, including links to our github source repositories, please see: http://www.openindiana.org/community/getting-involved
+For additional details, including links to our GitHub source repositories, please see: http://www.openindiana.org/community/getting-involved
 
 
 == Does OpenIndiana provide a SPARC release?
