@@ -159,13 +159,13 @@ For the actively maintained Hipster rolling release, the OpenIndiana project see
 For this effort to succeed, we ask our user base to diligently bring security and bugfix concerns to our attention by submitting a ticket with the https://www.illumos.org/projects/openindiana/issues[OpenIndiana Bug Tracker].
 
 
-== Where can I download OpenIndiana software?
+== Where can I download OpenIndiana Hipster?
 
 |===
-| OpenIndiana Download Mirrors
+| OpenIndiana Hipster Download Mirrors
 
-| http://dlc.openindiana.org/isos/hipster[Primary Download Mirror] 
-| http://ftp.vim.org/os/openindiana.org/dlc/isos/hipster[Vim.org Alternate Download Mirror]
+| http://dlc.openindiana.org/isos/hipster[Primary Mirror] 
+| http://ftp.vim.org/os/openindiana.org/dlc/isos/hipster[Vim.org Alternate Mirror]
 |===
 
 If you wish to purchase a ready made DVD or USB drive there is also https://www.osdisc.com/products/solaris/openindiana[OSDISC.COM]
@@ -202,7 +202,7 @@ The following IPS repositories are available:
 |===
 
 
-To add a repository, use the following command: `pkg set-publisher -O <URL> <Repository Name>`
+To add a repository, use the following command: `pkg set-publisher -G "*" -g repository_url repository_name`
 
 
 == What books are available to help with learning OpenIndiana?
@@ -220,43 +220,22 @@ While somewhat dated now, these resources are largely still relevant.
 * Updated for illumos, the illumos bookshelf consists of several original OpenSolaris advanced administration and development titles.
 
 - http://www.linuxtopia.org/online_books/opensolaris_2008/index.html[OpenSolaris 2008 Docs]
-* This online collection consists of over 40 books ranging from development to systems administration.
-These books were originally created by the OpenSolaris project and are PDL open source licensed.
+* Originally released by the OpenSolaris project, this collection consists of over 40 titles ranging from development to systems administration.
 
-In 2009, the OpenSolaris project released an updated version (the 2009.07.15 drop) of the OpenSolaris book collection.
-An effort currently exists within the OpenIndiana community to review the 2009.07.15 docs collection for updating.
-The documentation team is also working to produce an updated OpenIndiana handbook and task based tutorials.
-If you wish to participate in this effort, please indicate your interest in one or more of the following ways:
-
-
-|===
-| Resource | URL
-
-| User Support IRC channel
-| irc://irc.freenode.net/openindiana[#openindiana on irc.freenode.net]
-
-| Development IRC channel
-| irc://irc.freenode.net/oi-dev[#oi-dev on irc.freenode.net]
-
-| Documentation IRC channel
-| irc://irc.freenode.net/oi-documentation[#oi-documentation on irc.freenode.net]
-
-| OpenIndiana Mailing Lists
-| http://openindiana.org/mailman
-|===
+[NOTE]
+In late 2009, the OpenSolaris project released a newer version of the OpenSolaris book collection.
+An effort currently exists within the OpenIndiana community to update and consolidate these titles to match current development of OpenIndiana Hipster.
+The documentation team is also working to produce an updated OpenIndiana handbook as well as task based tutorials.
+If you wish to participate in this effort, please indicate your interest via the IRC channels or the mailing lists. 
 
 
 == How do I get involved with the OpenIndiana Project?
 
 As a community supported open source software project, the success and future of OpenIndiana depends entirely on you.
-
-The most important thing you can do is download and begin using OpenIndiana.
-Tell your friends and coworkers about Opendiana as well.
-
-Also, be sure to report all issues to our bug tracker.
+While the most important thing is to download and begin using OpenIndiana, there are many different ways to contribute.
+Tell your friends and coworkers about OpenIndiana as well, and don't forget to report all issues to our bug tracker.
 
 Below is a list of OpenIndiana community resources you may find helpful:
-
 
 |===
 | Resource | URL
@@ -279,7 +258,6 @@ Below is a list of OpenIndiana community resources you may find helpful:
 | OpenIndiana Bug Tracker
 | http://www.illumos.org/projects/openindiana/issues
 |===
-
 
 Here are just some of the many ways you may contribute:
 
