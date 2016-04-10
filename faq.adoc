@@ -55,7 +55,7 @@ Some of the differences between OpenIndiana and OpenSolaris can be characterized
 - XVM (XEN) has been replaced with the illumos-kvm port.
 
 [NOTE]
-OpenIndiana Hipster's transistion from Sun Studio to GCC has resulted in a discontinuance of ABI (binary) compatibility with previous releases of OpenIndiana, Oracle Solaris, and OpenSolaris.
+OpenIndiana Hipster's transition from Sun Studio to GCC has resulted in a discontinuance of ABI (binary) compatibility with previous releases of OpenIndiana, Oracle Solaris, and OpenSolaris.
 Applications coded in the `C` language should continue to work normally.
 Therefore, this change only affects applications written in the `C++` language.
 
@@ -66,7 +66,7 @@ If you are coming to OpenIndiana from either BSD or Linux, you will quickly lear
 In no time at all, you'll feel right at home working with OpenIndiana's tools and commands.
 
 
-== What features does Openindiana have?
+== What features does OpenIndiana have?
 
 OpenIndiana contains the following enterprise class features and more:
 
@@ -203,8 +203,11 @@ The following IPS repositories are available:
 |===
 
 [NOTE]
+====
 To add a repository, use the command: `pkg set-publisher --add-origin repository_url repository_name`
+
 For further information consult the http://www.linuxtopia.org/online_books/opensolaris_2008/IMGPACKAGESYS/html/docinfo.html[OpenSolaris Image Packaging System Guide] as well as the pkg(1) man page included with OpenIndiana Hipster.
+====
 
 == What books are available to help with learning OpenIndiana?
 
