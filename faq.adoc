@@ -70,6 +70,7 @@ In no time at all, you'll feel right at home working with OpenIndiana's tools an
 
 OpenIndiana contains the following enterprise class features and more:
 
+[cols="1,2"]
 |===
 |Feature |Description
 
@@ -109,8 +110,6 @@ OpenIndiana contains the following enterprise class features and more:
 | DLMP
 | http://www.c0t0d0s0.org/archives/7553-Less-known-Solaris-Features-Data-Link-Multipathing.html[Data Link Multipathing]
 
-| Device Driver Utility
-| GUI utility for determining hardware compatibility and driver availability
 |===
 
 
@@ -186,26 +185,26 @@ If you wish to contribute by helping to expand package availability, please read
 
 The following IPS repositories are available:
 
-
+[cols="1,2,2"]
 |===
 | Repository Name | Repository URL | Description
 
 | hipster-2015
 | http://pkg.openindiana.org/hipster-2015
-| OpenIndiana Hipster primary package repository
+| Hipster primary package repository
 
 | hipster-encumbered
 | http://pkg.openindiana.org/hipster-encumbered
-| OpenIndiana Hipster encumbered license packages
+| Hipster encumbered license packages
 
 | localhostoih
 | http://sfe.opencsw.org/localhostoih
 | 3rd party http://sfe.opencsw.org[Spec Files Extra (SFE)] packages
 |===
 
-
-To add a repository, use the following command: `pkg set-publisher -G "*" -g repository_url repository_name`
-
+[NOTE]
+To add a repository, use the command: `pkg set-publisher --add-origin repository_url repository_name`
+For further information consult the http://www.linuxtopia.org/online_books/opensolaris_2008/IMGPACKAGESYS/html/docinfo.html[OpenSolaris Image Packaging System Guide] as well as the pkg(1) man page included with OpenIndiana Hipster.
 
 == What books are available to help with learning OpenIndiana?
 
