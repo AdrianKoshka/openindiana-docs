@@ -4,6 +4,7 @@
 
 :icons: font
 :sectnums:
+:sectanchors:
 :toc: left
 
 // End of document parameters
@@ -116,7 +117,7 @@ OpenIndiana contains the following enterprise class features and more:
 == What is the OpenIndiana release schedule?
 
 Approximately every six months, the OpenIndiana project releases a snapshot of the Hipster rolling release branch.
-Ideally suited for both workstations and servers, simply pick the installer which best serves your needs:
+Ideally suited for both workstations and servers, simply choose the installer type which best serves your needs.
 
 |===
 | Workstation | Server
@@ -160,6 +161,7 @@ For this effort to succeed, we ask our user base to diligently bring security an
 
 
 == Where can I download OpenIndiana Hipster?
+
 
 |===
 | OpenIndiana Hipster Download Mirrors
