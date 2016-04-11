@@ -137,7 +137,8 @@ Public relations is an important aspect of project management, even if it's limi
 
 .Virtualization - OpenIndiana as a Guest
 - http://www.spice-space.org/[Native Spice Protocol Support for an OpenIndiana Guest OS]
-- https://my.vmware.com/web/vmware/details?productId=491&downloadGroup=VMTOOLS1000[Native Vmware tools support for an OpenIndana Guest OS]
+- https://my.vmware.com/web/vmware/details?productId=491&downloadGroup=VMTOOLS1000[Native Vmware tools support for an OpenIndiana Guest OS]
+- Native Virtualbox support for an OpenIndiana Guest OS.
 
 .Web browsers
 - http://www.chromium.org/Home[Chromium]
@@ -145,7 +146,7 @@ Public relations is an important aspect of project management, even if it's limi
 == Suggestions for improving elements of the distro itself
 - Updated Custom desktop background for OI - Perhaps downloads from the website, or included in distro.
 - Updated Custom splash screen for grub (or Forth bootloader)
-- Updated "Welcome to Opendiana" desktop page.
+- Updated "Welcome to OpenIndiana" desktop page.
 - Update the welcome HTML: https://github.com/OpenIndiana/openindiana-welcome/blob/master/data/html/en/index.html
 
 
@@ -157,21 +158,21 @@ Public relations is an important aspect of project management, even if it's limi
 
 The OpenIndiana Wiki does not render well on mobile devices.
 
-- The left hand navigation menu is completely absent when browsing the wiki from Android phones and tablets.
+- The left hand navigation menu is completely absent when browsing the Wiki from Android phones and tablets.
 
 Possible solutions:
 
 - Add in page navigation menus
-- Replace the wiki with a mobile aware wiki
-- Replace the wiki with a user forum
-- Replace the wiki as part of a larger web presence transformation
+- Replace the Wiki with a mobile aware Wiki
+- Replace the Wiki with a user forum
+- Replace the Wiki as part of a larger web presence transformation
 
 
 === Need to Create a Wiki Style Guide
 
 Should the Wiki be retained, it may be helpful to create a Wiki style guide.
 This would be very helpful by ensuring consistency between the different pages.
-It may also be helpful to modify the existing CSS to help improve the athestics of the site.
+It may also be helpful to modify the existing CSS to help improve the aesthetics of the site.
 
 .Possible suggestions
 - This would be very helpful for providing some consistency between different pages.
@@ -179,18 +180,18 @@ It may also be helpful to modify the existing CSS to help improve the athestics 
 ** Makes it easier to tell what is or isn't code. 
 Also provides for a more efficient use of space (don't have to use so many line breaks).
 - Develop standards for displaying certain types of information...e.g. code blocks, commands, tips, warnings, info, etc. 
-- consider whether it's possible to enable wiki page navigation by placing breadcrumbs navigational elements within the page itself, rather than relying entirely on Wiki navigation menu in left hand navigation pane.
+- consider whether it's possible to enable Wiki page navigation by placing breadcrumbs navigational elements within the page itself, rather than relying entirely on Wiki navigation menu in left hand navigation pane.
 
 
-- Can look at other Illumos wikis for ideas and inspiration
-* https://wiki.smartos.org/display/DOC/Doc+Team+Notes
-* http://omnios.omniti.com/wiki.php/WikiStart
-* http://wiki.illumos.org/display/illumos/illumos+Home
+- Can look at other Illumos Wikis for ideas and inspiration
+* https://Wiki.smartos.org/display/DOC/Doc+Team+Notes
+* http://omnios.omniti.com/Wiki.php/WikiStart
+* http://Wiki.illumos.org/display/illumos/illumos+Home
 
 
-=== Some notes for updating wiki pages
+=== Some notes for updating Wiki pages
 
-While replacing the Wiki with some kind of continuous integration content management system would likely be the most ideal solution, there are still things which can be done to help improve the wiki.
+While replacing the Wiki with some kind of continuous integration content management system would likely be the most ideal solution, there are still things which can be done to help improve the Wiki.
 
 .Clean up old user comments
 - Many, many comments from 2010 - 2012. 
@@ -198,13 +199,13 @@ While replacing the Wiki with some kind of continuous integration content manage
 * Comments with such old timestamps suggests little site activity has occurred in last 4-5 years.
 
 
-.Mark old pages for deprication
-- Go through the wiki and mark content as obsolete.
+.Mark old pages for deprecation
+- Go through the Wiki and mark content as obsolete.
 - Retain items of value and either pull them into the new handbook (if it's helpful for new users), or set it aside for reference when updating the OpenSolaris books.
 - Reorganize things which are not being moved.
 
 
-== Wordpress Improvements
+== WordPress Improvements
 
 Improve the presentation of reference materials
 
@@ -261,7 +262,7 @@ But anything that is already good can be further improved.
 
 
 === Favicon
-- Can we add the OI favicon to Wordpress like we see on the wiki?
+- Can we add the OI favicon to WordPress like we see on the Wiki?
 
 
 === Mobile Devices
