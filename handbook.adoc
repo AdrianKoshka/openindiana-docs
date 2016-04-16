@@ -521,9 +521,38 @@ When you boot from the text installer, it immediately begins the installation pr
 ** When you contact us, please include any error messages you see on the console, as well as the output of the `svcs -xv` command.
 ** If possible, also include the contents of the file `/var/log/Xorg.0.log`.
 
+
 == Using OpenIndiana
 
 <Place holder for section introduction content>
+
+=== Configuring Networking
+
+<Place holder for sub-section introduction content>
+
+==== Command Line
+
+.Manual Configuration
+
+< Place Holder >
+
+.Automatic Configuration
+
+< Place Holder >
+
+==== Desktop GUI
+
+.Manual Configuration
+
+< Place Holder >
+
+.Automatic Configuration
+
+< Place Holder >
+
+.Troubleshooting
+
+* Make sure the network auto magic 'Location' setting is configured as 'Automatic' and not 'NoNet'
 
 
 === Nvidia driver support
