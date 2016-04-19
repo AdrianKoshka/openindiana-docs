@@ -189,8 +189,8 @@ The following IPS repositories are available:
 |===
 | Repository Name | Repository URL | Description
 
-| hipster-2015
-| http://pkg.openindiana.org/hipster-2015
+| hipster
+| http://pkg.openindiana.org/hipster
 | Hipster primary package repository
 
 | hipster-encumbered
@@ -204,7 +204,8 @@ The following IPS repositories are available:
 
 [NOTE]
 ====
-To add a new repository, use the command: `pkg set-publisher --add-origin repository_url repository_name`
+To add a new publisher: `pkg set-publisher -g repository_url repository_name`
+To change an existing publisher: `pkg set-publisher -G http://pkg.openindiana.org/hipster-2015 -g http://pkg.openindiana.org/hipster openindiana.org`
 
 For further information consult the http://www.linuxtopia.org/online_books/opensolaris_2008/IMGPACKAGESYS/html/docinfo.html[OpenSolaris Image Packaging System Guide] as well as the pkg(1) man page included with OpenIndiana Hipster.
 ====
