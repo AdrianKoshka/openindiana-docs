@@ -2,14 +2,19 @@
 
 // Start of document parameters
 
+:toc: macro
 :icons: font
-:sectnums:
-:toc: left
+//:sectnums:
+:awestruct-layout: asciidoctor
 
 // End of document parameters
 
 
-= OpenIndiana Code of Conduct
+== OpenIndiana Code of Conduct
+
+
+toc::[levels=2]
+
 
 .TODO
 Develop an OpenIndiana Code of Conduct

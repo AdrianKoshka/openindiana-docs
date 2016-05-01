@@ -2,32 +2,34 @@
 
 // Start of document parameters
 
+:toc: macro
 :icons: font
 :imagesdir: images/handbook
-:toc: left
+:awestruct-layout: asciidoctor
 
 // End of document parameters
 
-.TODO
-
-< Place Holder for TODO notes >
 
 
-= The OpenIndiana Handbook
+// Start of TODO
+//
+//
+//
+//
+// End of TODO
 
 
-== Basic outline
 
-* Intro
+== The OpenIndiana Handbook
 
-* Get it
-* Install it
-* Use it
-* Discuss it
-* Extend it
 
-* FAQ's
-* Tips and Tricks
+toc::[levels=1]
+
+
+== Introduction
+
+< Place Holder for future content >
+
 
 === Pre-installation caveats and considerations
 
@@ -206,6 +208,13 @@ If you wish to purchase a ready made DVD or USB drive there is also https://www.
 
 === Creating a bootable OpenIndiana USB Flash Drive
 
+[CAUTION]
+====
+* OpenIndiana Hipster does not yet support USB 3.0 devices.
+** Effectively this means it is not yet possible to install the operating system from a USB 3.0 device
+** When when attaching USB 2.0 devices to your system, please ensure they are *NOT* attached to a USB 3.0 port.
+====
+
 The most reliable method is to use the Windows OpenSolaris USB creation tool.
 DD is not always reliable (either doesn't boot at all, or fails to load liveCD and falls back to system maintenance mode with KSH93 errors).
 
@@ -227,12 +236,20 @@ DD is not always reliable (either doesn't boot at all, or fails to load liveCD a
 ==== BSD/Linux/OS X
 
 
-===== Prerequesettes
+===== Prerequisites
 
 * USB flash drive - (2GB or larger)
 * Download the OpenIndiana USB Live Media installer
-* Download the OpenIndiana 1G header file
+* Download the appropriate OpenIndiana 1G or 2G header file
 
+[WARNING]
+====
+* There are 2 unique USB header files (1G and 2G).
+* When creating a bootable flash drive, please ensure you have selected the correct file.
+** The 1G.header is only suitable for use with the text installer (Command line console).
+** The 2G.header is only suitable for use with the live installer (Gnome desktop).
+** The files are *NOT* interchangeable.
+====
 
 ===== Identifying the path to your USB device
 
@@ -521,6 +538,9 @@ When you boot from the text installer, it immediately begins the installation pr
 ** When you contact us, please include any error messages you see on the console, as well as the output of the `svcs -xv` command.
 ** If possible, also include the contents of the file `/var/log/Xorg.0.log`.
 
+.USB 3.0 issues
+* OpenIndiana Hipster does not currently support USB3.
+* You cannot boot a USB thumbdrive installer from a USB3 port.
 
 == Using OpenIndiana
 
@@ -528,17 +548,17 @@ When you boot from the text installer, it immediately begins the installation pr
 
 === Configuring Networking
 
-<Place holder for sub-section introduction content>
+<Place holder for section introduction content>
 
 ==== Command Line
 
-.Manual Configuration
+.Manual Configuration (static IP)
 
-< Place Holder >
+* How to configure a static IP, etc.
 
-.Automatic Configuration
+.Automatic Configuration (NWAM)
 
-< Place Holder >
+* How to use NWAM (network auto magic)
 
 ==== Desktop GUI
 
@@ -555,13 +575,24 @@ When you boot from the text installer, it immediately begins the installation pr
 * Make sure the network auto magic 'Location' setting is configured as 'Automatic' and not 'NoNet'
 
 
-=== Nvidia driver support
+=== Video Card Support (3D)
 
+Nearly all cards are supported for 2nd, but only Nvidia is supported for 3D.
+Work is progressing to provide support for AMD and Intel.
+
+==== Nvidia
 * Talk about the expected behavior when booting the live CD from a system with an NVIDIA card.
 * Discuss procedure for adding an NVIDIA card to a system that was using VESA or some other non-3d video driver.
 * Troubleshooting - what logs to look at, manual configuration, etc. 
 * Walk through NVIDIA utility screens.
 
+==== AMD
+
+* Currently no 3rd support, VESA driver only.
+
+==== Intel
+
+* Still working to incorporate this into Hipster.
 
 === How does one add a missing device driver?
 
